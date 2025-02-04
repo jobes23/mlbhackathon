@@ -43,7 +43,6 @@ const PlayerVideos: React.FC<PlayerVideosProps> = ({
   const [challengeTitle, setChallengeTitle] = useState<string | undefined>(undefined);
   const t = Translations[language] || Translations.en;
 
-  // ✅ Use Vite Environment Variables for API URLs
   const API_FETCH_VIDEOS = import.meta.env.VITE_FETCH_PLAYER_VIDEOS_API_URL;
   const API_FETCH_CHALLENGE = import.meta.env.VITE_FETCH_CHALLENGE;
   const API_UPDATE_CHALLENGE = import.meta.env.VITE_UPDATE_CHALLENGE;
