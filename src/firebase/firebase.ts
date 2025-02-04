@@ -17,9 +17,7 @@ export async function initializeFirebase() {
     try {
       const response = await fetch(import.meta.env.VITE_GET_FIREBASE_CONFIG_API_URL);
       firebaseConfig = await response.json();
-      console.log("Firebase config (Production):", firebaseConfig);
     } catch (error) {
-      console.error("Failed to fetch Firebase config:", error);
       throw new Error("Failed to load Firebase config");
     }
   } else {
