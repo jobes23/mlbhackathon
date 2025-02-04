@@ -8,6 +8,6 @@ exports.getfirebaseconfig = functions.https.onRequest((req, res) => {
     projectId: functions.config().custom.project_id,
     storageBucket: functions.config().custom.storage_bucket,
     messagingSenderId: functions.config().custom.messaging_sender_id,
-    appId: functions.config().custom.firebase_app_id,
+    appId: functions.config().custom.app_id,
   });
 });
