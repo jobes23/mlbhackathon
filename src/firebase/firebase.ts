@@ -13,7 +13,6 @@ export async function initializeFirebase() {
   let firebaseConfig;
 
   if (import.meta.env.PROD) {
-    // Fetch Firebase config from a secure API endpoint in production
     try {
       const response = await fetch(import.meta.env.VITE_GET_FIREBASE_CONFIG_URL);
       firebaseConfig = await response.json();
@@ -23,7 +22,6 @@ export async function initializeFirebase() {
       throw new Error("Failed to load Firebase config");
     }
   } else {
-    // Use Vite environment variables in development
     firebaseConfig = {
       apiKey: import.meta.env.VITE_APP_FIREBASE_API_KEY,
       authDomain: import.meta.env.VITE_APP_FIREBASE_AUTH_DOMAIN,
@@ -43,5 +41,12 @@ export async function initializeFirebase() {
   return { firebaseApp, auth, db };
 }
 
-// Export auth and db for convenience
+// ✅ Add getFirebase to return the initialized Firebase instances
+export function getFirebase() {
+  if (!firebaseApp || !auth || !db) {
+    throw new Error("Firebase has not been initialized. Call initializeFirebase() first.");
+  }
+  return { firebaseApp, auth, db };
+}
+
 export { firebaseApp, auth, db };
