@@ -5,7 +5,7 @@ import { getFirestore } from 'firebase/firestore';
 async function fetchFirebaseConfig() {
   if (import.meta.env.PROD) {
     // Fetch from Firebase Cloud Function in production
-    const response = await fetch("https://us-central1-YOUR_PROJECT_ID.cloudfunctions.net/getFirebaseConfig");
+    const response = await fetch("https://us-central1-mlbhackathon-445616.cloudfunctions.net/getFirebaseConfig");
     const data = await response.json();
     return data;
   } else {
