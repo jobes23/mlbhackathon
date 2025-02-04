@@ -6,9 +6,10 @@ import { getAnalytics } from "firebase/analytics";
 let firebaseApp: FirebaseApp | null = null;
 let auth: Auth | null = null;
 let db: Firestore | null = null;
+let initialized = false;
 
 export async function initializeFirebase() {
-  if (firebaseApp) return { firebaseApp, auth, db };
+  if (initialized) return { firebaseApp, auth, db };
 
   let firebaseConfig;
 
@@ -38,12 +39,13 @@ export async function initializeFirebase() {
   db = getFirestore(firebaseApp);
   getAnalytics(firebaseApp);
 
+  initialized = true;
   return { firebaseApp, auth, db };
 }
 
-// ✅ Add getFirebase to return the initialized Firebase instances
+// **Ensure Firebase is initialized before accessing it**
 export function getFirebase() {
-  if (!firebaseApp || !auth || !db) {
+  if (!initialized || !firebaseApp || !auth || !db) {
     throw new Error("Firebase has not been initialized. Call initializeFirebase() first.");
   }
   return { firebaseApp, auth, db };
