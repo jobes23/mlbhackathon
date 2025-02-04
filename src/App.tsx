@@ -151,7 +151,6 @@ const App: React.FC = () => {
         console.log(response)
         console.log(newFavorites)
         setChallengeStatus((prev) => ({ ...prev, fav_follow_five: true }));
-        addNotification("success", `${t.rewards.completed} You are now following 5 players and teams`);
       } catch (error) {
         console.error("Error updating challenge status:", error);
       }
