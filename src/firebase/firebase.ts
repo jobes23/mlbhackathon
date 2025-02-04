@@ -1,24 +1,28 @@
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { initializeApp, FirebaseApp } from "firebase/app";
+import { getAuth, Auth } from "firebase/auth";
+import { getFirestore, Firestore } from "firebase/firestore";
 
-let firebaseApp;
-let auth;
-let db;
+let firebaseApp: FirebaseApp | null = null;
+let auth: Auth | null = null;
+let db: Firestore | null = null;
 
+/**
+ * Function to initialize Firebase **only after** fetching config.
+ */
 async function initializeFirebase() {
+  if (firebaseApp) return { firebaseApp, auth, db }; // Return if already initialized
+
   let firebaseConfig;
 
   if (import.meta.env.PROD) {
     try {
       const response = await fetch(
-        "https://us-central1-mlbhackathon-445616.cloudfunctions.net/getFirebaseConfig"
+        "https://us-central1-mlbhackathon-445616.cloudfunctions.net/getfirebaseconfig"
       );
       firebaseConfig = await response.json();
-      console.log("Firebase API Key:", firebaseConfig.apiKey);
     } catch (error) {
       console.error("Failed to fetch Firebase config:", error);
-      return; // Stop initialization if config fails to load
+      throw new Error("Failed to load Firebase config"); // Prevents accidental usage with an invalid config
     }
   } else {
     firebaseConfig = {
@@ -29,7 +33,6 @@ async function initializeFirebase() {
       messagingSenderId: import.meta.env.VITE_APP_FIREBASE_MESSAGING_SENDER_ID,
       appId: import.meta.env.VITE_APP_FIREBASE_APP_ID,
     };
-
   }
 
   console.log("Initializing Firebase with config:", firebaseConfig);
@@ -37,9 +40,8 @@ async function initializeFirebase() {
   firebaseApp = initializeApp(firebaseConfig);
   auth = getAuth(firebaseApp);
   db = getFirestore(firebaseApp);
+
+  return { firebaseApp, auth, db };
 }
 
-// Ensure Firebase is initialized before export
-await initializeFirebase();
-
-export { firebaseApp, auth, db };
+export { initializeFirebase };
