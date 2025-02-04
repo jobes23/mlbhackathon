@@ -483,14 +483,26 @@ export const Translations: Translations = {
       errorPlayers: "Error al obtener jugadores."
     },
     gameRulesAndStrategy: {
-      gameRulesAndStrategy: "Reglas y estrategia del juego",
-      understandingtheBasics: "Entendiendo los fundamentos",
-      beginnerFriendlyStrategies: "Estrategias para principiantes",
-      utbCopy: "Aprende las reglas básicas y estrategias del juego para mejorar tu conocimiento y disfrutar cada jugada.",
-      bfSCopy: "Explora consejos clave para entender el juego ofensivo y defensivo.",
-      learnMore: "Aprender más",
-      exploreStrategies: "Explorar estrategias",
-      showLess: "Mostrar menos"
+      gameRulesAndStrategy: "Reglas y Estrategias del Juego",  // Game Rules and Strategy
+      understandingTheBasics: "Entendiendo lo Básico",      // Understanding the Basics
+      beginnerFriendlyStrategies: "Estrategias para Principiantes",   // Beginner-Friendly Strategies
+      fieldLocations: "Ubicaciones y Disposición del Campo", // Field Locations and Layout
+      playerPositionsAndRoles: "Posiciones y Responsabilidades de los Jugadores", // Player Positions and Responsibilities
+      pitcherRoles: "Tipos de Lanzadores y sus Roles",        // Types of Pitchers and Their Roles
+      pitchTypes: "Tipos de Lanzamientos",                 // Types of Pitches
+      advancedBaseballTerms: "Términos Avanzados de Béisbol",     // Advanced Baseball Terms
+      utbCopy: "Aprende las reglas y estrategias básicas del juego para mejorar tus conocimientos y disfrutar de cada jugada.", // Learn the basic rules and strategies of the game to enhance your knowledge and enjoy every play.
+      bfSCopy: "Explora consejos clave para entender el juego ofensivo y defensivo.", // Explore key tips to understand offensive and defensive gameplay.
+      fieldLocationsCopy: "Comprende las diferentes áreas del campo de béisbol y su importancia durante el juego.", // Understand different areas of the baseball field and their significance during play.
+      positionsCopy: "Aprende sobre los roles y responsabilidades clave de cada jugador defensivo en el campo.", // Learn about the key roles and responsibilities of each defensive player on the field.
+      pitcherRolesCopy: "Descubre los diferentes tipos de lanzadores y cómo contribuyen al juego.", // Discover the different types of pitchers and how they contribute to the game.
+      pitchTypesCopy: "Entiende los diferentes tipos de lanzamientos y sus usos estratégicos.", // Understand the different types of pitches and their strategic uses.
+      abtCopy: "Aprende términos y reglas avanzadas para profundizar tu comprensión del béisbol.", // Learn advanced terms and rules to deepen your understanding of baseball.
+      learnMore: "Más Información",       // Learn More
+      exploreStrategies: "Explorar Estrategias",    // Explore Strategies
+      showLess: "Mostrar Menos",         // Show Less
+      strangeRulesLabel: "Reglas Extrañas y Curiosas",       // Strange & Obscure Rules
+      strangeRulesDescription: "Aquí hay algunas reglas extrañas y curiosas en el libro de reglas", // Here are some strange and obscure rules in the rulebook.
     },
     gameRules: {
       inningsLabel: "Entradas",
@@ -587,6 +599,48 @@ export const Translations: Translations = {
       obpDescription: "Una estadística que mide la frecuencia con la que un jugador llega a la base a través de hits, bases por bolas o golpeados por lanzamientos.",
       opsLabel: "OPS (Porcentaje de Embasado más Slugging)",
       opsDescription: "Una estadística que combina el porcentaje de embasado (OBP) y el porcentaje de slugging (SLG) para medir la producción ofensiva."
+    },
+    fieldLocations: {
+      dugoutLabel: "Banquillo",
+      dugoutDescription: "El área designada donde los jugadores y entrenadores permanecen cuando no están en el campo.",
+      bullpenLabel: "Bullpen",
+      bullpenDescription: "El área donde los lanzadores de relevo calientan antes de entrar al juego.",
+      warningTrackLabel: "Franja de Advertencia",
+      warningTrackDescription: "Una franja de tierra o material diferente cerca de la valla del outfield que alerta a los jardineros que están cerca de la pared.",
+      pitchersMoundLabel: "Montículo del Lanzador",
+      pitchersMoundDescription: "Una sección elevada en el centro del infield donde el lanzador lanza la bola.",
+      battersBoxLabel: "Caja de Bateo",
+      battersBoxDescription: "El área designada alrededor del home plate donde el bateador debe pararse al batear.",
+      onDeckCircleLabel: "Círculo de Espera",
+      onDeckCircleDescription: "El área designada donde el siguiente bateador espera y se prepara para su turno al bate."
+    },
+    strangeRules: {
+        lodgedBallLabel: "Bola Alojada",
+        lodgedBallDescription: "Los corredores avanzan una base si una bola lanzada se aloja en la máscara o parafernalia del umpire o del receptor.",
+        bullpenRestrictionsLabel: "Restricciones del Bullpen",
+        bullpenRestrictionsDescription: "Un bateador designado no puede sentarse en el bullpen, a menos que actúe como receptor del bullpen.",
+        runnerHitByFairBallLabel: "Corredor Golpeado por Bola Fair",
+        runnerHitByFairBallDescription: "Un corredor es out si es golpeado por una bola bateada fair, ya sea en base o no, a menos que se cante la regla del infield fly. Si es golpeado fuera de base, el corredor también es out.",
+        ejectedPersonnelLabel: "Personal Expulsado",
+        ejectedPersonnelDescription: "Los managers, entrenadores o jugadores expulsados pueden sentarse en las gradas si se cambian a ropa de calle y están bien alejados del banco o bullpen de su equipo.",
+        deflectedFairBallLabel: "Bola Fair Desviada",
+        deflectedFairBallDescription: "Si un defensor desvía una bola fair hacia las gradas, cuenta como un jonrón a menos que la desviación ocurra dentro de los 250 pies del home plate, en cuyo caso todos los corredores avanzan dos bases.",
+        pinchHitStrikeoutLabel: "Ponche de Bateador Emergente",
+        pinchHitStrikeoutDescription: "Si un bateador emergente se poncha con dos strikes, el turno al bate y el ponche se acreditan al bateador reemplazado. Cualquier otro resultado se acredita al bateador emergente.",
+        wetWeatherRosinLabel: "Rocín para Clima Húmedo",
+        wetWeatherRosinDescription: "En clima húmedo, el umpire puede instruir al lanzador que se ponga la bolsa de rocín en el bolsillo.",
+        detachedEquipmentLabel: "Equipo Desprendido",
+        detachedEquipmentDescription: "Todos los corredores, incluido el bateador, avanzan tres bases si un defensor toca intencionalmente una bola bateada fair con equipo desprendido. En una bola lanzada, los corredores avanzan dos bases.",
+        stealingHomeLabel: "Robo de Home con Dos Strikes",
+        stealingHomeDescription: "Si un corredor roba home y el lanzamiento lo golpea en la zona de strike, el bateador es out. La carrera anota si hay menos de dos outs; de lo contrario, no anota.",
+        switchingThrowingArmLabel: "Cambio de Brazo de Lanzamiento",
+        switchingThrowingArmDescription: "Los lanzadores pueden cambiar de brazo de lanzamiento a la mitad de un turno al bate solo si el otro brazo está lesionado, y no se les permite lanzamientos de calentamiento con el nuevo brazo.",
+        droppedThirdStrikeLabel: "Tercer Strike Caído",
+        droppedThirdStrikeDescription: "Si el receptor no atrapa el tercer strike, el bateador puede correr a primera base si la primera base está desocupada o si hay dos outs. Al bateador se le acredita un ponche.",
+        saveRulesLabel: "Reglas de Salvamento",
+        saveRulesDescription: "Un salvamento se acredita a un lanzador de relevo que termina el juego bajo condiciones específicas, como entrar con una ventaja de no más de tres carreras, con la carrera del empate en base, al bate o en el círculo de espera, o lanzar las últimas tres entradas.",
+        interferenceLabel: "Interferencia",
+        interferenceDescription: "Si el receptor o cualquier defensor interfiere con el bateador durante un lanzamiento, el bateador obtiene la primera base. Si hay corredores en base, avanzan como si el bateador recibiera una base por bolas. El manager puede optar por tomar el resultado de la jugada en su lugar."
     },
     profile: {
       title: "Perfil de Usuario",
@@ -754,15 +808,26 @@ export const Translations: Translations = {
       errorPlayers: "選手の取得に失敗しました。"
     },
     gameRulesAndStrategy: {
-      gameRulesAndStrategy: "ゲームのルールと戦略",
-      understandingtheBasics: "基本を理解する",
-      beginnerFriendlyStrategies: "初心者向け戦略",
-      utbCopy: "ゲームの基本ルールと戦略を学び、知識を深めて試合をより楽しみましょう。",
-      bfSCopy: "攻撃と守備を理解するための重要なヒントをご覧ください。",
-      learnMore: "詳細はこちら",
-      exploreStrategies: "戦略を見る",
-      showLess: "閉じる",
-      
+      gameRulesAndStrategy: "ゲームのルールと戦略",  // Game Rules and Strategy
+      understandingTheBasics: "基本を理解する",      // Understanding the Basics
+      beginnerFriendlyStrategies: "初心者向け戦略",   // Beginner-Friendly Strategies
+      fieldLocations: "フィールドの各場所とレイアウト", // Field Locations and Layout
+      playerPositionsAndRoles: "選手のポジションと役割", // Player Positions and Responsibilities
+      pitcherRoles: "ピッチャーの種類と役割",        // Types of Pitchers and Their Roles
+      pitchTypes: "ピッチの種類",                 // Types of Pitches
+      advancedBaseballTerms: "上級者向け野球用語",     // Advanced Baseball Terms
+      utbCopy: "基本ルールと戦略を学び、知識を深め、すべてのプレーを楽しみましょう。", // Learn the basic rules and strategies of the game to enhance your knowledge and enjoy every play.
+      bfSCopy: "攻撃と守備のゲームプレイを理解するための重要なヒントをご紹介します。", // Explore key tips to understand offensive and defensive gameplay.
+      fieldLocationsCopy: "野球フィールドの各エリアとそのプレー中の重要性を理解しましょう。", // Understand different areas of the baseball field and their significance during play.
+      positionsCopy: "フィールド上の各守備選手の主な役割と責任について学びましょう。", // Learn about the key roles and responsibilities of each defensive player on the field.
+      pitcherRolesCopy: "さまざまな種類のピッチャーと、彼らがどのようにゲームに貢献するかを見てみましょう。", // Discover the different types of pitchers and how they contribute to the game.
+      pitchTypesCopy: "さまざまな種類のピッチとその戦略的な使用法を理解しましょう。", // Understand the different types of pitches and their strategic uses.
+      abtCopy: "野球の理解を深めるための上級用語とルールを学びましょう。", // Learn advanced terms and rules to deepen your understanding of baseball.
+      learnMore: "もっと詳しく",       // Learn More
+      exploreStrategies: "戦略を見る",    // Explore Strategies
+      showLess: "表示を減らす",         // Show Less
+      strangeRulesLabel: "珍しいルール",       // Strange & Obscure Rules
+      strangeRulesDescription: "ルールブックに載っている珍しいルールをいくつかご紹介します。", // Here are some strange and obscure rules in the rulebook.
     },
     gameRules: {
       inningsLabel: "イニング",
@@ -859,6 +924,48 @@ export const Translations: Translations = {
       obpDescription: "選手がヒット、四球、または死球によって出塁する頻度を測定する統計。",
       opsLabel: "OPS (On-Base Plus Slugging)",
       opsDescription: "出塁率 (OBP) と長打率 (SLG) を組み合わせて攻撃の生産性を測定する統計。"
+    },
+    fieldLocations: {
+      dugoutLabel: "ダグアウト",
+      dugoutDescription: "選手やコーチが試合に出ていない時に待機する場所。",
+      bullpenLabel: "ブルペン",
+      bullpenDescription: "リリーフ投手が試合に出る前にウォーミングアップをする場所。",
+      warningTrackLabel: "ウォーニングトラック",
+      warningTrackDescription: "外野フェンスに近づいていることを外野手に知らせる、土や素材の違う部分。",
+      pitchersMoundLabel: "ピッチャーズマウンド",
+      pitchersMoundDescription: "投手が投球する、内野の中央にある高く盛られた場所。",
+      battersBoxLabel: "バッターボックス",
+      battersBoxDescription: "打者が打つ時に立つ、ホームプレート周辺の決められた場所。",
+      onDeckCircleLabel: "ネクストバッターズサークル",
+      onDeckCircleDescription: "次の打者が打席に入る前に待機し、準備をする場所。"
+    },
+    strangeRules: {
+        lodgedBallLabel: "挟まったボール",
+        lodgedBallDescription: "投球が審判や捕手のマスクや用具に挟まった場合、走者は1つ進塁する。",
+        bullpenRestrictionsLabel: "ブルペン利用制限",
+        bullpenRestrictionsDescription: "指名打者は、ブルペン捕手を務める場合を除き、ブルペンに座ることは禁止されている。",
+        runnerHitByFairBallLabel: "走者のフェアボール直撃",
+        runnerHitByFairBallDescription: "インフィールドフライが宣告されていない場合、塁上、塁外に関わらず、打球が走者に当たった場合、走者はアウトになる。塁外で当たった場合も、走者はアウトになる。",
+        ejectedPersonnelLabel: "退場処分者の扱い",
+        ejectedPersonnelDescription: "退場処分を受けた監督、コーチ、選手は、私服に着替え、自チームのベンチやブルペンから離れた場所であれば、スタンドで観戦することができる。",
+        deflectedFairBallLabel: "打球の方向変更",
+        deflectedFairBallDescription: "野手がフェアボールをスタンドにそらした場合、ホームランとなる。ただし、ホームプレートから250フィート以内での方向変更は、全ての走者が2つ進塁する。",
+        pinchHitStrikeoutLabel: "代打の三振",
+        pinchHitStrikeoutDescription: "2ストライクの場面で代打が三振した場合、打席と三振は交代した打者の記録となる。それ以外の場合は、代打の記録となる。",
+        wetWeatherRosinLabel: "雨天時のロジン",
+        wetWeatherRosinDescription: "雨天時には、審判は投手にロジンバッグをポケットに入れるよう指示することができる。",
+        detachedEquipmentLabel: "用具の意図的な接触",
+        detachedEquipmentDescription: "野手がフェアの打球に意図的に外れた用具を接触させた場合、打者を含む全ての走者は3つ進塁する。送球の場合は、走者は2つ進塁する。",
+        stealingHomeLabel: "2ストライク時のホームスチール",
+        stealingHomeDescription: "走者がホームスチールを試み、投球がストライクゾーンで走者に当たった場合、打者はアウトになる。2アウト未満の場合は得点が記録され、2アウトの場合は得点は記録されない。",
+        switchingThrowingArmLabel: "投球する腕の変更",
+        switchingThrowingArmDescription: "投手は、打席の途中で投げる腕を変更することはできない。怪我の場合のみ認められ、その場合、新しい腕でのウォームアップ投球は認められない。",
+        droppedThirdStrikeLabel: "振り逃げ",
+        droppedThirdStrikeDescription: "捕手が第3ストライクを捕球しなかった場合、一塁が空いているか、2アウトの場合、打者は一塁に走ることができる。この場合も、打者には三振が記録される。",
+        saveRulesLabel: "セーブの条件",
+        saveRulesDescription: "リリーフ投手が、3点以内のリードで出場し、同点となる走者が塁上、打席、またはネクストバッターズサークルにいる場合、または最後の3イニングを投げ切るなど、特定の条件で試合を終わらせた場合にセーブが記録される。",
+        interferenceLabel: "インターフェア（妨害）",
+        interferenceDescription: "捕手または野手が投球中に打者を妨害した場合、打者は一塁に進む。走者がいる場合、打者が四球で歩いた時と同様に進塁する。監督は、プレーの結果を優先することもできる。"
     },
     profile: {
       title: "ユーザープロフィール",

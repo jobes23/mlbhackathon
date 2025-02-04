@@ -17,7 +17,7 @@ const corsOptions = cors({
   },
 });
 
-exports.updatelanguage = functions.https.onRequest((req, res) => {
+exports.setlanguage = functions.https.onRequest((req, res) => {
     corsOptions(req, res, async () => {
       try {
         const { userId, language } = req.body;

@@ -27,11 +27,6 @@ const corsOptions = cors({
 // **3. Secure Setup User API**
 exports.setupuser = functions.https.onRequest((req, res) => {
   corsOptions(req, res, async () => {
-    if (req.method !== "POST") {
-      console.warn(" Method Not Allowed. Only POST is accepted.");
-      return res.status(405).json({ error: "Method Not Allowed. Use POST instead." });
-    }
-
     const { userId, email } = req.body;
 
     if (!userId || !email) {

@@ -34,8 +34,6 @@ const Login: React.FC = () => {
       const result = await signInWithPopup(authInstance, provider);
       const user = result.user;
   
-      console.log("User signed in:", user);
-  
       console.log("Calling API:", import.meta.env.VITE_SETUP_USER_API_URL);
       const response = await fetch(import.meta.env.VITE_SETUP_USER_API_URL, {
         method: "POST",

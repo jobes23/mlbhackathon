@@ -53,12 +53,35 @@ const TeamGameStatsModal: React.FC<TeamGameStatsModalProps> = ({ gameStats, lang
   const calculateTotals = (players: PlayerStats[], type: "hitting" | "pitching") => {
     return players.reduce((totals: Record<string, number>, player) => {
       const stats = JSON.parse(player[type] || "{}");
+  
       Object.keys(stats).forEach((key) => {
-        totals[key] = (totals[key] || 0) + (stats[key] || 0);
+        if (key === "inningsPitched") {
+          const innings = parseFloat(stats[key]) || 0;
+  
+          // Split into whole number & decimal part
+          const wholeInnings = Math.floor(innings); // Get whole number part
+          const decimalPart = innings - wholeInnings; // Get decimal part
+  
+          // Convert decimal part to thirds
+          let decimalOuts = 0;
+          if (decimalPart >= 0.2) decimalOuts = 2 / 3; // .2 → .6666666
+          else if (decimalPart >= 0.1) decimalOuts = 1 / 3; // .1 → .3333333
+  
+          // Convert total innings to outs and sum them
+          const currentOuts = (totals["inningsPitched"] || 0) * 3; // Convert existing total to outs
+          const newOuts = (wholeInnings * 3) + decimalOuts * 3; // Convert new value to outs
+  
+          // Convert back to innings and round to two decimal places
+          totals["inningsPitched"] = Math.round((currentOuts + newOuts) / 3 * 100) / 100;
+        } else {
+          totals[key] = (totals[key] || 0) + (stats[key] || 0);
+        }
       });
+  
       return totals;
     }, {});
   };
+   
 
   const awayTeamPlayers = playerStats.filter((player) => player.team_id === boxScore.awayTeam.teamId);
   const homeTeamPlayers = playerStats.filter((player) => player.team_id === boxScore.homeTeam.teamId);
@@ -189,7 +212,7 @@ const TeamGameStatsModal: React.FC<TeamGameStatsModalProps> = ({ gameStats, lang
               return (
                 <tr key={player.player_id}>
                   <td>{player.player_name}</td>
-                  <td>{stats.inningsPitched || "0.0"}</td>
+                  <td>{stats.inningsPitched || 0.0}</td>
                   <td>{stats.earnedRuns || 0}</td>
                   <td>{stats.hits || 0}</td>
                   <td>{stats.strikeOuts || 0}</td>
@@ -201,7 +224,7 @@ const TeamGameStatsModal: React.FC<TeamGameStatsModalProps> = ({ gameStats, lang
             })}
             <tr className="totals-row">
               <td><strong>Total</strong></td>
-              <td>{Number(pitcherTotals.inningsPitched || 0).toFixed(1)}</td>
+              <td>{pitcherTotals.inningsPitched || 0.0}</td>
               <td>{pitcherTotals.earnedRuns || 0}</td>
               <td>{pitcherTotals.hits || 0}</td>
               <td>{pitcherTotals.strikeOuts || 0}</td>

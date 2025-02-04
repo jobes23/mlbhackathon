@@ -101,3 +101,47 @@ select.season {
   display: flex;
   gap: 10px;
 }
+
+@media (max-width: 768px) {
+  .game-metadata {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    width: 30%;
+    text-align: center;
+  }
+
+  .teams-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 69%;
+  }
+
+  .game-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    background-color: #202124;
+    border-radius: 8px;
+    border: 1px solid #313335;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    height: 102px;
+  }
+
+  .schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    min-height: 335px;
+    max-height: 70vh;
+    overflow-y: auto;
+    padding: 5px;
+    background-color: #181a1b;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: #bbb;
+  }
+}
