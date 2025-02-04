@@ -44,8 +44,8 @@ const PlayerVideos: React.FC<PlayerVideosProps> = ({
   const t = Translations[language] || Translations.en;
 
   const API_FETCH_VIDEOS = import.meta.env.VITE_FETCH_PLAYER_VIDEOS_API_URL;
-  const API_FETCH_CHALLENGE = import.meta.env.VITE_FETCH_CHALLENGE;
-  const API_UPDATE_CHALLENGE = import.meta.env.VITE_UPDATE_CHALLENGE;
+  const API_FETCH_CHALLENGE = import.meta.env.VITE_FETCH_CHALLENGE_API_URL;
+  const API_UPDATE_CHALLENGE = import.meta.env.VITE_SET_CHALLENGE_STATUS_API_URL;
 
   useEffect(() => {
     const fetchVideos = async () => {

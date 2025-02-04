@@ -74,7 +74,6 @@ const SideBar: React.FC<SideBarProps> = ({ userPoints, selectedLanguage, setSele
   const { currentUser } = useAuth();
   const [forceRender, setForceRender] = useState(false); // Force re-render workaround
   const navigate = useNavigate();
-  console.log("Current User:", currentUser);
 
   useEffect(() => {
     setUserPoints(userPoints);

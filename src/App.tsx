@@ -21,7 +21,6 @@ const FETCH_CHALLENGE_API_URL = import.meta.env.VITE_FETCH_CHALLENGE_API_URL;
 const SET_CHALLENGE_STATUS_API_URL = import.meta.env.VITE_SET_CHALLENGE_STATUS_API_URL;
 const GET_USER_DATA_API_URL = import.meta.env.VITE_FETCH_USER_DATA_API_URL;
 const UPDATE_FAVORITES_API_URL = import.meta.env.VITE_UPDATE_FAVORITES_API_URL;
-const UPDATE_LANGUAGE_API_URL = import.meta.env.VITE_UPDATE_LANGUAGE_API_URL;
 
 interface FavoritesState {
   players: number[];
@@ -42,8 +41,6 @@ const App: React.FC = () => {
 
   useSyncUserChallenges(currentUser?.uid || null);
 
-
-  // **Ensure Firebase is Initialized Before Use**
   useEffect(() => {
     const setupFirebase = async () => {
       try {
@@ -56,7 +53,6 @@ const App: React.FC = () => {
     setupFirebase();
   }, []);
 
-  // **Initialize User Data & Preferences**
   useEffect(() => {
     if (!firebaseReady || authLoading) return;
 
@@ -105,7 +101,6 @@ const App: React.FC = () => {
     initApp();
   }, [authLoading, currentUser, firebaseReady]);
 
-  // **Fetch Challenge Status**
   const fetchChallengeStatus = async (challengeId: string) => {
     if (!currentUser) return;
 
@@ -125,13 +120,44 @@ const App: React.FC = () => {
       }
 
       const data = await response.json();
+      console.log(data);
       setChallengeStatus((prev) => ({ ...prev, [challengeId]: data.completed || false }));
     } catch (error) {
       console.error(`Error fetching challenge status for ${challengeId}:`, error);
     }
   };
 
-  // **Handle Favorites Update via API**
+  const checkFavoriteChallengeCompletion = async (newFavorites: FavoritesState) => {
+    if (!currentUser) return;
+    console.log(newFavorites)
+    const hasFiveFavorites = (newFavorites.players.length + newFavorites.teams.length) >= 5;
+
+    if (hasFiveFavorites) {
+      try {
+        const response = await fetch(SET_CHALLENGE_STATUS_API_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            userId: currentUser.uid,
+            challengeId: "fav_follow_five",
+            action: "completed",
+          }),
+        });
+
+        if (!response.ok) {
+          throw new Error("Failed to update challenge status.");
+        }
+
+        console.log(response)
+        console.log(newFavorites)
+        setChallengeStatus((prev) => ({ ...prev, fav_follow_five: true }));
+        addNotification("success", `${t.rewards.completed} You are now following 5 players and teams`);
+      } catch (error) {
+        console.error("Error updating challenge status:", error);
+      }
+    }
+  };
+
   const handleSaveFavorites = async (newFavorites: FavoritesState) => {
     setFavorites(newFavorites);
     if (!currentUser) return;
@@ -149,33 +175,10 @@ const App: React.FC = () => {
       if (!response.ok) {
         throw new Error("Failed to update favorites.");
       }
+
+      await checkFavoriteChallengeCompletion(newFavorites);
     } catch (error) {
       console.error("Error updating favorites:", error);
-    }
-  };
-
-  // **Handle Language Change via API**
-  const handleLanguageChange = async (newLanguage: LanguageKeys) => {
-    setSelectedLanguage(newLanguage);
-    Cookies.set("language", newLanguage, { expires: 7 });
-
-    if (currentUser && !currentUser.isAnonymous) {
-      try {
-        const response = await fetch(UPDATE_LANGUAGE_API_URL, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            userId: currentUser.uid,
-            language: newLanguage,
-          }),
-        });
-
-        if (!response.ok) {
-          throw new Error("Failed to update language.");
-        }
-      } catch (error) {
-        console.error("Error updating language:", error);
-      }
     }
   };
 
@@ -199,7 +202,7 @@ const App: React.FC = () => {
 
   return (
     <div className="app-container">
-      <SideBar selectedLanguage={selectedLanguage} userPoints={userPoints} setSelectedLanguage={handleLanguageChange} onLogout={handleLogout} />
+      <SideBar selectedLanguage={selectedLanguage} userPoints={userPoints} setSelectedLanguage={setSelectedLanguage} onLogout={handleLogout} />
       <main className="main-content">
         <Routes>
           <Route path="/login" element={<Login />} />
