@@ -1,0 +1,19 @@
+
+.player-stats-table
+{
+    width: 100%; 
+    border-collapse: collapse;
+    font-size: xx-small;
+}
+
+.player-stats-table th
+{
+    padding: 7px;
+    font-size: xx-small;
+}
+
+.player-stats-value
+{
+    padding: 8px;
+    text-align: center;
+}

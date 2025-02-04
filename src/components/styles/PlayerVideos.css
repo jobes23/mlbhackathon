@@ -1,0 +1,126 @@
+.player-videos {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Increased gap for better spacing */
+}
+
+
+/* Baseball field and icons */
+.baseball-field-container {
+  position: relative;
+  width: 95%;
+}
+
+.outfield-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.baseball-icon {
+  position: absolute;
+  z-index: 10;
+  color: #c8102e;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.baseball-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip p {
+  margin: 0 0 8px 0;
+}
+
+.tooltip-play {
+  background-color: #28a745;
+  color: #EAEAEA;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tooltip-play:hover {
+  background-color: #218838;
+}
+
+/* Loading, error, and no videos messages */
+.loading,
+.error,
+.no-videos {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.loading {
+  color: blue;
+}
+
+.error {
+  color: red;
+}
+
+.no-videos {
+  color: gray;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 120%; /* Position the tooltip above the ball */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 1);
+  color: #EAEAEA;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  width: 180px; /* Adjust for tooltip size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  z-index: 999;
+  pointer-events: none; /* Prevent tooltip from interfering with clicks */
+
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* Arrow points downward */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 1) transparent transparent transparent;
+  z-index: 999;
+  opacity: 1;
+}
+
+.baseball-icon:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip-hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  .baseball-field-container {
+    width: 100%;
+  }
+
+  .tooltip {
+    width: 140px; /* Adjust for smaller tooltip size */
+  }
+}

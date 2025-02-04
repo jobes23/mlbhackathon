@@ -1,0 +1,70 @@
+.player-bets {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  .partners-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .header-column {
+    font-size: 16px;
+  }
+  
+  .bet-row {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 10px;
+  }
+  
+  .bet-description {
+    font-size: 16px;
+    color: #333;
+    align-self: center;
+  }
+  
+  .bet-options-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns for partners */
+    gap: 10px;
+  }
+  
+  .bet-option {
+    display: flex;
+    flex-direction: column; /* Stack "Yes" and odds vertically */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(135deg, var(--mlb-dark-blue), #c8102e);
+    color: #EAEAEA;
+    transition: all 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .bet-option:hover {
+    background: linear-gradient(135deg, #c8102e, var(--mlb-dark-blue)); 
+  }
+  
+  .bet-option span {
+    line-height: 1.5; /* Add spacing between lines */
+  }
+  
+  .bet-option span:first-child {
+    font-weight: bold; /* Make "Yes" bold */
+  }
+  

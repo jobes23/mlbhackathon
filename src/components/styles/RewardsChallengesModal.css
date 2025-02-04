@@ -1,0 +1,271 @@
+/* Modal Overlay */
+.rcModal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 10px;
+  }
+  
+  /* Modal Content */
+  .rcModal-content {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 16px;
+    padding: 20px;
+    width: 800px;
+    height: 648px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  /* Close Button */
+  .rcClose-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #d9534f;
+    transition: color 0.3s;
+  }
+  
+  .rcClose-btn:hover {
+    color: #c9302c;
+  }
+  
+  /* Tabs */
+  .rcTabs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .rcTabs button {
+    background: linear-gradient(135deg, var(--mlb-dark-blue), #c8102e);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fafafa;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .rcTabs .active {
+    background: linear-gradient(135deg, #c8102e, var(--mlb-dark-blue));
+    color: #fafafa;
+  }
+  
+  .rcTabs button:hover {
+    background: linear-gradient(135deg, #c8102e, var(--mlb-dark-blue));
+    color: #fafafa;
+  }
+  
+  /* Challenges and Rewards Sections */
+  .challenges-section, .rewards-section {
+    margin-top: 15px;
+    overflow: auto;
+    width: 100%;
+  }
+  
+  /* Grid for Challenges */
+  .challenge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  /* Challenge Card */
+  .challenge-card {
+    background: linear-gradient(145deg, #f0f0f0, #d6d6d6);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 286px;
+  }
+  
+  .challenge-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Challenge Icon */
+  .challenge-icon {
+    font-size: 40px;
+    color: var(--mlb-dark-blue);
+    margin-bottom: 10px;
+  }
+  
+  /* Challenge Title */
+  .challenge-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* Challenge Description */
+  .challenge-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  
+  /* Challenge Points */
+  .challenge-points {
+    font-size: 16px;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 12px;
+  }
+  
+  /* Challenge Button */
+  .challenge-btn {
+    background: linear-gradient(135deg, var(--mlb-dark-blue), #c8102e);
+    color: #EAEAEA;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+  }
+
+  button.challenge-btn.disabled {
+    background: gray;
+    color: lightgray;
+    cursor: not-allowed;
+    }
+  
+  .challenge-btn:hover {
+    background: linear-gradient(135deg, #c8102e, var(--mlb-dark-blue));
+  }
+  
+  /* Rewards Section */
+  .rcRewards-section {
+    padding: 10px;
+  }
+  
+  /* Reward Card */
+  .reward-card {
+  background: linear-gradient(145deg, #f0f0f0, #d6d6d6);
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 200px;
+  }
+
+  .reward-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .reward-description {
+    height: 80%;
+    overflow: auto;
+    
+    /* Smooth scrolling */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #888 #f0f0f0; /* Thumb & Track colors */
+}
+
+/* Webkit (Chrome, Edge, Safari) */
+.reward-description::-webkit-scrollbar {
+    width: 8px; /* Adjust scrollbar width */
+}
+
+.reward-description::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Light background for the track */
+    border-radius: 10px; /* Smooth edges */
+}
+
+.reward-description::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #888, #555); /* Gradient effect */
+    border-radius: 10px; /* Rounded corners */
+    transition: background 0.3s ease-in-out;
+}
+
+.reward-description::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #777, #444); /* Darker on hover */
+}
+
+/* Reward Title */
+.reward-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Reward Points */
+.reward-points {
+  font-size: 16px;
+  font-weight: bold;
+  color: #17a2b8;
+  margin-bottom: 12px;
+}
+
+.reward-points span {
+  color: #28a745;
+}
+
+/* Reward Button */
+.reward-btn {
+  background: linear-gradient(135deg, var(--mlb-dark-blue), #c8102e);
+  color: #EAEAEA;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.reward-btn.disabled {
+  background: gray;
+  color: lightgray;
+  cursor: not-allowed;
+}
+
+.reward-btn:hover:not(.disabled) {
+  background: linear-gradient(135deg, #c8102e, var(--mlb-dark-blue));
+}
+
+p.redeemed-text {
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}

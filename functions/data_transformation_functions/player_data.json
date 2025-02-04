@@ -1,0 +1,5869 @@
+{
+  "players": [
+    {
+      "player_id": 665804,
+      "english_name": "Miguel Amaya",
+      "japanese_name": "ミゲル・アマヤ"
+    },
+    {
+      "player_id": 608348,
+      "english_name": "Carson Kelly",
+      "japanese_name": "カーソン・ケリー"
+    },
+    {
+      "player_id": 640902,
+      "english_name": "Jhonny Pereda",
+      "japanese_name": "ジョニー・ペレダ"
+    },
+    {
+      "player_id": 689414,
+      "english_name": "Liam Hicks",
+      "japanese_name": "リアム・ヒックス"
+    },
+    {
+      "player_id": 682663,
+      "english_name": "Agustin Ramirez",
+      "japanese_name": "アグスティン・ラミレス"
+    },
+    {
+      "player_id": 663743,
+      "english_name": "Nick Fortes",
+      "japanese_name": "ニック・フォルテス"
+    },
+    {
+      "player_id": 620443,
+      "english_name": "Luis Torrens",
+      "japanese_name": "ルイス・トーレンス"
+    },
+    {
+      "player_id": 682626,
+      "english_name": "Francisco Alvarez",
+      "japanese_name": "フランシスコ・アルバレス"
+    },
+    {
+      "player_id": 641680,
+      "english_name": "Jonah Heim",
+      "japanese_name": "ジョナ・ハイム"
+    },
+    {
+      "player_id": 543309,
+      "english_name": "Kyle Higashioka",
+      "japanese_name": "カイル・ヒガシオカ"
+    },
+    {
+      "player_id": 669221,
+      "english_name": "Sean Murphy",
+      "japanese_name": "ショーン・マーフィー"
+    },
+    {
+      "player_id": 644433,
+      "english_name": "Chadwick Tromp",
+      "japanese_name": "チャドウィック・トロンプ"
+    },
+    {
+      "player_id": 657136,
+      "english_name": "Connor Wong",
+      "japanese_name": "コナー・ウォン"
+    },
+    {
+      "player_id": 665966,
+      "english_name": "Carlos Narvaez",
+      "japanese_name": "カルロス・ナルバエス"
+    },
+    {
+      "player_id": 693307,
+      "english_name": "Dillon Dingler",
+      "japanese_name": "ディロン・ディングラー"
+    },
+    {
+      "player_id": 668670,
+      "english_name": "Jake Rogers",
+      "japanese_name": "ジェイク・ロジャース"
+    },
+    {
+      "player_id": 673237,
+      "english_name": "Yainer Diaz",
+      "japanese_name": "ヤイナー・ディアス"
+    },
+    {
+      "player_id": 663967,
+      "english_name": "César Salazar",
+      "japanese_name": "セザール・サラザール"
+    },
+    {
+      "player_id": 605170,
+      "english_name": "Victor Caratini",
+      "japanese_name": "ビクター・カラティーニ"
+    },
+    {
+      "player_id": 666163,
+      "english_name": "Ben Rortvedt",
+      "japanese_name": "ベン・ロートヴェット"
+    },
+    {
+      "player_id": 643376,
+      "english_name": "Danny Jansen",
+      "japanese_name": "ダニー・ジャンセン"
+    },
+    {
+      "player_id": 686482,
+      "english_name": "Logan Driscoll",
+      "japanese_name": "ローガン・ドリスコル"
+    },
+    {
+      "player_id": 624431,
+      "english_name": "Jose Trevino",
+      "japanese_name": "ホセ・トレビノ"
+    },
+    {
+      "player_id": 663886,
+      "english_name": "Tyler Stephenson",
+      "japanese_name": "タイラー・スティーブンソン"
+    },
+    {
+      "player_id": 665856,
+      "english_name": "Jair Camargo",
+      "japanese_name": "ジャイール・カマルゴ"
+    },
+    {
+      "player_id": 680777,
+      "english_name": "Ryan Jeffers",
+      "japanese_name": "ライアン・ジェファーズ"
+    },
+    {
+      "player_id": 543877,
+      "english_name": "Christian Vázquez",
+      "japanese_name": "クリスチャン・バスケス"
+    },
+    {
+      "player_id": 607732,
+      "english_name": "Jacob Stallings",
+      "japanese_name": "ジェイコブ・スターリングス"
+    },
+    {
+      "player_id": 691011,
+      "english_name": "Drew Romo",
+      "japanese_name": "ドリュー・ロモ"
+    },
+    {
+      "player_id": 696100,
+      "english_name": "Hunter Goodman",
+      "japanese_name": "ハンター・グッドマン"
+    },
+    {
+      "player_id": 656577,
+      "english_name": "Alex Jackson",
+      "japanese_name": "アレックス・ジャクソン"
+    },
+    {
+      "player_id": 669224,
+      "english_name": "Austin Wells",
+      "japanese_name": "オースティン・ウェルズ"
+    },
+    {
+      "player_id": 683679,
+      "english_name": "Jesus Rodriguez",
+      "japanese_name": "ヘスス・ロドリゲス"
+    },
+    {
+      "player_id": 641555,
+      "english_name": "J.C. Escarra",
+      "japanese_name": "ジェエシィ・ エスカラ"
+    },
+    {
+      "player_id": 669134,
+      "english_name": "Luis Campusano",
+      "japanese_name": "ルイス・キャンパスノ"
+    },
+    {
+      "player_id": 664954,
+      "english_name": "Brett Sullivan",
+      "japanese_name": "ブレット・サリバン"
+    },
+    {
+      "player_id": 695596,
+      "english_name": "Nick Raposo",
+      "japanese_name": "ニック・ラポソ"
+    },
+    {
+      "player_id": 663728,
+      "english_name": "Cal Raleigh",
+      "japanese_name": "カル・ローリー"
+    },
+    {
+      "player_id": 668939,
+      "english_name": "Adley Rutschman",
+      "japanese_name": "アドリー・ラッチマン"
+    },
+    {
+      "player_id": 596142,
+      "english_name": "Gary Sánchez",
+      "japanese_name": "ゲイリー・サンチェス"
+    },
+    {
+      "player_id": 675448,
+      "english_name": "Blake Hunt",
+      "japanese_name": "ブレイク・ハント"
+    },
+    {
+      "player_id": 686676,
+      "english_name": "Korey Lee",
+      "japanese_name": "コリー・リー"
+    },
+    {
+      "player_id": 642136,
+      "english_name": "Matt Thaiss",
+      "japanese_name": "マット・タイス"
+    },
+    {
+      "player_id": 661388,
+      "english_name": "William Contreras",
+      "japanese_name": "ウィリアム・コントレラス"
+    },
+    {
+      "player_id": 606992,
+      "english_name": "Eric Haase",
+      "japanese_name": "エリック・ハース"
+    },
+    {
+      "player_id": 691620,
+      "english_name": "Jeferson Quero",
+      "japanese_name": "ジェファーソン・クエロ"
+    },
+    {
+      "player_id": 669127,
+      "english_name": "Shea Langeliers",
+      "japanese_name": "シア・ランゲリアーズ"
+    },
+    {
+      "player_id": 668832,
+      "english_name": "Kyle McCann",
+      "japanese_name": "カイル・マッキャン"
+    },
+    {
+      "player_id": 623168,
+      "english_name": "Tyler Heineman",
+      "japanese_name": "タイラー・ハイネマン"
+    },
+    {
+      "player_id": 672386,
+      "english_name": "Alejandro Kirk",
+      "japanese_name": "アレハンドロ・カーク"
+    },
+    {
+      "player_id": 666023,
+      "english_name": "Freddy Fermin",
+      "japanese_name": "フレディ・フェルミン"
+    },
+    {
+      "player_id": 521692,
+      "english_name": "Salvador Perez",
+      "japanese_name": "サルバドール・ペレス"
+    },
+    {
+      "player_id": 518595,
+      "english_name": "Travis d'Arnaud",
+      "japanese_name": "トラヴィス・ダルノー"
+    },
+    {
+      "player_id": 681351,
+      "english_name": "Logan O'Hoppe",
+      "japanese_name": "ローガン・オホップ"
+    },
+    {
+      "player_id": 642020,
+      "english_name": "Chuckie Robinson",
+      "japanese_name": "チャッキー・ロビンソン"
+    },
+    {
+      "player_id": 641511,
+      "english_name": "Jason Delay",
+      "japanese_name": "ジェイソン・ディレイ"
+    },
+    {
+      "player_id": 663698,
+      "english_name": "Joey Bart",
+      "japanese_name": "ジョーイ・バート"
+    },
+    {
+      "player_id": 682848,
+      "english_name": "Endy Rodríguez",
+      "japanese_name": "エンディ・ロドリゲス"
+    },
+    {
+      "player_id": 680779,
+      "english_name": "Henry Davis",
+      "japanese_name": "ヘンリー・デイヴィス"
+    },
+    {
+      "player_id": 666310,
+      "english_name": "Bo Naylor",
+      "japanese_name": "ボー・ネイラー"
+    },
+    {
+      "player_id": 595978,
+      "english_name": "Austin Hedges",
+      "japanese_name": "オースティン ヘッジズ"
+    },
+    {
+      "player_id": 605131,
+      "english_name": "Austin Barnes",
+      "japanese_name": "オースティン・バーンズ"
+    },
+    {
+      "player_id": 676439,
+      "english_name": "Hunter Feduccia",
+      "japanese_name": "ハンター・フェドゥッチャ"
+    },
+    {
+      "player_id": 669257,
+      "english_name": "Will Smith",
+      "japanese_name": "ウィル・スミス"
+    },
+    {
+      "player_id": 671056,
+      "english_name": "Iván Herrera",
+      "japanese_name": "イバン・エレーラ"
+    },
+    {
+      "player_id": 575929,
+      "english_name": "Willson Contreras",
+      "japanese_name": "ウィルソン・コントレラス"
+    },
+    {
+      "player_id": 686780,
+      "english_name": "Pedro Pagés",
+      "japanese_name": "ペドロ・パヘス"
+    },
+    {
+      "player_id": 645444,
+      "english_name": "Jose Herrera",
+      "japanese_name": "ホセ・エレーラ"
+    },
+    {
+      "player_id": 680728,
+      "english_name": "Adrian Del Castillo",
+      "japanese_name": "エイドリアン・デル・カスティージョ"
+    },
+    {
+      "player_id": 672515,
+      "english_name": "Gabriel Moreno",
+      "japanese_name": "ガブリエル・モレノ"
+    },
+    {
+      "player_id": 608596,
+      "english_name": "Tom Murphy",
+      "japanese_name": "トム・マーフィー"
+    },
+    {
+      "player_id": 672275,
+      "english_name": "Patrick Bailey",
+      "japanese_name": "パトリック・ベイリー"
+    },
+    {
+      "player_id": 666165,
+      "english_name": "Blake Sabol",
+      "japanese_name": "ブレイク・セイボル"
+    },
+    {
+      "player_id": 686452,
+      "english_name": "Drew Millas",
+      "japanese_name": "ドリュー・ミラス"
+    },
+    {
+      "player_id": 656180,
+      "english_name": "Riley Adams",
+      "japanese_name": "ライリー・アダムス"
+    },
+    {
+      "player_id": 660688,
+      "english_name": "Keibert Ruiz",
+      "japanese_name": "ケイベルト・ルイス"
+    },
+    {
+      "player_id": 596117,
+      "english_name": "Garrett Stubbs",
+      "japanese_name": "ギャレット・スタッブス"
+    },
+    {
+      "player_id": 592663,
+      "english_name": "J.T. Realmuto",
+      "japanese_name": "ジェイト・リアルムート"
+    },
+    {
+      "player_id": 665561,
+      "english_name": "Rafael Marchán",
+      "japanese_name": "ラファエル・マルカン"
+    },
+    {
+      "player_id": 681432,
+      "english_name": "Luke Little",
+      "japanese_name": "ルーク・リトル"
+    },
+    {
+      "player_id": 624522,
+      "english_name": "Keegan Thompson",
+      "japanese_name": "キーガン・トンプソン"
+    },
+    {
+      "player_id": 669212,
+      "english_name": "Eli Morgan",
+      "japanese_name": "イーライ・モーガン"
+    },
+    {
+      "player_id": 663878,
+      "english_name": "Nate Pearson",
+      "japanese_name": "ネイト・ピアソン"
+    },
+    {
+      "player_id": 668873,
+      "english_name": "Caleb Kilian",
+      "japanese_name": "ケイレブ・キリアン"
+    },
+    {
+      "player_id": 571510,
+      "english_name": "Matthew Boyd",
+      "japanese_name": "マシュー・ボイド"
+    },
+    {
+      "player_id": 680891,
+      "english_name": "Jack Neely",
+      "japanese_name": "ジャック・ニーリー"
+    },
+    {
+      "player_id": 657006,
+      "english_name": "Justin Steele",
+      "japanese_name": "ジャスティン・スティール"
+    },
+    {
+      "player_id": 665871,
+      "english_name": "Javier Assad",
+      "japanese_name": "ハビエル・アサド"
+    },
+    {
+      "player_id": 694037,
+      "english_name": "Daniel Palencia",
+      "japanese_name": "ダニエル・パレンシア"
+    },
+    {
+      "player_id": 687863,
+      "english_name": "Porter Hodge",
+      "japanese_name": "ポーター・ホッジ"
+    },
+    {
+      "player_id": 668338,
+      "english_name": "Tyson Miller",
+      "japanese_name": "タイソン・ミラー"
+    },
+    {
+      "player_id": 683522,
+      "english_name": "Michael Arias",
+      "japanese_name": "マイケル・アリアス"
+    },
+    {
+      "player_id": 547001,
+      "english_name": "Cody Poteet",
+      "japanese_name": "コーディ・ポティート"
+    },
+    {
+      "player_id": 657240,
+      "english_name": "Julian Merryweather",
+      "japanese_name": "ジュリアン・メリーウェザー"
+    },
+    {
+      "player_id": 681799,
+      "english_name": "Ethan Roberts",
+      "japanese_name": "イーサン・ロバーツ"
+    },
+    {
+      "player_id": 573204,
+      "english_name": "Caleb Thielbar",
+      "japanese_name": "ケイレブ・シールバー"
+    },
+    {
+      "player_id": 696136,
+      "english_name": "Jordan Wicks",
+      "japanese_name": "ジョーダン・ウィックス"
+    },
+    {
+      "player_id": 676962,
+      "english_name": "Ben Brown",
+      "japanese_name": "ベン・ブラウン"
+    },
+    {
+      "player_id": 668970,
+      "english_name": "Gavin Hollowell",
+      "japanese_name": "ギャビン・ホロウェル"
+    },
+    {
+      "player_id": 592791,
+      "english_name": "Jameson Taillon",
+      "japanese_name": "ジェイムソン・タイヨン"
+    },
+    {
+      "player_id": 642239,
+      "english_name": "Rob Zastryzny",
+      "japanese_name": "ロブ・ザストリズニー"
+    },
+    {
+      "player_id": 684007,
+      "english_name": "Shota Imanaga",
+      "japanese_name": "今永昇太"
+    },
+    {
+      "player_id": 666129,
+      "english_name": "Braxton Garrett",
+      "japanese_name": "ブラクストン・ギャレット"
+    },
+    {
+      "player_id": 678368,
+      "english_name": "Valente Bellozo",
+      "japanese_name": "ヴァレンテ・ベロッソ"
+    },
+    {
+      "player_id": 677053,
+      "english_name": "Andrew Nardi",
+      "japanese_name": "アンドリュー・ナルディ"
+    },
+    {
+      "player_id": 677960,
+      "english_name": "Ryan Weathers",
+      "japanese_name": "ライアン・ウェザーズ"
+    },
+    {
+      "player_id": 622786,
+      "english_name": "Jesus Tinoco",
+      "japanese_name": "ジーザス・ティノコ"
+    },
+    {
+      "player_id": 685107,
+      "english_name": "Anthony Veneziano",
+      "japanese_name": "アンソニー・ヴェネツィアーノ"
+    },
+    {
+      "player_id": 669199,
+      "english_name": "Lake Bachar",
+      "japanese_name": "バシャール湖"
+    },
+    {
+      "player_id": 690978,
+      "english_name": "Dax Fulton",
+      "japanese_name": "ダックス・フルトン"
+    },
+    {
+      "player_id": 678215,
+      "english_name": "Luarbert Arias",
+      "japanese_name": "ルアーバート・アリアス"
+    },
+    {
+      "player_id": 666277,
+      "english_name": "George Soriano",
+      "japanese_name": "ジョージ・ソリアーノ"
+    },
+    {
+      "player_id": 669622,
+      "english_name": "Anthony Bender",
+      "japanese_name": "アンソニー・ベンダー"
+    },
+    {
+      "player_id": 665795,
+      "english_name": "Edward Cabrera",
+      "japanese_name": "エドワード・カブレラ"
+    },
+    {
+      "player_id": 676534,
+      "english_name": "Calvin Faucher",
+      "japanese_name": "カルビン・フォーシェ"
+    },
+    {
+      "player_id": 645261,
+      "english_name": "Sandy Alcantara",
+      "japanese_name": "サンディ アルカンターラ"
+    },
+    {
+      "player_id": 686539,
+      "english_name": "Declan Cronin",
+      "japanese_name": "デクラン・クローニン"
+    },
+    {
+      "player_id": 691587,
+      "english_name": "Eury Pérez",
+      "japanese_name": "ユーリー・ペレス"
+    },
+    {
+      "player_id": 675540,
+      "english_name": "Xzavion Curry",
+      "japanese_name": "エグザビオンカレー"
+    },
+    {
+      "player_id": 800049,
+      "english_name": "Adam Mazur",
+      "japanese_name": "アダム・マズール"
+    },
+    {
+      "player_id": 676974,
+      "english_name": "Max Meyer",
+      "japanese_name": "マックス・マイヤー"
+    },
+    {
+      "player_id": 656288,
+      "english_name": "Griffin Canning",
+      "japanese_name": "グリフィン缶詰"
+    },
+    {
+      "player_id": 668820,
+      "english_name": "Max Kranick",
+      "japanese_name": "マックス・クラニック"
+    },
+    {
+      "player_id": 656887,
+      "english_name": "Sean Reid-Foley",
+      "japanese_name": "ショーン・リード＝フォーリー"
+    },
+    {
+      "player_id": 592229,
+      "english_name": "Dylan Covey",
+      "japanese_name": "ディラン・コヴィー"
+    },
+    {
+      "player_id": 605280,
+      "english_name": "Clay Holmes",
+      "japanese_name": "クレイ・ホームズ"
+    },
+    {
+      "player_id": 676604,
+      "english_name": "Tyler Zuber",
+      "japanese_name": "タイラー・ズーバー"
+    },
+    {
+      "player_id": 663795,
+      "english_name": "Justin Hagenman",
+      "japanese_name": "ジャスティン・ハーゲンマン"
+    },
+    {
+      "player_id": 676130,
+      "english_name": "José Buttó",
+      "japanese_name": "ホセ・ブット"
+    },
+    {
+      "player_id": 621242,
+      "english_name": "Edwin Díaz",
+      "japanese_name": "エドウィン・ディアス"
+    },
+    {
+      "player_id": 664849,
+      "english_name": "Danny Young",
+      "japanese_name": "ダニー・ヤング"
+    },
+    {
+      "player_id": 656731,
+      "english_name": "Tylor Megill",
+      "japanese_name": "タイラー・メギル"
+    },
+    {
+      "player_id": 593423,
+      "english_name": "Frankie Montas",
+      "japanese_name": "フランキー・モンタス"
+    },
+    {
+      "player_id": 640455,
+      "english_name": "Sean Manaea",
+      "japanese_name": "ショーン・マナエア"
+    },
+    {
+      "player_id": 657585,
+      "english_name": "Reed Garrett",
+      "japanese_name": "リード・ギャレット"
+    },
+    {
+      "player_id": 623211,
+      "english_name": "Huascar Brazobán",
+      "japanese_name": "ワスカル・ブラゾバン"
+    },
+    {
+      "player_id": 656849,
+      "english_name": "David Peterson",
+      "japanese_name": "デビッド・ピーターソン"
+    },
+    {
+      "player_id": 673380,
+      "english_name": "Dedniel Núñez",
+      "japanese_name": "デドニエル・ヌニェス"
+    },
+    {
+      "player_id": 673540,
+      "english_name": "Kodai Senga",
+      "japanese_name": "千賀滉大"
+    },
+    {
+      "player_id": 643361,
+      "english_name": "Kevin Herget",
+      "japanese_name": "ケビン・ハーゲット"
+    },
+    {
+      "player_id": 681035,
+      "english_name": "Christian Scott",
+      "japanese_name": "クリスチャン・スコット"
+    },
+    {
+      "player_id": 621112,
+      "english_name": "Paul Blackburn",
+      "japanese_name": "ポール・ブラックバーン"
+    },
+    {
+      "player_id": 542888,
+      "english_name": "Shawn Armstrong",
+      "japanese_name": "ショーン・アームストロング"
+    },
+    {
+      "player_id": 642520,
+      "english_name": "Gerson Garabito",
+      "japanese_name": "ゲルソン・ガラビト"
+    },
+    {
+      "player_id": 668390,
+      "english_name": "Cole Winn",
+      "japanese_name": "コール・ウィン"
+    },
+    {
+      "player_id": 543135,
+      "english_name": "Nathan Eovaldi",
+      "japanese_name": "ネイサン・イオヴァルディ"
+    },
+    {
+      "player_id": 594798,
+      "english_name": "Jacob deGrom",
+      "japanese_name": "ジェイコブ・デグロム"
+    },
+    {
+      "player_id": 687847,
+      "english_name": "Marc Church",
+      "japanese_name": "マーク教会"
+    },
+    {
+      "player_id": 642016,
+      "english_name": "Daniel Robert",
+      "japanese_name": "ダニエル・ロバート"
+    },
+    {
+      "player_id": 674003,
+      "english_name": "Cody Bradford",
+      "japanese_name": "コディ・ブラッドフォード"
+    },
+    {
+      "player_id": 693713,
+      "english_name": "Emiliano Teodo",
+      "japanese_name": "エミリアーノ・テオド"
+    },
+    {
+      "player_id": 677958,
+      "english_name": "Kumar Rocker",
+      "japanese_name": "クマール・ロッカー"
+    },
+    {
+      "player_id": 592351,
+      "english_name": "Jon Gray",
+      "japanese_name": "ジョン・グレイ"
+    },
+    {
+      "player_id": 657097,
+      "english_name": "Jacob Webb",
+      "japanese_name": "ジェイコブ・ウェッブ"
+    },
+    {
+      "player_id": 571948,
+      "english_name": "Hoby Milner",
+      "japanese_name": "ホビー・ミルナー"
+    },
+    {
+      "player_id": 683004,
+      "english_name": "Jack Leiter",
+      "japanese_name": "ジャック・ライター"
+    },
+    {
+      "player_id": 641816,
+      "english_name": "Tyler Mahle",
+      "japanese_name": "タイラー・マール"
+    },
+    {
+      "player_id": 676395,
+      "english_name": "Robert Garcia",
+      "japanese_name": "ロバート・ガルシア"
+    },
+    {
+      "player_id": 622250,
+      "english_name": "Josh Sborz",
+      "japanese_name": "ジョシュ・スボルツ"
+    },
+    {
+      "player_id": 641540,
+      "english_name": "Dane Dunning",
+      "japanese_name": "デーン・ダニング"
+    },
+    {
+      "player_id": 681168,
+      "english_name": "Luis Curvelo",
+      "japanese_name": "ルイス・クルヴェロ"
+    },
+    {
+      "player_id": 692437,
+      "english_name": "Winston Santos",
+      "japanese_name": "ウィンストン・サントス"
+    },
+    {
+      "player_id": 679156,
+      "english_name": "Walter Pennington",
+      "japanese_name": "ウォルター・ペニントン"
+    },
+    {
+      "player_id": 670036,
+      "english_name": "Matt Festa",
+      "japanese_name": "マットフェスタ"
+    },
+    {
+      "player_id": 692030,
+      "english_name": "Jose Corniell",
+      "japanese_name": "ホセ・コーニエル"
+    },
+    {
+      "player_id": 656641,
+      "english_name": "Jacob Latz",
+      "japanese_name": "ジェイコブ・ラッツ"
+    },
+    {
+      "player_id": 669276,
+      "english_name": "Dylan Lee",
+      "japanese_name": "ディラン・リー"
+    },
+    {
+      "player_id": 693821,
+      "english_name": "Bryce Elder",
+      "japanese_name": "ブライス・エルダー"
+    },
+    {
+      "player_id": 700363,
+      "english_name": "AJ Smith-Shawver",
+      "japanese_name": "アジェイ・スミス＝ショーバー"
+    },
+    {
+      "player_id": 691548,
+      "english_name": "Rolddy Munoz",
+      "japanese_name": "ロルディ・ムニョス"
+    },
+    {
+      "player_id": 625643,
+      "english_name": "Reynaldo López",
+      "japanese_name": "レイナルド・ロペス"
+    },
+    {
+      "player_id": 682445,
+      "english_name": "Domingo Gonzalez",
+      "japanese_name": "ドミンゴ・ゴンザレス"
+    },
+    {
+      "player_id": 572955,
+      "english_name": "Pierce Johnson",
+      "japanese_name": "ピアース・ジョンソン"
+    },
+    {
+      "player_id": 694462,
+      "english_name": "Hurston Waldrep",
+      "japanese_name": "ハーストン・ウォルドレップ"
+    },
+    {
+      "player_id": 675911,
+      "english_name": "Spencer Strider",
+      "japanese_name": "スペンサー・ストライダー"
+    },
+    {
+      "player_id": 669721,
+      "english_name": "Davis Daniel",
+      "japanese_name": "デイビス・ダニエル"
+    },
+    {
+      "player_id": 656550,
+      "english_name": "Grant Holmes",
+      "japanese_name": "グラント・ホームズ"
+    },
+    {
+      "player_id": 689266,
+      "english_name": "Dylan Dodd",
+      "japanese_name": "ディラン・ドッド"
+    },
+    {
+      "player_id": 622780,
+      "english_name": "Angel Perdomo",
+      "japanese_name": "アンヘル・ペルドモ"
+    },
+    {
+      "player_id": 642216,
+      "english_name": "Allan Winans",
+      "japanese_name": "アラン・ワイナンズ"
+    },
+    {
+      "player_id": 680885,
+      "english_name": "Spencer Schwellenbach",
+      "japanese_name": "スペンサー・シュウェレンバッハ"
+    },
+    {
+      "player_id": 607481,
+      "english_name": "Aaron Bummer",
+      "japanese_name": "アーロン・バマー"
+    },
+    {
+      "player_id": 628452,
+      "english_name": "Raisel Iglesias",
+      "japanese_name": "ライゼル・イグレシアス"
+    },
+    {
+      "player_id": 678226,
+      "english_name": "Daysbel Hernández",
+      "japanese_name": "デイズベル・エルナンデス"
+    },
+    {
+      "player_id": 687362,
+      "english_name": "Connor Gillispie",
+      "japanese_name": "コナー・ギリスピー"
+    },
+    {
+      "player_id": 666768,
+      "english_name": "Anderson Pilar",
+      "japanese_name": "アンダーソン・ピラール"
+    },
+    {
+      "player_id": 641729,
+      "english_name": "Joe Jiménez",
+      "japanese_name": "ジョー・ヒメネス"
+    },
+    {
+      "player_id": 519242,
+      "english_name": "Chris Sale",
+      "japanese_name": "クリス・セール"
+    },
+    {
+      "player_id": 666120,
+      "english_name": "Ian Anderson",
+      "japanese_name": "イアン・アンダーソン"
+    },
+    {
+      "player_id": 676710,
+      "english_name": "Kutter Crawford",
+      "japanese_name": "カッター・クロフォード"
+    },
+    {
+      "player_id": 669711,
+      "english_name": "Greg Weissert",
+      "japanese_name": "グレッグ・ワイサート"
+    },
+    {
+      "player_id": 657514,
+      "english_name": "Brennan Bernardino",
+      "japanese_name": "ブレナン・バーナーディーノ"
+    },
+    {
+      "player_id": 681867,
+      "english_name": "Cooper Criswell",
+      "japanese_name": "クーパー・クリスウェル"
+    },
+    {
+      "player_id": 683068,
+      "english_name": "Zach Penrod",
+      "japanese_name": "ザック・ペンロッド"
+    },
+    {
+      "player_id": 521230,
+      "english_name": "Liam Hendriks",
+      "japanese_name": "リアム・ヘンドリックス"
+    },
+    {
+      "player_id": 676979,
+      "english_name": "Garrett Crochet",
+      "japanese_name": "ギャレット・クロッシェ"
+    },
+    {
+      "player_id": 686580,
+      "english_name": "Justin Slaten",
+      "japanese_name": "ジャスティン・スラテン"
+    },
+    {
+      "player_id": 663776,
+      "english_name": "Patrick Sandoval",
+      "japanese_name": "パトリック・サンドバル"
+    },
+    {
+      "player_id": 676477,
+      "english_name": "Garrett Whitlock",
+      "japanese_name": "ギャレット・ウィットロック"
+    },
+    {
+      "player_id": 690916,
+      "english_name": "Richard Fitts",
+      "japanese_name": "リチャード・フィッツ"
+    },
+    {
+      "player_id": 669684,
+      "english_name": "Chris Murphy",
+      "japanese_name": "クリス・マーフィー"
+    },
+    {
+      "player_id": 691384,
+      "english_name": "Luis Perales",
+      "japanese_name": "ルイス・ペラレス"
+    },
+    {
+      "player_id": 682990,
+      "english_name": "Quinn Priester",
+      "japanese_name": "クイン・プリースター"
+    },
+    {
+      "player_id": 678394,
+      "english_name": "Brayan Bello",
+      "japanese_name": "ブラヤン・ベロ"
+    },
+    {
+      "player_id": 621111,
+      "english_name": "Walker Buehler",
+      "japanese_name": "ウォーカー・ビューラー"
+    },
+    {
+      "player_id": 458677,
+      "english_name": "Justin Wilson",
+      "japanese_name": "ジャスティン・ウィルソン"
+    },
+    {
+      "player_id": 677161,
+      "english_name": "Zack Kelly",
+      "japanese_name": "ザック・ケリー"
+    },
+    {
+      "player_id": 692285,
+      "english_name": "Luis Guerrero",
+      "japanese_name": "ルイス・ゲレーロ"
+    },
+    {
+      "player_id": 656557,
+      "english_name": "Tanner Houck",
+      "japanese_name": "タナー・ホック"
+    },
+    {
+      "player_id": 690928,
+      "english_name": "Hunter Dobbins",
+      "japanese_name": "ハンター・ドビンス"
+    },
+    {
+      "player_id": 547973,
+      "english_name": "Aroldis Chapman",
+      "japanese_name": "アロルディス・チャップマン"
+    },
+    {
+      "player_id": 663767,
+      "english_name": "Chase Shugart",
+      "japanese_name": "チェイス・シュガート"
+    },
+    {
+      "player_id": 608337,
+      "english_name": "Lucas Giolito",
+      "japanese_name": "ルーカス・ジョリート"
+    },
+    {
+      "player_id": 670174,
+      "english_name": "Josh Winckowski",
+      "japanese_name": "ジョシュ・ウィンコウスキー"
+    },
+    {
+      "player_id": 672456,
+      "english_name": "Keider Montero",
+      "japanese_name": "カイダー・モンテロ"
+    },
+    {
+      "player_id": 695445,
+      "english_name": "Chase Lee",
+      "japanese_name": "チェイス・リー"
+    },
+    {
+      "player_id": 663947,
+      "english_name": "Tyler Holton",
+      "japanese_name": "タイラー・ホルトン"
+    },
+    {
+      "player_id": 656412,
+      "english_name": "Alex Faedo",
+      "japanese_name": "アレックス・ファエド"
+    },
+    {
+      "player_id": 676428,
+      "english_name": "Brant Hurter",
+      "japanese_name": "ブラント・ハーター"
+    },
+    {
+      "player_id": 628317,
+      "english_name": "Kenta Maeda",
+      "japanese_name": "前田健太"
+    },
+    {
+      "player_id": 669438,
+      "english_name": "Mason Englert",
+      "japanese_name": "メイソン・イングラート"
+    },
+    {
+      "player_id": 689225,
+      "english_name": "Beau Brieske",
+      "japanese_name": "ボー・ブリスケ"
+    },
+    {
+      "player_id": 502171,
+      "english_name": "Alex Cobb",
+      "japanese_name": "アレックス・コブ"
+    },
+    {
+      "player_id": 687074,
+      "english_name": "Tyler Owens",
+      "japanese_name": "タイラー・オーエンズ"
+    },
+    {
+      "player_id": 669373,
+      "english_name": "Tarik Skubal",
+      "japanese_name": "タリク・スクバル"
+    },
+    {
+      "player_id": 666159,
+      "english_name": "Matt Manning",
+      "japanese_name": "マット・マニング"
+    },
+    {
+      "player_id": 690544,
+      "english_name": "Bailey Horn",
+      "japanese_name": "ベイリー・ホーン"
+    },
+    {
+      "player_id": 687830,
+      "english_name": "Sawyer Gipson-Long",
+      "japanese_name": "ソーヤー・ギプソン・ロング"
+    },
+    {
+      "player_id": 695549,
+      "english_name": "Jackson Jobe",
+      "japanese_name": "ジャクソン・ジョブ"
+    },
+    {
+      "player_id": 656638,
+      "english_name": "Alex Lange",
+      "japanese_name": "アレックス・ラング"
+    },
+    {
+      "player_id": 681857,
+      "english_name": "Reese Olson",
+      "japanese_name": "リース・オルソン"
+    },
+    {
+      "player_id": 694331,
+      "english_name": "Tyler Mattison",
+      "japanese_name": "タイラー・マティソン"
+    },
+    {
+      "player_id": 676684,
+      "english_name": "Will Vest",
+      "japanese_name": "ウィルベスト"
+    },
+    {
+      "player_id": 671345,
+      "english_name": "Jason Foley",
+      "japanese_name": "ジェイソン・フォーリー"
+    },
+    {
+      "player_id": 669724,
+      "english_name": "Brenan Hanifee",
+      "japanese_name": "ブレナン・ハニフィー"
+    },
+    {
+      "player_id": 674944,
+      "english_name": "Sean Guenther",
+      "japanese_name": "ショーン・ギュンサー"
+    },
+    {
+      "player_id": 680744,
+      "english_name": "Ty Madden",
+      "japanese_name": "タイ・マッデン"
+    },
+    {
+      "player_id": 663554,
+      "english_name": "Casey Mize",
+      "japanese_name": "ケイシー・マイズ"
+    },
+    {
+      "player_id": 519151,
+      "english_name": "Ryan Pressly",
+      "japanese_name": "ライアン・プレスリー"
+    },
+    {
+      "player_id": 664285,
+      "english_name": "Framber Valdez",
+      "japanese_name": "フランバー・ヴァルデス"
+    },
+    {
+      "player_id": 650556,
+      "english_name": "Bryan Abreu",
+      "japanese_name": "ブライアン・アブリュー"
+    },
+    {
+      "player_id": 605463,
+      "english_name": "Tayler Scott",
+      "japanese_name": "テイラー・スコット"
+    },
+    {
+      "player_id": 669854,
+      "english_name": "Ronel Blanco",
+      "japanese_name": "ロネル・ブランコ"
+    },
+    {
+      "player_id": 677651,
+      "english_name": "Luis Garcia",
+      "japanese_name": "ルイス・ガルシア"
+    },
+    {
+      "player_id": 664351,
+      "english_name": "Luis Contreras",
+      "japanese_name": "ルイス・コントレラス"
+    },
+    {
+      "player_id": 666215,
+      "english_name": "Forrest Whitley",
+      "japanese_name": "フォレスト・ホイットリー"
+    },
+    {
+      "player_id": 621121,
+      "english_name": "Lance McCullers Jr.",
+      "japanese_name": "ランス・マッカラーズ・ジュニア"
+    },
+    {
+      "player_id": 623352,
+      "english_name": "Josh Hader",
+      "japanese_name": "ジョシュ・ヘイダー"
+    },
+    {
+      "player_id": 672391,
+      "english_name": "Kaleb Ort",
+      "japanese_name": "カレブ・オルト"
+    },
+    {
+      "player_id": 663321,
+      "english_name": "Nick Hernandez",
+      "japanese_name": "ニック・ヘルナンデス"
+    },
+    {
+      "player_id": 687473,
+      "english_name": "Ryan Gusto",
+      "japanese_name": "ライアン・ガスト"
+    },
+    {
+      "player_id": 656986,
+      "english_name": "Bennett Sousa",
+      "japanese_name": "ベネット・スーザ"
+    },
+    {
+      "player_id": 681293,
+      "english_name": "Spencer Arrighetti",
+      "japanese_name": "スペンサー・アリゲッティ"
+    },
+    {
+      "player_id": 681869,
+      "english_name": "Shawn Dubin",
+      "japanese_name": "ショーン・デュビン"
+    },
+    {
+      "player_id": 641585,
+      "english_name": "J.P. France",
+      "japanese_name": "フランス"
+    },
+    {
+      "player_id": 669713,
+      "english_name": "Hayden Wesneski",
+      "japanese_name": "ヘイデン・ウェスネスキ"
+    },
+    {
+      "player_id": 687911,
+      "english_name": "Bryan King",
+      "japanese_name": "ブライアン・キング"
+    },
+    {
+      "player_id": 676467,
+      "english_name": "Colton Gordon",
+      "japanese_name": "コルトン・ゴードン"
+    },
+    {
+      "player_id": 686613,
+      "english_name": "Hunter Brown",
+      "japanese_name": "ハンターブラウン"
+    },
+    {
+      "player_id": 664299,
+      "english_name": "Cristian Javier",
+      "japanese_name": "クリスティアン・ハビエル"
+    },
+    {
+      "player_id": 685801,
+      "english_name": "Hunter Bigge",
+      "japanese_name": "ハンター・ビッジ"
+    },
+    {
+      "player_id": 656876,
+      "english_name": "Drew Rasmussen",
+      "japanese_name": "ドリュー・ラスムッセン"
+    },
+    {
+      "player_id": 664076,
+      "english_name": "Garrett Cleavinger",
+      "japanese_name": "ギャレット・クリービンジャー"
+    },
+    {
+      "player_id": 655889,
+      "english_name": "Manuel Rodríguez",
+      "japanese_name": "マヌエル・ロドリゲス"
+    },
+    {
+      "player_id": 692414,
+      "english_name": "Yoniel Curet",
+      "japanese_name": "ヨニエル・キュレット"
+    },
+    {
+      "player_id": 697812,
+      "english_name": "Joe Rock",
+      "japanese_name": "ジョー・ロック"
+    },
+    {
+      "player_id": 621097,
+      "english_name": "Jacob Waguespack",
+      "japanese_name": "ジェイコブ・ウェイグスパック"
+    },
+    {
+      "player_id": 641793,
+      "english_name": "Zack Littell",
+      "japanese_name": "ザック・リッテル"
+    },
+    {
+      "player_id": 669358,
+      "english_name": "Shane Baz",
+      "japanese_name": "シェーン・バズ"
+    },
+    {
+      "player_id": 671212,
+      "english_name": "Joe Boyle",
+      "japanese_name": "ジョー・ボイル"
+    },
+    {
+      "player_id": 642121,
+      "english_name": "Cole Sulser",
+      "japanese_name": "コール・サルサー"
+    },
+    {
+      "player_id": 693855,
+      "english_name": "Ian Seymour",
+      "japanese_name": "イアン・シーモア"
+    },
+    {
+      "player_id": 663556,
+      "english_name": "Shane McClanahan",
+      "japanese_name": "シェーン・マクラナハン"
+    },
+    {
+      "player_id": 678024,
+      "english_name": "Mike Vasil",
+      "japanese_name": "マイク・ヴァシル"
+    },
+    {
+      "player_id": 686752,
+      "english_name": "Ryan Pepiot",
+      "japanese_name": "ライアン・ペピオット"
+    },
+    {
+      "player_id": 687330,
+      "english_name": "Kevin Kelly",
+      "japanese_name": "ケビン・ケリー"
+    },
+    {
+      "player_id": 681320,
+      "english_name": "Nate Lavender",
+      "japanese_name": "ネイト・ラベンダー"
+    },
+    {
+      "player_id": 682254,
+      "english_name": "Mason Montgomery",
+      "japanese_name": "メイソン・モンゴメリー"
+    },
+    {
+      "player_id": 671737,
+      "english_name": "Taj Bradley",
+      "japanese_name": "タージ・ブラッドリー"
+    },
+    {
+      "player_id": 664126,
+      "english_name": "Pete Fairbanks",
+      "japanese_name": "ピート・フェアバンクス"
+    },
+    {
+      "player_id": 679358,
+      "english_name": "Eric Orze",
+      "japanese_name": "エリック・オルゼ"
+    },
+    {
+      "player_id": 670955,
+      "english_name": "Edwin Uceta",
+      "japanese_name": "エドウィン・ウセタ"
+    },
+    {
+      "player_id": 668933,
+      "english_name": "Graham Ashcraft",
+      "japanese_name": "グラハム・アシュクラフト"
+    },
+    {
+      "player_id": 663903,
+      "english_name": "Brady Singer",
+      "japanese_name": "ブレイディ・シンガー"
+    },
+    {
+      "player_id": 672710,
+      "english_name": "Roansy Contreras",
+      "japanese_name": "ロアンシー・コントレラス"
+    },
+    {
+      "player_id": 671096,
+      "english_name": "Andrew Abbott",
+      "japanese_name": "アンドリュー・アボット"
+    },
+    {
+      "player_id": 683175,
+      "english_name": "Connor Phillips",
+      "japanese_name": "コナー・フィリップス"
+    },
+    {
+      "player_id": 695076,
+      "english_name": "Rhett Lowder",
+      "japanese_name": "レット・ロウダー"
+    },
+    {
+      "player_id": 686730,
+      "english_name": "Carson Spiers",
+      "japanese_name": "カーソン・スパイアーズ"
+    },
+    {
+      "player_id": 668984,
+      "english_name": "Casey Legumina",
+      "japanese_name": "ケイシー・レグミナ"
+    },
+    {
+      "player_id": 682227,
+      "english_name": "Brandon Williamson",
+      "japanese_name": "ブランドン・ウィリアムソン"
+    },
+    {
+      "player_id": 691172,
+      "english_name": "Yosver Zulueta",
+      "japanese_name": "ヨスベル・ズルエタ"
+    },
+    {
+      "player_id": 608718,
+      "english_name": "Brent Suter",
+      "japanese_name": "ブレント・スーター"
+    },
+    {
+      "player_id": 682825,
+      "english_name": "Luis Mey",
+      "japanese_name": "ルイス・メイ"
+    },
+    {
+      "player_id": 664747,
+      "english_name": "Alexis Díaz",
+      "japanese_name": "アレクシス・ディアス"
+    },
+    {
+      "player_id": 666157,
+      "english_name": "Nick Lodolo",
+      "japanese_name": "ニック・ロドロ"
+    },
+    {
+      "player_id": 641941,
+      "english_name": "Emilio Pagán",
+      "japanese_name": "エミリオ・パガン"
+    },
+    {
+      "player_id": 680689,
+      "english_name": "Lyon Richardson",
+      "japanese_name": "ライアン・リチャードソン"
+    },
+    {
+      "player_id": 663574,
+      "english_name": "Tony Santillan",
+      "japanese_name": "トニー・サンティリャン"
+    },
+    {
+      "player_id": 668881,
+      "english_name": "Hunter Greene",
+      "japanese_name": "ハンター・グリーン"
+    },
+    {
+      "player_id": 594580,
+      "english_name": "Sam Moll",
+      "japanese_name": "サム・モール"
+    },
+    {
+      "player_id": 607259,
+      "english_name": "Nick Martinez",
+      "japanese_name": "ニック・マルティネス"
+    },
+    {
+      "player_id": 687924,
+      "english_name": "Julian Aguiar",
+      "japanese_name": "ジュリアン・アギアル"
+    },
+    {
+      "player_id": 701581,
+      "english_name": "David Festa",
+      "japanese_name": "デビッド・フェスタ"
+    },
+    {
+      "player_id": 592779,
+      "english_name": "Brock Stewart",
+      "japanese_name": "ブロック・スチュワート"
+    },
+    {
+      "player_id": 623437,
+      "english_name": "Justin Topa",
+      "japanese_name": "ジャスティン・トパ"
+    },
+    {
+      "player_id": 663485,
+      "english_name": "Cole Sands",
+      "japanese_name": "コール・サンズ"
+    },
+    {
+      "player_id": 686973,
+      "english_name": "Louie Varland",
+      "japanese_name": "ルイ・ヴァーランド"
+    },
+    {
+      "player_id": 663978,
+      "english_name": "Chris Paddack",
+      "japanese_name": "クリス・パダック"
+    },
+    {
+      "player_id": 543859,
+      "english_name": "Michael Tonkin",
+      "japanese_name": "マイケル・トンキン"
+    },
+    {
+      "player_id": 805673,
+      "english_name": "Zebby Matthews",
+      "japanese_name": "ゼビー・マシューズ"
+    },
+    {
+      "player_id": 657746,
+      "english_name": "Joe Ryan",
+      "japanese_name": "ジョー・ライアン"
+    },
+    {
+      "player_id": 661395,
+      "english_name": "Jhoan Duran",
+      "japanese_name": "ジョアン・デュラン"
+    },
+    {
+      "player_id": 643377,
+      "english_name": "Griffin Jax",
+      "japanese_name": "グリフィン・ジャックス"
+    },
+    {
+      "player_id": 687396,
+      "english_name": "Brent Headrick",
+      "japanese_name": "ブレント・ヘドリック"
+    },
+    {
+      "player_id": 641154,
+      "english_name": "Pablo López",
+      "japanese_name": "パブロ・ロペス"
+    },
+    {
+      "player_id": 682769,
+      "english_name": "Eiberson Castellano",
+      "japanese_name": "アイベルソン・カステラーノ"
+    },
+    {
+      "player_id": 641927,
+      "english_name": "Bailey Ober",
+      "japanese_name": "ベイリー・オーバー"
+    },
+    {
+      "player_id": 683764,
+      "english_name": "Matt Canterino",
+      "japanese_name": "マット・カンテリーノ"
+    },
+    {
+      "player_id": 678692,
+      "english_name": "Ronny Henriquez",
+      "japanese_name": "ロニー・エンリケス"
+    },
+    {
+      "player_id": 701519,
+      "english_name": "Travis Adams",
+      "japanese_name": "トラビス・アダムス"
+    },
+    {
+      "player_id": 680573,
+      "english_name": "Simeon Woods Richardson",
+      "japanese_name": "シメオン・ウッズ・リチャードソン"
+    },
+    {
+      "player_id": 660896,
+      "english_name": "Jorge Alcala",
+      "japanese_name": "ホルヘ・アルカラ"
+    },
+    {
+      "player_id": 694397,
+      "english_name": "Marco Raya",
+      "japanese_name": "マルコ・ラヤ"
+    },
+    {
+      "player_id": 681892,
+      "english_name": "Kody Funderburk",
+      "japanese_name": "コディ・ファンダーバーク"
+    },
+    {
+      "player_id": 683627,
+      "english_name": "Anthony Molina",
+      "japanese_name": "アンソニー・モリーナ"
+    },
+    {
+      "player_id": 683409,
+      "english_name": "Angel Chivilli",
+      "japanese_name": "エンジェル・チヴィリ"
+    },
+    {
+      "player_id": 680767,
+      "english_name": "Victor Vodnik",
+      "japanese_name": "ヴィクトル・ヴォドニク"
+    },
+    {
+      "player_id": 677955,
+      "english_name": "Jaden Hill",
+      "japanese_name": "ジェイデン・ヒル"
+    },
+    {
+      "player_id": 687134,
+      "english_name": "Bradley Blalock",
+      "japanese_name": "ブラッドリー・ブラロック"
+    },
+    {
+      "player_id": 675848,
+      "english_name": "Juan Mejia",
+      "japanese_name": "フアン・メヒア"
+    },
+    {
+      "player_id": 685299,
+      "english_name": "Tanner Gordon",
+      "japanese_name": "タナー・ゴードン"
+    },
+    {
+      "player_id": 676105,
+      "english_name": "Jeff Criswell",
+      "japanese_name": "ジェフ・クリスウェル"
+    },
+    {
+      "player_id": 656234,
+      "english_name": "Jake Bird",
+      "japanese_name": "ジェイク・バード"
+    },
+    {
+      "player_id": 623474,
+      "english_name": "Jimmy Herget",
+      "japanese_name": "ジミー・ハーゲット"
+    },
+    {
+      "player_id": 663372,
+      "english_name": "Ryan Feltner",
+      "japanese_name": "ライアン・フェルトナー"
+    },
+    {
+      "player_id": 678821,
+      "english_name": "Luis Peralta",
+      "japanese_name": "ルイス・ペラルタ"
+    },
+    {
+      "player_id": 678020,
+      "english_name": "Seth Halvorsen",
+      "japanese_name": "セス・ハ​​ルヴォルセン"
+    },
+    {
+      "player_id": 596295,
+      "english_name": "Austin Gomber",
+      "japanese_name": "オースティン・ゴンバー"
+    },
+    {
+      "player_id": 656458,
+      "english_name": "Lucas Gilbreath",
+      "japanese_name": "ルーカス・ギルブレス"
+    },
+    {
+      "player_id": 664875,
+      "english_name": "Justin Lawrence",
+      "japanese_name": "ジャスティン・ローレンス"
+    },
+    {
+      "player_id": 687145,
+      "english_name": "Evan Justice",
+      "japanese_name": "エヴァン・ジャスティス"
+    },
+    {
+      "player_id": 641755,
+      "english_name": "Tyler Kinley",
+      "japanese_name": "タイラー・キンリー"
+    },
+    {
+      "player_id": 622608,
+      "english_name": "Antonio Senzatela",
+      "japanese_name": "アントニオ・センサテラ"
+    },
+    {
+      "player_id": 608566,
+      "english_name": "Germán Márquez",
+      "japanese_name": "ゲルマン・マルケス"
+    },
+    {
+      "player_id": 607536,
+      "english_name": "Kyle Freeland",
+      "japanese_name": "カイル・フリーランド"
+    },
+    {
+      "player_id": 690925,
+      "english_name": "Clayton Beeter",
+      "japanese_name": "クレイトン・ビーター"
+    },
+    {
+      "player_id": 596133,
+      "english_name": "Luke Weaver",
+      "japanese_name": "ルーク・ウィーバー"
+    },
+    {
+      "player_id": 664776,
+      "english_name": "Jake Cousins",
+      "japanese_name": "ジェイク・カズンズ"
+    },
+    {
+      "player_id": 518585,
+      "english_name": "Fernando Cruz",
+      "japanese_name": "フェルナンド・クルス"
+    },
+    {
+      "player_id": 701542,
+      "english_name": "Will Warren",
+      "japanese_name": "ウィル・ウォーレン"
+    },
+    {
+      "player_id": 642528,
+      "english_name": "Jonathan Loáisiga",
+      "japanese_name": "ジョナサン・ロアイシガ"
+    },
+    {
+      "player_id": 573186,
+      "english_name": "Marcus Stroman",
+      "japanese_name": "マーカス・ストローマン"
+    },
+    {
+      "player_id": 672782,
+      "english_name": "Yoendrys Gómez",
+      "japanese_name": "ヨエンドリス・ゴメス"
+    },
+    {
+      "player_id": 641656,
+      "english_name": "Ian Hamilton",
+      "japanese_name": "イアン・ハミルトン"
+    },
+    {
+      "player_id": 664141,
+      "english_name": "JT Brubaker",
+      "japanese_name": "ジェイト・ ブルーベイカー"
+    },
+    {
+      "player_id": 643410,
+      "english_name": "Mark Leiter Jr.",
+      "japanese_name": "マーク・ライター・ジュニア"
+    },
+    {
+      "player_id": 543037,
+      "english_name": "Gerrit Cole",
+      "japanese_name": "ゲリット・コール"
+    },
+    {
+      "player_id": 664123,
+      "english_name": "Scott Effross",
+      "japanese_name": "スコット・エフロス"
+    },
+    {
+      "player_id": 608331,
+      "english_name": "Max Fried",
+      "japanese_name": "マックス・フリード"
+    },
+    {
+      "player_id": 642207,
+      "english_name": "Devin Williams",
+      "japanese_name": "デビン・ウィリアムズ"
+    },
+    {
+      "player_id": 660787,
+      "english_name": "Yerry De Los Santos",
+      "japanese_name": "ジェリー・デ・ロス・サントス"
+    },
+    {
+      "player_id": 661563,
+      "english_name": "Luis Gil",
+      "japanese_name": "ルイス・ギル"
+    },
+    {
+      "player_id": 657376,
+      "english_name": "Clarke Schmidt",
+      "japanese_name": "クラーク・シュミット"
+    },
+    {
+      "player_id": 607074,
+      "english_name": "Carlos Rodón",
+      "japanese_name": "カルロス・ロドン"
+    },
+    {
+      "player_id": 681190,
+      "english_name": "Randy Vásquez",
+      "japanese_name": "ランディ・バスケス"
+    },
+    {
+      "player_id": 605397,
+      "english_name": "Joe Musgrove",
+      "japanese_name": "ジョー・マスグローブ"
+    },
+    {
+      "player_id": 592094,
+      "english_name": "Jason Adam",
+      "japanese_name": "ジェイソン・アダム"
+    },
+    {
+      "player_id": 692013,
+      "english_name": "Henry Baez",
+      "japanese_name": "ヘンリー・バエズ"
+    },
+    {
+      "player_id": 673513,
+      "english_name": "Yuki Matsui",
+      "japanese_name": "松井佑樹"
+    },
+    {
+      "player_id": 669093,
+      "english_name": "Jeremiah Estrada",
+      "japanese_name": "ジェレマイア・エストラーダ"
+    },
+    {
+      "player_id": 689690,
+      "english_name": "Alek Jacob",
+      "japanese_name": "アレク・ジェイコブ"
+    },
+    {
+      "player_id": 669308,
+      "english_name": "Sean Reynolds",
+      "japanese_name": "ショーン・レイノルズ"
+    },
+    {
+      "player_id": 693725,
+      "english_name": "Juan Nuñez",
+      "japanese_name": "フアン・ヌニェス"
+    },
+    {
+      "player_id": 650633,
+      "english_name": "Michael King",
+      "japanese_name": "マイケル・キング"
+    },
+    {
+      "player_id": 678316,
+      "english_name": "Omar Cruz",
+      "japanese_name": "オマール・クルーズ"
+    },
+    {
+      "player_id": 663158,
+      "english_name": "Robert Suarez",
+      "japanese_name": "ロバート・スアレス"
+    },
+    {
+      "player_id": 670970,
+      "english_name": "Adrian Morejon",
+      "japanese_name": "エイドリアン・モレジョン"
+    },
+    {
+      "player_id": 663773,
+      "english_name": "Bryan Hoeing",
+      "japanese_name": "ブライアン・ホーイング"
+    },
+    {
+      "player_id": 593974,
+      "english_name": "Wandy Peralta",
+      "japanese_name": "ダルビッシュ 有"
+    },
+    {
+      "player_id": 666745,
+      "english_name": "Jhony Brito",
+      "japanese_name": "ジョニー・ブリト"
+    },
+    {
+      "player_id": 656302,
+      "english_name": "Dylan Cease",
+      "japanese_name": "ディラン・ストップ"
+    },
+    {
+      "player_id": 506433,
+      "english_name": "Yu Darvish",
+      "japanese_name": "ダルビッシュ有"
+    },
+    {
+      "player_id": 686701,
+      "english_name": "Ryan Bergert",
+      "japanese_name": "ライアン・バーガート"
+    },
+    {
+      "player_id": 676680,
+      "english_name": "Tom Cosgrove",
+      "japanese_name": "トム・コスグローブ"
+    },
+    {
+      "player_id": 663362,
+      "english_name": "Matt Waldron",
+      "japanese_name": "マット・ウォルドロン"
+    },
+    {
+      "player_id": 663568,
+      "english_name": "Stephen Kolek",
+      "japanese_name": "スティーブン・コレック"
+    },
+    {
+      "player_id": 682243,
+      "english_name": "Bryce Miller",
+      "japanese_name": "ブライス・ミラー"
+    },
+    {
+      "player_id": 676106,
+      "english_name": "Emerson Hancock",
+      "japanese_name": "エマーソン・ハンコック"
+    },
+    {
+      "player_id": 669923,
+      "english_name": "George Kirby",
+      "japanese_name": "ジョージ・カービー"
+    },
+    {
+      "player_id": 676092,
+      "english_name": "Collin Snider",
+      "japanese_name": "コリン・スナイダー"
+    },
+    {
+      "player_id": 666374,
+      "english_name": "Matt Brash",
+      "japanese_name": "マット・ブラッシュ"
+    },
+    {
+      "player_id": 680604,
+      "english_name": "Blas Castano",
+      "japanese_name": "ブラス・カスターノ"
+    },
+    {
+      "player_id": 622491,
+      "english_name": "Luis Castillo",
+      "japanese_name": "ルイス・カスティージョ"
+    },
+    {
+      "player_id": 646242,
+      "english_name": "Jhonathan Díaz",
+      "japanese_name": "ジョナサン・ディアス"
+    },
+    {
+      "player_id": 663423,
+      "english_name": "Trent Thornton",
+      "japanese_name": "トレント・ソーントン"
+    },
+    {
+      "player_id": 700187,
+      "english_name": "Troy Taylor",
+      "japanese_name": "トロイ・テイラー"
+    },
+    {
+      "player_id": 660825,
+      "english_name": "Eduard Bazardo",
+      "japanese_name": "エドゥアルド・バザード"
+    },
+    {
+      "player_id": 685116,
+      "english_name": "Austin Kitchen",
+      "japanese_name": "オースティンキッチン"
+    },
+    {
+      "player_id": 662253,
+      "english_name": "Andrés Muñoz",
+      "japanese_name": "アンドレス・ムニョス"
+    },
+    {
+      "player_id": 672841,
+      "english_name": "Carlos Vargas",
+      "japanese_name": "カルロス・バルガス"
+    },
+    {
+      "player_id": 675989,
+      "english_name": "Cody Bolton",
+      "japanese_name": "コディ・ボルトン"
+    },
+    {
+      "player_id": 666619,
+      "english_name": "Gregory Santos",
+      "japanese_name": "グレゴリー・サントス"
+    },
+    {
+      "player_id": 663804,
+      "english_name": "Jackson Kowar",
+      "japanese_name": "ジャクソン・コーワー"
+    },
+    {
+      "player_id": 669302,
+      "english_name": "Logan Gilbert",
+      "japanese_name": "ローガン・ギルバート"
+    },
+    {
+      "player_id": 642048,
+      "english_name": "Tayler Saucedo",
+      "japanese_name": "テイラー・サセド"
+    },
+    {
+      "player_id": 642100,
+      "english_name": "Gabe Speier",
+      "japanese_name": "ゲイブ・スピアー"
+    },
+    {
+      "player_id": 693433,
+      "english_name": "Bryan Woo",
+      "japanese_name": "ブライアン・ウー"
+    },
+    {
+      "player_id": 694646,
+      "english_name": "Chayce McDermott",
+      "japanese_name": "チェイス・マクダーモット"
+    },
+    {
+      "player_id": 608372,
+      "english_name": "Tomoyuki Sugano",
+      "japanese_name": "菅野智之"
+    },
+    {
+      "player_id": 666974,
+      "english_name": "Yennier Cano",
+      "japanese_name": "イェニエ・カノ"
+    },
+    {
+      "player_id": 680570,
+      "english_name": "Grayson Rodriguez",
+      "japanese_name": "グレイソン・ロドリゲス"
+    },
+    {
+      "player_id": 700249,
+      "english_name": "Cade Povich",
+      "japanese_name": "ケイド・ポビッチ"
+    },
+    {
+      "player_id": 450203,
+      "english_name": "Charlie Morton",
+      "japanese_name": "チャーリー・モートン"
+    },
+    {
+      "player_id": 669704,
+      "english_name": "Kade Strowd",
+      "japanese_name": "ケイド・ストロード"
+    },
+    {
+      "player_id": 544150,
+      "english_name": "Albert Suárez",
+      "japanese_name": "アルバート・スアレス"
+    },
+    {
+      "player_id": 672335,
+      "english_name": "Cionel Pérez",
+      "japanese_name": "シオネル・ペレス"
+    },
+    {
+      "player_id": 669330,
+      "english_name": "Tyler Wells",
+      "japanese_name": "タイラー・ウェルズ"
+    },
+    {
+      "player_id": 622554,
+      "english_name": "Seranthony Domínguez",
+      "japanese_name": "セランソニー・ドミンゲス"
+    },
+    {
+      "player_id": 593574,
+      "english_name": "Luis González",
+      "japanese_name": "ルイス・ゴンサレス"
+    },
+    {
+      "player_id": 641329,
+      "english_name": "Bryan Baker",
+      "japanese_name": "ブライアン・ベイカー"
+    },
+    {
+      "player_id": 669211,
+      "english_name": "Keegan Akin",
+      "japanese_name": "キーガン・エイキン"
+    },
+    {
+      "player_id": 621107,
+      "english_name": "Zach Eflin",
+      "japanese_name": "ザック・エフリン"
+    },
+    {
+      "player_id": 642397,
+      "english_name": "Gregory Soto",
+      "japanese_name": "グレゴリー・ソト"
+    },
+    {
+      "player_id": 680694,
+      "english_name": "Kyle Bradish",
+      "japanese_name": "カイル・ブラディッシュ"
+    },
+    {
+      "player_id": 669432,
+      "english_name": "Trevor Rogers",
+      "japanese_name": "トレバー・ロジャース"
+    },
+    {
+      "player_id": 687064,
+      "english_name": "Brandon Young",
+      "japanese_name": "ブランドン・ヤング"
+    },
+    {
+      "player_id": 665152,
+      "english_name": "Dean Kremer",
+      "japanese_name": "ディーン・クレーマー"
+    },
+    {
+      "player_id": 681882,
+      "english_name": "Colin Selby",
+      "japanese_name": "コリン・セルビー"
+    },
+    {
+      "player_id": 642585,
+      "english_name": "Félix Bautista",
+      "japanese_name": "フェリックス・バウティスタ"
+    },
+    {
+      "player_id": 605121,
+      "english_name": "Justin Anderson",
+      "japanese_name": "ジャスティン・アンダーソン"
+    },
+    {
+      "player_id": 681402,
+      "english_name": "Gus Varland",
+      "japanese_name": "ガス・バーランド"
+    },
+    {
+      "player_id": 671109,
+      "english_name": "Jake Eder",
+      "japanese_name": "ジェイク・エダー"
+    },
+    {
+      "player_id": 681066,
+      "english_name": "Ky Bush",
+      "japanese_name": "カイ・ブッシュ"
+    },
+    {
+      "player_id": 669060,
+      "english_name": "Bryse Wilson",
+      "japanese_name": "ブライス・ウィルソン"
+    },
+    {
+      "player_id": 689672,
+      "english_name": "Drew Thorpe",
+      "japanese_name": "ドリュー・ソープ"
+    },
+    {
+      "player_id": 669947,
+      "english_name": "Jesse Scholtens",
+      "japanese_name": "ジェシー・ショルテンス"
+    },
+    {
+      "player_id": 683636,
+      "english_name": "Juan Carela",
+      "japanese_name": "フアン・カレラ"
+    },
+    {
+      "player_id": 673929,
+      "english_name": "Jordan Leasure",
+      "japanese_name": "ジョーダン・レジャー"
+    },
+    {
+      "player_id": 682790,
+      "english_name": "Wikelman Gonzalez",
+      "japanese_name": "ヴィケルマン・ゴンザレス"
+    },
+    {
+      "player_id": 676760,
+      "english_name": "Ron Marinaccio",
+      "japanese_name": "ロン・マリナッチョ"
+    },
+    {
+      "player_id": 592155,
+      "english_name": "Cam Booser",
+      "japanese_name": "カムブーザー"
+    },
+    {
+      "player_id": 681343,
+      "english_name": "Shane Smith",
+      "japanese_name": "シェーン・スミス"
+    },
+    {
+      "player_id": 686642,
+      "english_name": "Fraser Ellard",
+      "japanese_name": "フレイザー・エ​​ラード"
+    },
+    {
+      "player_id": 682171,
+      "english_name": "Penn Murfee",
+      "japanese_name": "ペン・マーフィー"
+    },
+    {
+      "player_id": 656457,
+      "english_name": "Tyler Gilbert",
+      "japanese_name": "タイラー・ギルバート"
+    },
+    {
+      "player_id": 683568,
+      "english_name": "Jairo Iriarte",
+      "japanese_name": "ハイロ・イリアルテ"
+    },
+    {
+      "player_id": 686563,
+      "english_name": "Jonathan Cannon",
+      "japanese_name": "ジョナサン・キャノン"
+    },
+    {
+      "player_id": 621051,
+      "english_name": "Steven Wilson",
+      "japanese_name": "スティーブン・ウィルソン"
+    },
+    {
+      "player_id": 680897,
+      "english_name": "Nick Nastrini",
+      "japanese_name": "ニック・ナストリーニ"
+    },
+    {
+      "player_id": 694363,
+      "english_name": "Jared Shuster",
+      "japanese_name": "ジャレッド・シャスター"
+    },
+    {
+      "player_id": 680732,
+      "english_name": "Sean Burke",
+      "japanese_name": "ショーン・バーク"
+    },
+    {
+      "player_id": 672860,
+      "english_name": "Prelander Berroa",
+      "japanese_name": "プレランダー ベロア"
+    },
+    {
+      "player_id": 663436,
+      "english_name": "Davis Martin",
+      "japanese_name": "デイビス・マーティン"
+    },
+    {
+      "player_id": 682842,
+      "english_name": "Abner Uribe",
+      "japanese_name": "アブネル・ウリベ"
+    },
+    {
+      "player_id": 650644,
+      "english_name": "Aaron Civale",
+      "japanese_name": "アーロン・シヴァーレ"
+    },
+    {
+      "player_id": 669084,
+      "english_name": "DL Hall",
+      "japanese_name": "ディーエル・ホール"
+    },
+    {
+      "player_id": 656266,
+      "english_name": "J.B. Bukauskas",
+      "japanese_name": "ジェイブ・ ブカウスカス"
+    },
+    {
+      "player_id": 683232,
+      "english_name": "Nick Mears",
+      "japanese_name": "ニック・ミアーズ"
+    },
+    {
+      "player_id": 668964,
+      "english_name": "Tobias Myers",
+      "japanese_name": "トビアス・マイヤーズ"
+    },
+    {
+      "player_id": 701656,
+      "english_name": "Logan Henderson",
+      "japanese_name": "ローガン・ヘンダーソン"
+    },
+    {
+      "player_id": 657649,
+      "english_name": "Jared Koenig",
+      "japanese_name": "ジャレッド・ケーニッヒ"
+    },
+    {
+      "player_id": 642547,
+      "english_name": "Freddy Peralta",
+      "japanese_name": "フレディ・ペラルタ"
+    },
+    {
+      "player_id": 664991,
+      "english_name": "Grant Wolfram",
+      "japanese_name": "グラント・ウルフラム"
+    },
+    {
+      "player_id": 692230,
+      "english_name": "Carlos Rodriguez",
+      "japanese_name": "カルロス・ロドリゲス"
+    },
+    {
+      "player_id": 681982,
+      "english_name": "Grant Anderson",
+      "japanese_name": "グラント・アンダーソン"
+    },
+    {
+      "player_id": 641482,
+      "english_name": "Nestor Cortes",
+      "japanese_name": "ネストル・コルテス"
+    },
+    {
+      "player_id": 656730,
+      "english_name": "Trevor Megill",
+      "japanese_name": "トレバー・メギル"
+    },
+    {
+      "player_id": 605540,
+      "english_name": "Brandon Woodruff",
+      "japanese_name": "ブランドン・ウッドラフ"
+    },
+    {
+      "player_id": 663542,
+      "english_name": "Bryan Hudson",
+      "japanese_name": "ブライアン・ハドソン"
+    },
+    {
+      "player_id": 688107,
+      "english_name": "Robert Gasser",
+      "japanese_name": "ロバート・ガッサー"
+    },
+    {
+      "player_id": 694477,
+      "english_name": "Chad Patrick",
+      "japanese_name": "チャド・パトリック"
+    },
+    {
+      "player_id": 671162,
+      "english_name": "Connor Thomas",
+      "japanese_name": "コナー・トーマス"
+    },
+    {
+      "player_id": 606303,
+      "english_name": "Joel Payamps",
+      "japanese_name": "ジョエル・ペアンプス"
+    },
+    {
+      "player_id": 676879,
+      "english_name": "Aaron Ashby",
+      "japanese_name": "アーロン・アシュビー"
+    },
+    {
+      "player_id": 665625,
+      "english_name": "Elvis Peguero",
+      "japanese_name": "エルヴィス・ペゲーロ"
+    },
+    {
+      "player_id": 686993,
+      "english_name": "Justin Sterner",
+      "japanese_name": "ジャスティン・スターナー"
+    },
+    {
+      "player_id": 669372,
+      "english_name": "J.T. Ginn",
+      "japanese_name": "ジェイト・ギン"
+    },
+    {
+      "player_id": 680880,
+      "english_name": "Grant Holman",
+      "japanese_name": "グラント・ホルマン"
+    },
+    {
+      "player_id": 680743,
+      "english_name": "Ryan Cusick",
+      "japanese_name": "ライアン・キュージック"
+    },
+    {
+      "player_id": 621053,
+      "english_name": "Tyler Ferguson",
+      "japanese_name": "タイラー・ファーガソン"
+    },
+    {
+      "player_id": 665622,
+      "english_name": "Luis Medina",
+      "japanese_name": "ルイス・メディナ"
+    },
+    {
+      "player_id": 687765,
+      "english_name": "Mitch Spence",
+      "japanese_name": "ミッチ・スペンス"
+    },
+    {
+      "player_id": 519008,
+      "english_name": "T.J. McFarland",
+      "japanese_name": "ジェイジェイ・マクファーランド"
+    },
+    {
+      "player_id": 668716,
+      "english_name": "Noah Murdock",
+      "japanese_name": "ノア・マードック"
+    },
+    {
+      "player_id": 687424,
+      "english_name": "Anthony Maldonado",
+      "japanese_name": "アンソニー・マルドナド"
+    },
+    {
+      "player_id": 695243,
+      "english_name": "Mason Miller",
+      "japanese_name": "メイソン・ミラー"
+    },
+    {
+      "player_id": 669620,
+      "english_name": "Brady Basso",
+      "japanese_name": "ブレイディ・バッソ"
+    },
+    {
+      "player_id": 694361,
+      "english_name": "Will Klein",
+      "japanese_name": "ウィル・クライン"
+    },
+    {
+      "player_id": 676664,
+      "english_name": "JP Sears",
+      "japanese_name": "ジェイピー・ シアーズ"
+    },
+    {
+      "player_id": 683155,
+      "english_name": "Joey Estes",
+      "japanese_name": "ジョーイ・エステス"
+    },
+    {
+      "player_id": 686610,
+      "english_name": "Ken Waldichuk",
+      "japanese_name": "ケン・ウォルディチャク"
+    },
+    {
+      "player_id": 622663,
+      "english_name": "Luis Severino",
+      "japanese_name": "ルイス・セベリーノ"
+    },
+    {
+      "player_id": 663687,
+      "english_name": "Hogan Harris",
+      "japanese_name": "ホーガン・ハリス"
+    },
+    {
+      "player_id": 682052,
+      "english_name": "Jacob Lopez",
+      "japanese_name": "ジェイコブ・ロペス"
+    },
+    {
+      "player_id": 605488,
+      "english_name": "Jeffrey Springs",
+      "japanese_name": "ジェフリー・スプリングス"
+    },
+    {
+      "player_id": 671305,
+      "english_name": "Michel Otañez",
+      "japanese_name": "ミシェル・オタネス"
+    },
+    {
+      "player_id": 680684,
+      "english_name": "Gunnar Hoglund",
+      "japanese_name": "グンナー・ホグランド"
+    },
+    {
+      "player_id": 674370,
+      "english_name": "Osvaldo Bido",
+      "japanese_name": "オスバルド・ビド"
+    },
+    {
+      "player_id": 666201,
+      "english_name": "Alek Manoah",
+      "japanese_name": "アレック・マノア"
+    },
+    {
+      "player_id": 685126,
+      "english_name": "Brandon Eisert",
+      "japanese_name": "ブランドン・アイサート"
+    },
+    {
+      "player_id": 677020,
+      "english_name": "Josh Walker",
+      "japanese_name": "ジョシュ・ウォーカー"
+    },
+    {
+      "player_id": 554340,
+      "english_name": "Yimi García",
+      "japanese_name": "イミ・ガルシア"
+    },
+    {
+      "player_id": 657024,
+      "english_name": "Erik Swanson",
+      "japanese_name": "エリック・スワンソン"
+    },
+    {
+      "player_id": 670102,
+      "english_name": "Bowden Francis",
+      "japanese_name": "ボーデン・フランシス"
+    },
+    {
+      "player_id": 671936,
+      "english_name": "Adam Macko",
+      "japanese_name": "アダム・マッコ"
+    },
+    {
+      "player_id": 680704,
+      "english_name": "Nick Sandlin",
+      "japanese_name": "ニック・サンドリン"
+    },
+    {
+      "player_id": 676969,
+      "english_name": "Brett de Geus",
+      "japanese_name": "ブレット・デ・ジュウス"
+    },
+    {
+      "player_id": 687798,
+      "english_name": "Nick Robertson",
+      "japanese_name": "ニック・ロバートソン"
+    },
+    {
+      "player_id": 656848,
+      "english_name": "Michael Petersen",
+      "japanese_name": "マイケル・ピーターセン"
+    },
+    {
+      "player_id": 605135,
+      "english_name": "Chris Bassitt",
+      "japanese_name": "クリス・バシット"
+    },
+    {
+      "player_id": 643338,
+      "english_name": "Chad Green",
+      "japanese_name": "チャド・グリーン"
+    },
+    {
+      "player_id": 621244,
+      "english_name": "José Berríos",
+      "japanese_name": "ホセ・ベリオス"
+    },
+    {
+      "player_id": 663893,
+      "english_name": "Brendon Little",
+      "japanese_name": "ブレンドン・リトル"
+    },
+    {
+      "player_id": 592332,
+      "english_name": "Kevin Gausman",
+      "japanese_name": "ケビン・ガウスマン"
+    },
+    {
+      "player_id": 687922,
+      "english_name": "Easton Lucas",
+      "japanese_name": "イーストン・ルーカス"
+    },
+    {
+      "player_id": 621114,
+      "english_name": "Ryan Burr",
+      "japanese_name": "ライアン・バー"
+    },
+    {
+      "player_id": 814005,
+      "english_name": "Jake Bloss",
+      "japanese_name": "ジェイク・ブロス"
+    },
+    {
+      "player_id": 667297,
+      "english_name": "Tommy Nance",
+      "japanese_name": "トミー・ナンス"
+    },
+    {
+      "player_id": 682785,
+      "english_name": "Angel Bastardo",
+      "japanese_name": "エンジェル・バスタード"
+    },
+    {
+      "player_id": 684320,
+      "english_name": "Yariel Rodríguez",
+      "japanese_name": "ヤリエル・ロドリゲス"
+    },
+    {
+      "player_id": 647315,
+      "english_name": "Zach Pop",
+      "japanese_name": "ザック・ポップ"
+    },
+    {
+      "player_id": 679883,
+      "english_name": "Luinder Avila",
+      "japanese_name": "ルインダー・アビラ"
+    },
+    {
+      "player_id": 672582,
+      "english_name": "Angel Zerpa",
+      "japanese_name": "エンジェル・ゼルパ"
+    },
+    {
+      "player_id": 663738,
+      "english_name": "Daniel Lynch IV",
+      "japanese_name": "ダニエル・リンチ4世"
+    },
+    {
+      "player_id": 640451,
+      "english_name": "Hunter Harvey",
+      "japanese_name": "ハンター・ハーヴェイ"
+    },
+    {
+      "player_id": 668674,
+      "english_name": "Lucas Erceg",
+      "japanese_name": "ルーカス・エルセグ"
+    },
+    {
+      "player_id": 680742,
+      "english_name": "Jonathan Bowlan",
+      "japanese_name": "ジョナサン・ボーラン"
+    },
+    {
+      "player_id": 607625,
+      "english_name": "Seth Lugo",
+      "japanese_name": "セス・ルーゴ"
+    },
+    {
+      "player_id": 672578,
+      "english_name": "Carlos Hernández",
+      "japanese_name": "カルロス・エルナンデス"
+    },
+    {
+      "player_id": 663460,
+      "english_name": "Kris Bubic",
+      "japanese_name": "クリス・ブービック"
+    },
+    {
+      "player_id": 702070,
+      "english_name": "Noah Cameron",
+      "japanese_name": "ノア・キャメロン"
+    },
+    {
+      "player_id": 657140,
+      "english_name": "Kyle Wright",
+      "japanese_name": "カイル・ライト"
+    },
+    {
+      "player_id": 670167,
+      "english_name": "John Schreiber",
+      "japanese_name": "ジョン・シュライバー"
+    },
+    {
+      "player_id": 674444,
+      "english_name": "Steven Cruz",
+      "japanese_name": "スティーブン・クルーズ"
+    },
+    {
+      "player_id": 608717,
+      "english_name": "Chris Stratton",
+      "japanese_name": "クリス・ストラットン"
+    },
+    {
+      "player_id": 663704,
+      "english_name": "James McArthur",
+      "japanese_name": "ジェームズ・マッカーサー"
+    },
+    {
+      "player_id": 681895,
+      "english_name": "Evan Sisk",
+      "japanese_name": "エヴァン・シスク"
+    },
+    {
+      "player_id": 666142,
+      "english_name": "Cole Ragans",
+      "japanese_name": "コール・レーガンズ"
+    },
+    {
+      "player_id": 608379,
+      "english_name": "Michael Wacha",
+      "japanese_name": "マイケル・ワチャ"
+    },
+    {
+      "player_id": 669674,
+      "english_name": "Sam Long",
+      "japanese_name": "サム・ロング"
+    },
+    {
+      "player_id": 672021,
+      "english_name": "Eric Cerantola",
+      "japanese_name": "エリック・セラントラ"
+    },
+    {
+      "player_id": 679525,
+      "english_name": "Alec Marsh",
+      "japanese_name": "アレック・マーシュ"
+    },
+    {
+      "player_id": 702674,
+      "english_name": "Caden Dana",
+      "japanese_name": "ケイデン・ダナ"
+    },
+    {
+      "player_id": 672282,
+      "english_name": "Reid Detmers",
+      "japanese_name": "リード・デトマース"
+    },
+    {
+      "player_id": 543294,
+      "english_name": "Kyle Hendricks",
+      "japanese_name": "カイル・ヘンドリックス"
+    },
+    {
+      "player_id": 579328,
+      "english_name": "Yusei Kikuchi",
+      "japanese_name": "菊池雄星"
+    },
+    {
+      "player_id": 680983,
+      "english_name": "Kelvin Caceres",
+      "japanese_name": "ケルビン・カセレス"
+    },
+    {
+      "player_id": 681217,
+      "english_name": "Chase Silseth",
+      "japanese_name": "チェイス・シルセス"
+    },
+    {
+      "player_id": 656271,
+      "english_name": "Brock Burke",
+      "japanese_name": "ブロック・バーク"
+    },
+    {
+      "player_id": 650671,
+      "english_name": "José Quijada",
+      "japanese_name": "ホセ・キハダ"
+    },
+    {
+      "player_id": 691951,
+      "english_name": "Sam Aldegheri",
+      "japanese_name": "サム・アルデゲリ"
+    },
+    {
+      "player_id": 669081,
+      "english_name": "Jack Dashwood",
+      "japanese_name": "ジャック・ダッシュウッド"
+    },
+    {
+      "player_id": 690829,
+      "english_name": "Ben Joyce",
+      "japanese_name": "ベン・ジョイス"
+    },
+    {
+      "player_id": 680729,
+      "english_name": "Garrett McDaniels",
+      "japanese_name": "ギャレット・マクダニエルズ"
+    },
+    {
+      "player_id": 682989,
+      "english_name": "Victor Mederos",
+      "japanese_name": "ビクター・メデロス"
+    },
+    {
+      "player_id": 696147,
+      "english_name": "Sam Bachman",
+      "japanese_name": "サム・バックマン"
+    },
+    {
+      "player_id": 686799,
+      "english_name": "Jack Kochanowicz",
+      "japanese_name": "ジャック・コチャノウィッツ"
+    },
+    {
+      "player_id": 660761,
+      "english_name": "José Suarez",
+      "japanese_name": "ホセ・スアレス"
+    },
+    {
+      "player_id": 596112,
+      "english_name": "Robert Stephenson",
+      "japanese_name": "ロバート・スティーブンソン"
+    },
+    {
+      "player_id": 668968,
+      "english_name": "Hans Crouse",
+      "japanese_name": "ハンス・クラウス"
+    },
+    {
+      "player_id": 667755,
+      "english_name": "José Soriano",
+      "japanese_name": "ホセ・ソリアーノ"
+    },
+    {
+      "player_id": 542881,
+      "english_name": "Tyler Anderson",
+      "japanese_name": "タイラー・アンダーソン"
+    },
+    {
+      "player_id": 666171,
+      "english_name": "Ryan Zeferjahn",
+      "japanese_name": "ライアン・ゼファージャーン"
+    },
+    {
+      "player_id": 669387,
+      "english_name": "Carmen Mlodzinski",
+      "japanese_name": "カルメン ムロジンスキー"
+    },
+    {
+      "player_id": 657265,
+      "english_name": "Peter Strzelecki",
+      "japanese_name": "ピーター・ストゼレッキ"
+    },
+    {
+      "player_id": 664294,
+      "english_name": "Dauri Moreta",
+      "japanese_name": "ダウリ・モレタ"
+    },
+    {
+      "player_id": 670280,
+      "english_name": "David Bednar",
+      "japanese_name": "デビッド・ベドナー"
+    },
+    {
+      "player_id": 681347,
+      "english_name": "Mike Burrows",
+      "japanese_name": "マイク・バロウズ"
+    },
+    {
+      "player_id": 683003,
+      "english_name": "Jared Jones",
+      "japanese_name": "ジャレッド・ジョーンズ"
+    },
+    {
+      "player_id": 694973,
+      "english_name": "Paul Skenes",
+      "japanese_name": "ポール・スキーンズ"
+    },
+    {
+      "player_id": 693312,
+      "english_name": "Kyle Nicolas",
+      "japanese_name": "カイル・ニコラス"
+    },
+    {
+      "player_id": 677952,
+      "english_name": "Braxton Ashcraft",
+      "japanese_name": "ブラクストン・アシュクラフト"
+    },
+    {
+      "player_id": 670059,
+      "english_name": "Colin Holderman",
+      "japanese_name": "コリン・ホルダーマン"
+    },
+    {
+      "player_id": 642701,
+      "english_name": "Dennis Santana",
+      "japanese_name": "デニス・サンタナ"
+    },
+    {
+      "player_id": 663559,
+      "english_name": "Bailey Falter",
+      "japanese_name": "ベイリー・フォルター"
+    },
+    {
+      "player_id": 666214,
+      "english_name": "Joey Wentz",
+      "japanese_name": "ジョーイ・ウェンツ"
+    },
+    {
+      "player_id": 670912,
+      "english_name": "Johan Oviedo",
+      "japanese_name": "ヨハン・オビエド"
+    },
+    {
+      "player_id": 656605,
+      "english_name": "Mitch Keller",
+      "japanese_name": "ミッチ・ケラー"
+    },
+    {
+      "player_id": 677944,
+      "english_name": "Slade Cecconi",
+      "japanese_name": "スレイド・チェッコーニ"
+    },
+    {
+      "player_id": 663671,
+      "english_name": "Nic Enright",
+      "japanese_name": "ニック・エンライト"
+    },
+    {
+      "player_id": 683769,
+      "english_name": "Hunter Gaddis",
+      "japanese_name": "ハンター・ガディス"
+    },
+    {
+      "player_id": 663474,
+      "english_name": "Triston McKenzie",
+      "japanese_name": "トリストン・マッケンジー"
+    },
+    {
+      "player_id": 658648,
+      "english_name": "Pedro Avila",
+      "japanese_name": "ペドロ・アビラ"
+    },
+    {
+      "player_id": 668909,
+      "english_name": "Gavin Williams",
+      "japanese_name": "ギャビン・ウィリアムズ"
+    },
+    {
+      "player_id": 656529,
+      "english_name": "Sam Hentges",
+      "japanese_name": "サム・ヘンゲス"
+    },
+    {
+      "player_id": 676440,
+      "english_name": "Tanner Bibee",
+      "japanese_name": "タナー・ビビー"
+    },
+    {
+      "player_id": 682847,
+      "english_name": "Luis L. Ortiz",
+      "japanese_name": "ルイス・L・オルティス"
+    },
+    {
+      "player_id": 680916,
+      "english_name": "Franco Aleman",
+      "japanese_name": "フランコ・アレマン"
+    },
+    {
+      "player_id": 689958,
+      "english_name": "Andrew Walters",
+      "japanese_name": "アンドリュー・ウォルターズ"
+    },
+    {
+      "player_id": 671922,
+      "english_name": "Cade Smith",
+      "japanese_name": "ケイド・スミス"
+    },
+    {
+      "player_id": 681870,
+      "english_name": "Erik Sabrowski",
+      "japanese_name": "エリック・サブロウスキー"
+    },
+    {
+      "player_id": 663986,
+      "english_name": "Trevor Stephan",
+      "japanese_name": "トレバー・ステファン"
+    },
+    {
+      "player_id": 671106,
+      "english_name": "Logan Allen",
+      "japanese_name": "ローガン・アレン"
+    },
+    {
+      "player_id": 669456,
+      "english_name": "Shane Bieber",
+      "japanese_name": "シェーン・ビーバー"
+    },
+    {
+      "player_id": 680951,
+      "english_name": "Doug Nikhazy",
+      "japanese_name": "ダグ・ニカジー"
+    },
+    {
+      "player_id": 682982,
+      "english_name": "Daniel Espino",
+      "japanese_name": "ダニエル・エスピノ"
+    },
+    {
+      "player_id": 661403,
+      "english_name": "Emmanuel Clase",
+      "japanese_name": "エマニュエル・クラッセ"
+    },
+    {
+      "player_id": 682120,
+      "english_name": "Tim Herrin",
+      "japanese_name": "ティム・ヘリン"
+    },
+    {
+      "player_id": 594902,
+      "english_name": "Ben Lively",
+      "japanese_name": "ベン・ライブリー"
+    },
+    {
+      "player_id": 676282,
+      "english_name": "Joey Cantillo",
+      "japanese_name": "ジョーイ・カンティージョ"
+    },
+    {
+      "player_id": 595014,
+      "english_name": "Blake Treinen",
+      "japanese_name": "ブレイク・トレイネン"
+    },
+    {
+      "player_id": 656629,
+      "english_name": "Michael Kopech",
+      "japanese_name": "マイケル・コペック"
+    },
+    {
+      "player_id": 683618,
+      "english_name": "Edgardo Henriquez",
+      "japanese_name": "エドガルド・エンリケス"
+    },
+    {
+      "player_id": 808967,
+      "english_name": "Yoshinobu Yamamoto",
+      "japanese_name": "山本由伸"
+    },
+    {
+      "player_id": 607192,
+      "english_name": "Tyler Glasnow",
+      "japanese_name": "タイラー・グラスノウ"
+    },
+    {
+      "player_id": 518489,
+      "english_name": "Ryan Brasier",
+      "japanese_name": "ライアン・ブレイジャー"
+    },
+    {
+      "player_id": 669160,
+      "english_name": "Dustin May",
+      "japanese_name": "ダスティン・メイ"
+    },
+    {
+      "player_id": 664062,
+      "english_name": "Tony Gonsolin",
+      "japanese_name": "トニー・ゴンソリン"
+    },
+    {
+      "player_id": 693308,
+      "english_name": "Nick Frasso",
+      "japanese_name": "ニック・フラッソ"
+    },
+    {
+      "player_id": 623465,
+      "english_name": "Evan Phillips",
+      "japanese_name": "エヴァン・フィリップス"
+    },
+    {
+      "player_id": 607455,
+      "english_name": "Anthony Banda",
+      "japanese_name": "アンソニー・バンダ"
+    },
+    {
+      "player_id": 660813,
+      "english_name": "Brusdar Graterol",
+      "japanese_name": "ブルスダール・グラテロール"
+    },
+    {
+      "player_id": 686218,
+      "english_name": "Emmet Sheehan",
+      "japanese_name": "エメット・シーハン"
+    },
+    {
+      "player_id": 676272,
+      "english_name": "Bobby Miller",
+      "japanese_name": "ボビー・ミラー"
+    },
+    {
+      "player_id": 689981,
+      "english_name": "River Ryan",
+      "japanese_name": "リバー・ライアン"
+    },
+    {
+      "player_id": 680736,
+      "english_name": "Justin Wrobleski",
+      "japanese_name": "ジャスティン・ロブレスキー"
+    },
+    {
+      "player_id": 676508,
+      "english_name": "Ben Casparius",
+      "japanese_name": "ベン・カスパリアス"
+    },
+    {
+      "player_id": 689017,
+      "english_name": "Landon Knack",
+      "japanese_name": "ランドン・ナック"
+    },
+    {
+      "player_id": 681911,
+      "english_name": "Alex Vesia",
+      "japanese_name": "アレックス・ベシア"
+    },
+    {
+      "player_id": 669165,
+      "english_name": "Kyle Hurt",
+      "japanese_name": "カイル・ハート"
+    },
+    {
+      "player_id": 605483,
+      "english_name": "Blake Snell",
+      "japanese_name": "ブレイク・スネル"
+    },
+    {
+      "player_id": 675627,
+      "english_name": "Michael Grove",
+      "japanese_name": "マイケル・グローブ"
+    },
+    {
+      "player_id": 694813,
+      "english_name": "Gavin Stone",
+      "japanese_name": "ギャビン・ストーン"
+    },
+    {
+      "player_id": 676263,
+      "english_name": "Jack Dreyer",
+      "japanese_name": "ジャック・ドライヤー"
+    },
+    {
+      "player_id": 668941,
+      "english_name": "JoJo Romero",
+      "japanese_name": "ジョジョ・ロメロ"
+    },
+    {
+      "player_id": 681517,
+      "english_name": "Kyle Leahy",
+      "japanese_name": "カイル・リーヒ"
+    },
+    {
+      "player_id": 543243,
+      "english_name": "Sonny Gray",
+      "japanese_name": "ソニー・グレイ"
+    },
+    {
+      "player_id": 664854,
+      "english_name": "Ryan Helsley",
+      "japanese_name": "ライアン・ヘルスリー"
+    },
+    {
+      "player_id": 681676,
+      "english_name": "Ryan Fernandez",
+      "japanese_name": "ライアン・フェルナンデス"
+    },
+    {
+      "player_id": 667463,
+      "english_name": "John King",
+      "japanese_name": "ジョン・キング"
+    },
+    {
+      "player_id": 694335,
+      "english_name": "Matt Svanson",
+      "japanese_name": "マット・スヴァンソン"
+    },
+    {
+      "player_id": 669467,
+      "english_name": "Andre Pallante",
+      "japanese_name": "アンドレ・パッランテ"
+    },
+    {
+      "player_id": 694358,
+      "english_name": "Tekoah Roby",
+      "japanese_name": "テコア・ロビー"
+    },
+    {
+      "player_id": 668868,
+      "english_name": "Zack Thompson",
+      "japanese_name": "ザック・トンプソン"
+    },
+    {
+      "player_id": 693311,
+      "english_name": "Tink Hence",
+      "japanese_name": "ティンク・ヒエン"
+    },
+    {
+      "player_id": 607200,
+      "english_name": "Erick Fedde",
+      "japanese_name": "エリック・フェデ"
+    },
+    {
+      "player_id": 571927,
+      "english_name": "Steven Matz",
+      "japanese_name": "スティーブン・マッツ"
+    },
+    {
+      "player_id": 688297,
+      "english_name": "Chris Roycroft",
+      "japanese_name": "クリス・ロイクロフト"
+    },
+    {
+      "player_id": 682610,
+      "english_name": "Roddery Muñoz",
+      "japanese_name": "ロデリー・ムニョス"
+    },
+    {
+      "player_id": 691828,
+      "english_name": "Sem Robberse",
+      "japanese_name": "セム・ロバース"
+    },
+    {
+      "player_id": 700241,
+      "english_name": "Michael McGreevy",
+      "japanese_name": "マイケル・マクグリービー"
+    },
+    {
+      "player_id": 571945,
+      "english_name": "Miles Mikolas",
+      "japanese_name": "マイルズ・マイコラス"
+    },
+    {
+      "player_id": 676617,
+      "english_name": "Riley O'Brien",
+      "japanese_name": "ライリー・オブライエン"
+    },
+    {
+      "player_id": 669461,
+      "english_name": "Matthew Liberatore",
+      "japanese_name": "マシュー・リベラトーレ"
+    },
+    {
+      "player_id": 702795,
+      "english_name": "Ryan Loutos",
+      "japanese_name": "ライアン・ロウトス"
+    },
+    {
+      "player_id": 700669,
+      "english_name": "Gordon Graceffo",
+      "japanese_name": "ゴードン・グレイセフォ"
+    },
+    {
+      "player_id": 700270,
+      "english_name": "Yilber Diaz",
+      "japanese_name": "イルバー・ディアス"
+    },
+    {
+      "player_id": 691441,
+      "english_name": "Cristian Mena",
+      "japanese_name": "クリスティアン・メナ"
+    },
+    {
+      "player_id": 686826,
+      "english_name": "Bryce Jarvis",
+      "japanese_name": "ブライス・ジャービス"
+    },
+    {
+      "player_id": 573009,
+      "english_name": "Joe Mantiply",
+      "japanese_name": "ジョー・マンティプリ"
+    },
+    {
+      "player_id": 692544,
+      "english_name": "Joe Elbis",
+      "japanese_name": "ジョー・エルビス"
+    },
+    {
+      "player_id": 668678,
+      "english_name": "Zac Gallen",
+      "japanese_name": "ザック・ギャレン"
+    },
+    {
+      "player_id": 518876,
+      "english_name": "Merrill Kelly",
+      "japanese_name": "メリル・ケリー"
+    },
+    {
+      "player_id": 679885,
+      "english_name": "Justin Martinez",
+      "japanese_name": "ジャスティン・マルティネス"
+    },
+    {
+      "player_id": 674072,
+      "english_name": "Tommy Henry",
+      "japanese_name": "トミー・ヘンリー"
+    },
+    {
+      "player_id": 669203,
+      "english_name": "Corbin Burnes",
+      "japanese_name": "コービン・バーンズ"
+    },
+    {
+      "player_id": 640462,
+      "english_name": "A.J. Puk",
+      "japanese_name": "アジェイ・プク"
+    },
+    {
+      "player_id": 657044,
+      "english_name": "Ryan Thompson",
+      "japanese_name": "ライアン・トンプソン"
+    },
+    {
+      "player_id": 669194,
+      "english_name": "Ryne Nelson",
+      "japanese_name": "ライン・ネルソン"
+    },
+    {
+      "player_id": 656464,
+      "english_name": "Kevin Ginkel",
+      "japanese_name": "ケビン・ギンケル"
+    },
+    {
+      "player_id": 686753,
+      "english_name": "Drey Jameson",
+      "japanese_name": "ドリー・ジェイムソン"
+    },
+    {
+      "player_id": 656756,
+      "english_name": "Jordan Montgomery",
+      "japanese_name": "ジョーダン・モンゴメリー"
+    },
+    {
+      "player_id": 686796,
+      "english_name": "Blake Walston",
+      "japanese_name": "ブレイク・ウォルストン"
+    },
+    {
+      "player_id": 593958,
+      "english_name": "Eduardo Rodriguez",
+      "japanese_name": "エドゥアルド・ロドリゲス"
+    },
+    {
+      "player_id": 661527,
+      "english_name": "Seth Martinez",
+      "japanese_name": "セス・マルティネス"
+    },
+    {
+      "player_id": 669459,
+      "english_name": "Kyle Nelson",
+      "japanese_name": "カイル・ネルソン"
+    },
+    {
+      "player_id": 694297,
+      "english_name": "Brandon Pfaadt",
+      "japanese_name": "ブランドン・ファート"
+    },
+    {
+      "player_id": 678495,
+      "english_name": "Randy Rodríguez",
+      "japanese_name": "ランディ・ロドリゲス"
+    },
+    {
+      "player_id": 690986,
+      "english_name": "Kyle Harrison",
+      "japanese_name": "カイル・ハリソン"
+    },
+    {
+      "player_id": 643511,
+      "english_name": "Tyler Rogers",
+      "japanese_name": "タイラー・ロジャース"
+    },
+    {
+      "player_id": 694738,
+      "english_name": "Landen Roupp",
+      "japanese_name": "ランデン・ループ"
+    },
+    {
+      "player_id": 669062,
+      "english_name": "Erik Miller",
+      "japanese_name": "エリック・ミラー"
+    },
+    {
+      "player_id": 686790,
+      "english_name": "Trevor McDonald",
+      "japanese_name": "トレバー・マクドナルド"
+    },
+    {
+      "player_id": 806185,
+      "english_name": "Hayden Birdsong",
+      "japanese_name": "ヘイデン・バードソング"
+    },
+    {
+      "player_id": 666808,
+      "english_name": "Camilo Doval",
+      "japanese_name": "カミロ・ドヴァル"
+    },
+    {
+      "player_id": 657277,
+      "english_name": "Logan Webb",
+      "japanese_name": "ローガン・ウェッブ"
+    },
+    {
+      "player_id": 663855,
+      "english_name": "Jordan Hicks",
+      "japanese_name": "ジョーダン・ヒックス"
+    },
+    {
+      "player_id": 693313,
+      "english_name": "Carson Seymour",
+      "japanese_name": "カーソン・シーモア"
+    },
+    {
+      "player_id": 592662,
+      "english_name": "Robbie Ray",
+      "japanese_name": "ロビー・レイ"
+    },
+    {
+      "player_id": 573124,
+      "english_name": "Taylor Rogers",
+      "japanese_name": "テイラー・ロジャース"
+    },
+    {
+      "player_id": 685068,
+      "english_name": "Carson Ragsdale",
+      "japanese_name": "カーソン・ラグズデール"
+    },
+    {
+      "player_id": 696131,
+      "english_name": "Mason Black",
+      "japanese_name": "メイソン・ブラック"
+    },
+    {
+      "player_id": 702352,
+      "english_name": "Spencer Bivens",
+      "japanese_name": "スペンサー・ビベンス"
+    },
+    {
+      "player_id": 663546,
+      "english_name": "Sean Hjelle",
+      "japanese_name": "ショーン・ヘレ"
+    },
+    {
+      "player_id": 676775,
+      "english_name": "Keaton Winn",
+      "japanese_name": "キートン・ウィン"
+    },
+    {
+      "player_id": 676254,
+      "english_name": "Ryan Walker",
+      "japanese_name": "ライアン・ウォーカー"
+    },
+    {
+      "player_id": 663941,
+      "english_name": "Tristan Beck",
+      "japanese_name": "トリスタン・ベック"
+    },
+    {
+      "player_id": 681810,
+      "english_name": "Austin Warren",
+      "japanese_name": "オースティン・ウォーレン"
+    },
+    {
+      "player_id": 687377,
+      "english_name": "Orlando Ribalta",
+      "japanese_name": "オーランド・リバルタ"
+    },
+    {
+      "player_id": 680730,
+      "english_name": "Mitchell Parker",
+      "japanese_name": "ミッチェル・パーカー"
+    },
+    {
+      "player_id": 647336,
+      "english_name": "Michael Soroka",
+      "japanese_name": "マイケル・ソロカ"
+    },
+    {
+      "player_id": 663623,
+      "english_name": "Jake Irvin",
+      "japanese_name": "ジェイク・アービン"
+    },
+    {
+      "player_id": 674285,
+      "english_name": "Eduardo Salazar",
+      "japanese_name": "エドゥアルド・サラザール"
+    },
+    {
+      "player_id": 571882,
+      "english_name": "Derek Law",
+      "japanese_name": "デレク・ロー"
+    },
+    {
+      "player_id": 691251,
+      "english_name": "Andry Lara",
+      "japanese_name": "アンドリー・ララ"
+    },
+    {
+      "player_id": 672851,
+      "english_name": "Joan Adon",
+      "japanese_name": "ジョーン・アドン"
+    },
+    {
+      "player_id": 678606,
+      "english_name": "Jose A. Ferrer",
+      "japanese_name": "ホセ・A・フェレール"
+    },
+    {
+      "player_id": 694350,
+      "english_name": "Zach Brzykcy",
+      "japanese_name": "ザック・ブジクシ"
+    },
+    {
+      "player_id": 687792,
+      "english_name": "DJ Herz",
+      "japanese_name": "ディジェイ・ ハーツ"
+    },
+    {
+      "player_id": 669022,
+      "english_name": "MacKenzie Gore",
+      "japanese_name": "マッケンジー・ゴア"
+    },
+    {
+      "player_id": 592866,
+      "english_name": "Trevor Williams",
+      "japanese_name": "トレバー・ウィリアムズ"
+    },
+    {
+      "player_id": 682126,
+      "english_name": "Evan Reifert",
+      "japanese_name": "エヴァン・ライフェルト"
+    },
+    {
+      "player_id": 686747,
+      "english_name": "Joe La Sorsa",
+      "japanese_name": "ジョー・ラ・ソルサ"
+    },
+    {
+      "player_id": 669371,
+      "english_name": "Cole Henry",
+      "japanese_name": "コール・ヘンリー"
+    },
+    {
+      "player_id": 671131,
+      "english_name": "Jackson Rutledge",
+      "japanese_name": "ジャクソン・ラトリッジ"
+    },
+    {
+      "player_id": 680686,
+      "english_name": "Josiah Gray",
+      "japanese_name": "ジョサイア・グレイ"
+    },
+    {
+      "player_id": 686294,
+      "english_name": "Amos Willingham",
+      "japanese_name": "エイモス・ウィリンガム"
+    },
+    {
+      "player_id": 666168,
+      "english_name": "Mason Thompson",
+      "japanese_name": "メイソン・トンプソン"
+    },
+    {
+      "player_id": 676917,
+      "english_name": "Cade Cavalli",
+      "japanese_name": "ケイド・カヴァリ"
+    },
+    {
+      "player_id": 682967,
+      "english_name": "Devin Sweet",
+      "japanese_name": "デビン・スウィート"
+    },
+    {
+      "player_id": 621381,
+      "english_name": "Matt Strahm",
+      "japanese_name": "マット・ストラム"
+    },
+    {
+      "player_id": 605400,
+      "english_name": "Aaron Nola",
+      "japanese_name": "アーロン・ノラ"
+    },
+    {
+      "player_id": 614179,
+      "english_name": "José Ruiz",
+      "japanese_name": "ホセ・ルイス"
+    },
+    {
+      "player_id": 624133,
+      "english_name": "Ranger Suárez",
+      "japanese_name": "レンジャー・スアレス"
+    },
+    {
+      "player_id": 676661,
+      "english_name": "Max Lazar",
+      "japanese_name": "マックス・ラザール"
+    },
+    {
+      "player_id": 691330,
+      "english_name": "Moisés Chace",
+      "japanese_name": "モイセス・チェイス"
+    },
+    {
+      "player_id": 605452,
+      "english_name": "Joe Ross",
+      "japanese_name": "ジョー・ロス"
+    },
+    {
+      "player_id": 660604,
+      "english_name": "Alan Rangel",
+      "japanese_name": "アラン・ランジェル"
+    },
+    {
+      "player_id": 675650,
+      "english_name": "Michael Mercado",
+      "japanese_name": "マイケル・メルカド"
+    },
+    {
+      "player_id": 663969,
+      "english_name": "Tyler Phillips",
+      "japanese_name": "タイラー・フィリップス"
+    },
+    {
+      "player_id": 667725,
+      "english_name": "Kyle Tyler",
+      "japanese_name": "カイル・タイラー"
+    },
+    {
+      "player_id": 650911,
+      "english_name": "Cristopher Sánchez",
+      "japanese_name": "クリストファー・サンチェス"
+    },
+    {
+      "player_id": 686751,
+      "english_name": "Seth Johnson",
+      "japanese_name": "セス・ジョンソン"
+    },
+    {
+      "player_id": 592836,
+      "english_name": "Taijuan Walker",
+      "japanese_name": "タイジュアン・ウォーカー"
+    },
+    {
+      "player_id": 554430,
+      "english_name": "Zack Wheeler",
+      "japanese_name": "ザック・ウィーラー"
+    },
+    {
+      "player_id": 666200,
+      "english_name": "Jesús Luzardo",
+      "japanese_name": "ヘスス・ルザルド"
+    },
+    {
+      "player_id": 621237,
+      "english_name": "José Alvarado",
+      "japanese_name": "ホセ・アルバラド"
+    },
+    {
+      "player_id": 689147,
+      "english_name": "Orion Kerkering",
+      "japanese_name": "オリオン・ケルケリング"
+    },
+    {
+      "player_id": 605447,
+      "english_name": "Jordan Romano",
+      "japanese_name": "ジョーダン・ロマーノ"
+    },
+    {
+      "player_id": 691893,
+      "english_name": "Jean Cabrera",
+      "japanese_name": "ジャン・カブレラ"
+    },
+    {
+      "player_id": 621383,
+      "english_name": "Tanner Banks",
+      "japanese_name": "タナー・バンクス"
+    },
+    {
+      "player_id": 690953,
+      "english_name": "Mick Abel",
+      "japanese_name": "ミック・アベル"
+    },
+    {
+      "player_id": 650559,
+      "english_name": "Bryan De La Cruz",
+      "japanese_name": "ブライアン・デラクルーズ"
+    },
+    {
+      "player_id": 685133,
+      "english_name": "Wade Meckler",
+      "japanese_name": "ウェイド・メクラー"
+    },
+    {
+      "player_id": 670156,
+      "english_name": "Miles Mastrobuoni",
+      "japanese_name": "マイルズ・マストロブオーニ"
+    },
+    {
+      "player_id": 660644,
+      "english_name": "Vidal Bruján",
+      "japanese_name": "ビダル・ブルハン"
+    },
+    {
+      "player_id": 676679,
+      "english_name": "Luis Vazquez",
+      "japanese_name": "ルイス・バスケス"
+    },
+    {
+      "player_id": 621020,
+      "english_name": "Dansby Swanson",
+      "japanese_name": "ダンズビー・スワンソン"
+    },
+    {
+      "player_id": 691185,
+      "english_name": "Max Acosta",
+      "japanese_name": "マックス・アコスタ"
+    },
+    {
+      "player_id": 691858,
+      "english_name": "Jared Serna",
+      "japanese_name": "ジャレッド・セルナ"
+    },
+    {
+      "player_id": 669364,
+      "english_name": "Xavier Edwards",
+      "japanese_name": "ザビエル・エドワーズ"
+    },
+    {
+      "player_id": 682668,
+      "english_name": "Luisangel Acuña",
+      "japanese_name": "ルイサンジェル・アクーニャ"
+    },
+    {
+      "player_id": 596019,
+      "english_name": "Francisco Lindor",
+      "japanese_name": "フランシスコ・リンドール"
+    },
+    {
+      "player_id": 677595,
+      "english_name": "Ronny Mauricio",
+      "japanese_name": "ロニー・マウリシオ"
+    },
+    {
+      "player_id": 608369,
+      "english_name": "Corey Seager",
+      "japanese_name": "コーリー・シーガー"
+    },
+    {
+      "player_id": 805373,
+      "english_name": "Nacho Alvarez Jr.",
+      "japanese_name": "ナチョ・アルバレスJr."
+    },
+    {
+      "player_id": 606115,
+      "english_name": "Orlando Arcia",
+      "japanese_name": "オーランド・アルシア"
+    },
+    {
+      "player_id": 686551,
+      "english_name": "Christian Cairo",
+      "japanese_name": "クリスチャン・カイロ"
+    },
+    {
+      "player_id": 669397,
+      "english_name": "Nick Allen",
+      "japanese_name": "ニック・アレン"
+    },
+    {
+      "player_id": 596115,
+      "english_name": "Trevor Story",
+      "japanese_name": "トレバー・ストーリー"
+    },
+    {
+      "player_id": 666152,
+      "english_name": "David Hamilton",
+      "japanese_name": "デビッド・ハミルトン"
+    },
+    {
+      "player_id": 678882,
+      "english_name": "Ceddanne Rafaela",
+      "japanese_name": "セダン・ラファエラ"
+    },
+    {
+      "player_id": 668952,
+      "english_name": "Ryan Kreidler",
+      "japanese_name": "ライアン・クライドラー"
+    },
+    {
+      "player_id": 700242,
+      "english_name": "Trey Sweeney",
+      "japanese_name": "トレイ・スウィーニー"
+    },
+    {
+      "player_id": 656716,
+      "english_name": "Zach McKinstry",
+      "japanese_name": "ザック・マッキンストリー"
+    },
+    {
+      "player_id": 595879,
+      "english_name": "Javier Báez",
+      "japanese_name": "ハビエル・バエス"
+    },
+    {
+      "player_id": 694376,
+      "english_name": "Shay Whitcomb",
+      "japanese_name": "シェイ・ウィコム"
+    },
+    {
+      "player_id": 665161,
+      "english_name": "Jeremy Peña",
+      "japanese_name": "ジェレミー・ペーニャ"
+    },
+    {
+      "player_id": 676609,
+      "english_name": "José Caballero",
+      "japanese_name": "ホセ・カバレロ"
+    },
+    {
+      "player_id": 670764,
+      "english_name": "Taylor Walls",
+      "japanese_name": "テイラー・ウォールズ"
+    },
+    {
+      "player_id": 678545,
+      "english_name": "Osleivis Basabe",
+      "japanese_name": "オスレヴィス・バサベ"
+    },
+    {
+      "player_id": 680574,
+      "english_name": "Matt McLain",
+      "japanese_name": "マット・マクレーン"
+    },
+    {
+      "player_id": 682829,
+      "english_name": "Elly De La Cruz",
+      "japanese_name": "エリー・デラクルス"
+    },
+    {
+      "player_id": 686797,
+      "english_name": "Brooks Lee",
+      "japanese_name": "ブルックス・リー"
+    },
+    {
+      "player_id": 650489,
+      "english_name": "Willi Castro",
+      "japanese_name": "ウィリ・カストロ"
+    },
+    {
+      "player_id": 621043,
+      "english_name": "Carlos Correa",
+      "japanese_name": "カルロス・コレア"
+    },
+    {
+      "player_id": 678662,
+      "english_name": "Ezequiel Tovar",
+      "japanese_name": "エセキエル・トヴァル"
+    },
+    {
+      "player_id": 683011,
+      "english_name": "Anthony Volpe",
+      "japanese_name": "アンソニー・ヴォルペ"
+    },
+    {
+      "player_id": 664238,
+      "english_name": "Dylan Moore",
+      "japanese_name": "ディラン・ムーア"
+    },
+    {
+      "player_id": 660844,
+      "english_name": "Leo Rivas",
+      "japanese_name": "レオ・リバス"
+    },
+    {
+      "player_id": 641487,
+      "english_name": "J.P. Crawford",
+      "japanese_name": "ジェイピー・クロフォード"
+    },
+    {
+      "player_id": 683002,
+      "english_name": "Gunnar Henderson",
+      "japanese_name": "グンナー・ヘンダーソン"
+    },
+    {
+      "player_id": 670869,
+      "english_name": "Livan Soto",
+      "japanese_name": "リバン・ソト"
+    },
+    {
+      "player_id": 676070,
+      "english_name": "Jacob Amaya",
+      "japanese_name": "ジェイコブ・アマヤ"
+    },
+    {
+      "player_id": 695657,
+      "english_name": "Colson Montgomery",
+      "japanese_name": "コルソン・モンゴメリー"
+    },
+    {
+      "player_id": 805779,
+      "english_name": "Jacob Wilson",
+      "japanese_name": "ジェイコブ・ウィルソン"
+    },
+    {
+      "player_id": 680474,
+      "english_name": "Max Schuemann",
+      "japanese_name": "マックス・シューマン"
+    },
+    {
+      "player_id": 677870,
+      "english_name": "Leo Jiménez",
+      "japanese_name": "レオ・ヒメネス"
+    },
+    {
+      "player_id": 666182,
+      "english_name": "Bo Bichette",
+      "japanese_name": "ボー・ビシェット"
+    },
+    {
+      "player_id": 677951,
+      "english_name": "Bobby Witt Jr.",
+      "japanese_name": "ボビー・ウィット・ジュニア"
+    },
+    {
+      "player_id": 621028,
+      "english_name": "Kevin Newman",
+      "japanese_name": "ケビン・ニューマン"
+    },
+    {
+      "player_id": 687263,
+      "english_name": "Zach Neto",
+      "japanese_name": "ザック・ネト"
+    },
+    {
+      "player_id": 664068,
+      "english_name": "Scott Kingery",
+      "japanese_name": "スコット・キンガリー"
+    },
+    {
+      "player_id": 665833,
+      "english_name": "Oneil Cruz",
+      "japanese_name": "オニール・クルーズ"
+    },
+    {
+      "player_id": 691907,
+      "english_name": "Tsung-Che Cheng",
+      "japanese_name": "ツンチェ・チェン"
+    },
+    {
+      "player_id": 678894,
+      "english_name": "Liover Peguero",
+      "japanese_name": "リオーベル・ペゲーロ"
+    },
+    {
+      "player_id": 682177,
+      "english_name": "Daniel Schneemann",
+      "japanese_name": "ダニエル・シュニーマン"
+    },
+    {
+      "player_id": 682877,
+      "english_name": "Juan Brito",
+      "japanese_name": "フアン・ブリト"
+    },
+    {
+      "player_id": 677587,
+      "english_name": "Brayan Rocchio",
+      "japanese_name": "ブラヤン・ロッキオ"
+    },
+    {
+      "player_id": 605141,
+      "english_name": "Mookie Betts",
+      "japanese_name": "ムーキー・ベッツ"
+    },
+    {
+      "player_id": 500743,
+      "english_name": "Miguel Rojas",
+      "japanese_name": "ミゲル・ロハス"
+    },
+    {
+      "player_id": 691026,
+      "english_name": "Masyn Winn",
+      "japanese_name": "メイシン・ウィン"
+    },
+    {
+      "player_id": 677942,
+      "english_name": "Blaze Alexander",
+      "japanese_name": "ブレイズ・アレクサンダー"
+    },
+    {
+      "player_id": 691783,
+      "english_name": "Jordan Lawlar",
+      "japanese_name": "ジョーダン・ローラー"
+    },
+    {
+      "player_id": 672695,
+      "english_name": "Geraldo Perdomo",
+      "japanese_name": "ヘラルド・ペルドモ"
+    },
+    {
+      "player_id": 666149,
+      "english_name": "Tyler Fitzgerald",
+      "japanese_name": "タイラー・フィッツジェラルド"
+    },
+    {
+      "player_id": 682617,
+      "english_name": "Marco Luciano",
+      "japanese_name": "マルコ・ルチアーノ"
+    },
+    {
+      "player_id": 642715,
+      "english_name": "Willy Adames",
+      "japanese_name": "ウィリー・アダムス"
+    },
+    {
+      "player_id": 683083,
+      "english_name": "Nasim Nuñez",
+      "japanese_name": "ナシム・ヌニェス"
+    },
+    {
+      "player_id": 682928,
+      "english_name": "CJ Abrams",
+      "japanese_name": "シージェー・エイブラムス"
+    },
+    {
+      "player_id": 607208,
+      "english_name": "Trea Turner",
+      "japanese_name": "トレア・ターナー"
+    },
+    {
+      "player_id": 624641,
+      "english_name": "Edmundo Sosa",
+      "japanese_name": "エジムンド・ソーサ"
+    },
+    {
+      "player_id": 683737,
+      "english_name": "Michael Busch",
+      "japanese_name": "マイケル・ブッシュ"
+    },
+    {
+      "player_id": 681146,
+      "english_name": "Jonah Bride",
+      "japanese_name": "ジョナ・ブライド"
+    },
+    {
+      "player_id": 670223,
+      "english_name": "Matt Mervis",
+      "japanese_name": "マット・マーヴィス"
+    },
+    {
+      "player_id": 676724,
+      "english_name": "Jared Young",
+      "japanese_name": "ジャレッド・ヤング"
+    },
+    {
+      "player_id": 679822,
+      "english_name": "Justin Foscue",
+      "japanese_name": "ジャスティン・フォスキュー"
+    },
+    {
+      "player_id": 621566,
+      "english_name": "Matt Olson",
+      "japanese_name": "マット・オルソン"
+    },
+    {
+      "player_id": 671213,
+      "english_name": "Triston Casas",
+      "japanese_name": "トリストン・カサス"
+    },
+    {
+      "player_id": 679529,
+      "english_name": "Spencer Torkelson",
+      "japanese_name": "スペンサー・トーケルソン"
+    },
+    {
+      "player_id": 572138,
+      "english_name": "Jon Singleton",
+      "japanese_name": "ジョン・シングルトン"
+    },
+    {
+      "player_id": 701305,
+      "english_name": "Zach Dezenzo",
+      "japanese_name": "ザック・デゼンゾ"
+    },
+    {
+      "player_id": 572233,
+      "english_name": "Christian Walker",
+      "japanese_name": "クリスチャン・ウォーカー"
+    },
+    {
+      "player_id": 666018,
+      "english_name": "Jonathan Aranda",
+      "japanese_name": "ジョナサン・アランダ"
+    },
+    {
+      "player_id": 650490,
+      "english_name": "Yandy Díaz",
+      "japanese_name": "ヤンディ・ディアス"
+    },
+    {
+      "player_id": 687952,
+      "english_name": "Christian Encarnacion-Strand",
+      "japanese_name": "クリスチャン・エンカルナシオン・ストランド"
+    },
+    {
+      "player_id": 669911,
+      "english_name": "Michael Toglia",
+      "japanese_name": "マイケル・トリア"
+    },
+    {
+      "player_id": 700250,
+      "english_name": "Ben Rice",
+      "japanese_name": "ベン・ライス"
+    },
+    {
+      "player_id": 502671,
+      "english_name": "Paul Goldschmidt",
+      "japanese_name": "ポール・ゴールドシュミット"
+    },
+    {
+      "player_id": 650333,
+      "english_name": "Luis Arraez",
+      "japanese_name": "ルイス・アラエス"
+    },
+    {
+      "player_id": 630105,
+      "english_name": "Jake Cronenworth",
+      "japanese_name": "ジェイク・クロネンワース"
+    },
+    {
+      "player_id": 682988,
+      "english_name": "Tyler Locklear",
+      "japanese_name": "タイラー・ロックリア"
+    },
+    {
+      "player_id": 668853,
+      "english_name": "Austin Shenton",
+      "japanese_name": "オースティン・シェントン"
+    },
+    {
+      "player_id": 656811,
+      "english_name": "Ryan O'Hearn",
+      "japanese_name": "ライアン・オハーン"
+    },
+    {
+      "player_id": 663624,
+      "english_name": "Ryan Mountcastle",
+      "japanese_name": "ライアン・マウントキャッスル"
+    },
+    {
+      "player_id": 683734,
+      "english_name": "Andrew Vaughn",
+      "japanese_name": "アンドリュー・ヴォーン"
+    },
+    {
+      "player_id": 656555,
+      "english_name": "Rhys Hoskins",
+      "japanese_name": "リス・ホスキンス"
+    },
+    {
+      "player_id": 691016,
+      "english_name": "Tyler Soderstrom",
+      "japanese_name": "タイラー・ソーダーストロム"
+    },
+    {
+      "player_id": 665489,
+      "english_name": "Vladimir Guerrero Jr.",
+      "japanese_name": "ウラジミール・ゲレーロ・ジュニア"
+    },
+    {
+      "player_id": 686469,
+      "english_name": "Vinnie Pasquantino",
+      "japanese_name": "ヴィニー・パスカンティーノ"
+    },
+    {
+      "player_id": 668472,
+      "english_name": "Nick Pratto",
+      "japanese_name": "ニック・プラット"
+    },
+    {
+      "player_id": 676116,
+      "english_name": "Ryan Noda",
+      "japanese_name": "ライアン・ノダ"
+    },
+    {
+      "player_id": 694384,
+      "english_name": "Nolan Schanuel",
+      "japanese_name": "ノーラン・シャヌエル"
+    },
+    {
+      "player_id": 694359,
+      "english_name": "Niko Kavadas",
+      "japanese_name": "ニコ・カバダス"
+    },
+    {
+      "player_id": 687462,
+      "english_name": "Spencer Horwitz",
+      "japanese_name": "スペンサー・ホーウィッツ"
+    },
+    {
+      "player_id": 695257,
+      "english_name": "Billy Cook",
+      "japanese_name": "ビリー・クック"
+    },
+    {
+      "player_id": 700932,
+      "english_name": "Kyle Manzardo",
+      "japanese_name": "カイル・マンザード"
+    },
+    {
+      "player_id": 467793,
+      "english_name": "Carlos Santana",
+      "japanese_name": "カルロス・サンタナ"
+    },
+    {
+      "player_id": 681807,
+      "english_name": "David Fry",
+      "japanese_name": "デビッド・フライ"
+    },
+    {
+      "player_id": 518692,
+      "english_name": "Freddie Freeman",
+      "japanese_name": "フレディ・フリーマン"
+    },
+    {
+      "player_id": 663609,
+      "english_name": "Luken Baker",
+      "japanese_name": "ルーケン・ベイカー"
+    },
+    {
+      "player_id": 647304,
+      "english_name": "Josh Naylor",
+      "japanese_name": "ジョシュ・ネイラー"
+    },
+    {
+      "player_id": 527038,
+      "english_name": "Wilmer Flores",
+      "japanese_name": "ウィルマー・フローレス"
+    },
+    {
+      "player_id": 664774,
+      "english_name": "LaMonte Wade Jr.",
+      "japanese_name": "ラモンテ・ウェイド・ジュニア"
+    },
+    {
+      "player_id": 660766,
+      "english_name": "Juan Yepez",
+      "japanese_name": "フアン・イエペス"
+    },
+    {
+      "player_id": 665953,
+      "english_name": "Andrés Chaparro",
+      "japanese_name": "アンドレス・シャパロ"
+    },
+    {
+      "player_id": 605137,
+      "english_name": "Josh Bell",
+      "japanese_name": "ジョシュ・ベル"
+    },
+    {
+      "player_id": 663993,
+      "english_name": "Nathaniel Lowe",
+      "japanese_name": "ナサニエル・ロウ"
+    },
+    {
+      "player_id": 665019,
+      "english_name": "Kody Clemens",
+      "japanese_name": "コディ・クレメンス"
+    },
+    {
+      "player_id": 547180,
+      "english_name": "Bryce Harper",
+      "japanese_name": "ブライス・ハーパー"
+    },
+    {
+      "player_id": 663656,
+      "english_name": "Kyle Tucker",
+      "japanese_name": "カイル・タッカー"
+    },
+    {
+      "player_id": 664023,
+      "english_name": "Ian Happ",
+      "japanese_name": "イアン・ハップ"
+    },
+    {
+      "player_id": 673548,
+      "english_name": "Seiya Suzuki",
+      "japanese_name": "鈴木誠也"
+    },
+    {
+      "player_id": 691718,
+      "english_name": "Pete Crow-Armstrong",
+      "japanese_name": "ピート・クロウ・アームストロング"
+    },
+    {
+      "player_id": 682634,
+      "english_name": "Kevin Alcántara",
+      "japanese_name": "ケビン・アルカンタラ"
+    },
+    {
+      "player_id": 683357,
+      "english_name": "Owen Caissie",
+      "japanese_name": "オーウェン・ケイシー"
+    },
+    {
+      "player_id": 672744,
+      "english_name": "Alexander Canario",
+      "japanese_name": "アレクサンダー・カナリオ"
+    },
+    {
+      "player_id": 667472,
+      "english_name": "Dane Myers",
+      "japanese_name": "デーン・マイヤーズ"
+    },
+    {
+      "player_id": 656537,
+      "english_name": "Derek Hill",
+      "japanese_name": "デレク・ヒル"
+    },
+    {
+      "player_id": 669065,
+      "english_name": "Kyle Stowers",
+      "japanese_name": "カイル・ストワーズ"
+    },
+    {
+      "player_id": 665052,
+      "english_name": "Griffin Conine",
+      "japanese_name": "グリフィン・コナイン"
+    },
+    {
+      "player_id": 660821,
+      "english_name": "Jesús Sánchez",
+      "japanese_name": "ヘスス・サンチェス"
+    },
+    {
+      "player_id": 683748,
+      "english_name": "Victor Mesa Jr.",
+      "japanese_name": "ビクター・メサ・ジュニア"
+    },
+    {
+      "player_id": 642350,
+      "english_name": "Jose Siri",
+      "japanese_name": "ホセ・シリ"
+    },
+    {
+      "player_id": 621438,
+      "english_name": "Tyrone Taylor",
+      "japanese_name": "タイロン・テイラー"
+    },
+    {
+      "player_id": 516782,
+      "english_name": "Starling Marte",
+      "japanese_name": "スターリング・マルテ"
+    },
+    {
+      "player_id": 640492,
+      "english_name": "José Azocar",
+      "japanese_name": "ホセ・アゾカル"
+    },
+    {
+      "player_id": 665742,
+      "english_name": "Juan Soto",
+      "japanese_name": "フアン・ソト"
+    },
+    {
+      "player_id": 607043,
+      "english_name": "Brandon Nimmo",
+      "japanese_name": "ブランドン・ニモ"
+    },
+    {
+      "player_id": 666969,
+      "english_name": "Adolis García",
+      "japanese_name": "アドリス・ガルシア"
+    },
+    {
+      "player_id": 694671,
+      "english_name": "Wyatt Langford",
+      "japanese_name": "ワイアット・ラングフォード"
+    },
+    {
+      "player_id": 687957,
+      "english_name": "Dustin Harris",
+      "japanese_name": "ダスティン・ハリス"
+    },
+    {
+      "player_id": 665750,
+      "english_name": "Leody Taveras",
+      "japanese_name": "レオディ・タベラス"
+    },
+    {
+      "player_id": 694497,
+      "english_name": "Evan Carter",
+      "japanese_name": "エヴァン・カーター"
+    },
+    {
+      "player_id": 642201,
+      "english_name": "Eli White",
+      "japanese_name": "イーライ・ホワイト"
+    },
+    {
+      "player_id": 660670,
+      "english_name": "Ronald Acuña Jr.",
+      "japanese_name": "ロナルド・アクーニャ・ジュニア"
+    },
+    {
+      "player_id": 677578,
+      "english_name": "Carlos D. Rodriguez",
+      "japanese_name": "カルロス・D・ロドリゲス"
+    },
+    {
+      "player_id": 671739,
+      "english_name": "Michael Harris II",
+      "japanese_name": "マイケル・ハリス二世"
+    },
+    {
+      "player_id": 663897,
+      "english_name": "Luke Williams",
+      "japanese_name": "ルーク・ウィリアムズ"
+    },
+    {
+      "player_id": 672284,
+      "english_name": "Jarred Kelenic",
+      "japanese_name": "ジャレッド・ケレニック"
+    },
+    {
+      "player_id": 680776,
+      "english_name": "Jarren Duran",
+      "japanese_name": "ジャレン・デュラン"
+    },
+    {
+      "player_id": 677800,
+      "english_name": "Wilyer Abreu",
+      "japanese_name": "ワイリヤー・アブレイユ"
+    },
+    {
+      "player_id": 807799,
+      "english_name": "Masataka Yoshida",
+      "japanese_name": "吉田正尚"
+    },
+    {
+      "player_id": 608701,
+      "english_name": "Rob Refsnyder",
+      "japanese_name": "ロブ・レフスナイダー"
+    },
+    {
+      "player_id": 691373,
+      "english_name": "Jhostynxon Garcia",
+      "japanese_name": "ジョスティンクソン・ガルシア"
+    },
+    {
+      "player_id": 663837,
+      "english_name": "Matt Vierling",
+      "japanese_name": "マット・ビアリング"
+    },
+    {
+      "player_id": 681481,
+      "english_name": "Kerry Carpenter",
+      "japanese_name": "ケリー・カーペンター"
+    },
+    {
+      "player_id": 678009,
+      "english_name": "Parker Meadows",
+      "japanese_name": "パーカー メドウズ"
+    },
+    {
+      "player_id": 682985,
+      "english_name": "Riley Greene",
+      "japanese_name": "ライリー・グリーン"
+    },
+    {
+      "player_id": 672761,
+      "english_name": "Wenceel Pérez",
+      "japanese_name": "ウェンセル・ペレス"
+    },
+    {
+      "player_id": 669234,
+      "english_name": "Justyn-Henry Malloy",
+      "japanese_name": "ジャスティン・ヘンリー・マロイ"
+    },
+    {
+      "player_id": 643289,
+      "english_name": "Mauricio Dubón",
+      "japanese_name": "マウリシオ・ドゥボン"
+    },
+    {
+      "player_id": 670541,
+      "english_name": "Yordan Alvarez",
+      "japanese_name": "ヨーダン・アルバレス"
+    },
+    {
+      "player_id": 676694,
+      "english_name": "Jake Meyers",
+      "japanese_name": "ジェイク・マイヤーズ"
+    },
+    {
+      "player_id": 669450,
+      "english_name": "Cooper Hummel",
+      "japanese_name": "クーパー・フンメル"
+    },
+    {
+      "player_id": 694175,
+      "english_name": "Pedro León",
+      "japanese_name": "ペドロ・レオン"
+    },
+    {
+      "player_id": 666211,
+      "english_name": "Taylor Trammell",
+      "japanese_name": "テイラー・トラメル"
+    },
+    {
+      "player_id": 676801,
+      "english_name": "Chas McCormick",
+      "japanese_name": "チャス・マコーミック"
+    },
+    {
+      "player_id": 685744,
+      "english_name": "Kenedy Corona",
+      "japanese_name": "ケネディ・コロナ"
+    },
+    {
+      "player_id": 663968,
+      "english_name": "Jake Mangum",
+      "japanese_name": "ジェイク・マンガム"
+    },
+    {
+      "player_id": 676356,
+      "english_name": "Jonny DeLuca",
+      "japanese_name": "ジョニー・デルーカ"
+    },
+    {
+      "player_id": 666139,
+      "english_name": "Josh Lowe",
+      "japanese_name": "ジョシュ・ロウ"
+    },
+    {
+      "player_id": 670224,
+      "english_name": "Kameron Misner",
+      "japanese_name": "キャメロン・マイズナー"
+    },
+    {
+      "player_id": 668715,
+      "english_name": "Spencer Steer",
+      "japanese_name": "スペンサー・ステア"
+    },
+    {
+      "player_id": 641584,
+      "english_name": "Jake Fraley",
+      "japanese_name": "ジェイク・フレイリー"
+    },
+    {
+      "player_id": 670770,
+      "english_name": "TJ Friedl",
+      "japanese_name": "ジェイジェイ・フリードル"
+    },
+    {
+      "player_id": 694362,
+      "english_name": "Blake Dunn",
+      "japanese_name": "ブレイク・ダン"
+    },
+    {
+      "player_id": 677956,
+      "english_name": "Rece Hinds",
+      "japanese_name": "レシー・ハインズ"
+    },
+    {
+      "player_id": 656413,
+      "english_name": "Stuart Fairchild",
+      "japanese_name": "スチュアート・フェアチャイルド"
+    },
+    {
+      "player_id": 666181,
+      "english_name": "Will Benson",
+      "japanese_name": "ウィル・ベンソン"
+    },
+    {
+      "player_id": 674441,
+      "english_name": "Jacob Hurtubise",
+      "japanese_name": "ジェイコブ・ハルトゥビセ"
+    },
+    {
+      "player_id": 691181,
+      "english_name": "Emmanuel Rodriguez",
+      "japanese_name": "エマヌエル・ロドリゲス"
+    },
+    {
+      "player_id": 668885,
+      "english_name": "Austin Martin",
+      "japanese_name": "オースティン・マーティン"
+    },
+    {
+      "player_id": 680737,
+      "english_name": "Michael Helman",
+      "japanese_name": "マイケル・ヘルマン"
+    },
+    {
+      "player_id": 680577,
+      "english_name": "DaShawn Keirsey Jr.",
+      "japanese_name": "ダショーン・カーシー・ジュニア"
+    },
+    {
+      "player_id": 621439,
+      "english_name": "Byron Buxton",
+      "japanese_name": "バイロン・バクストン"
+    },
+    {
+      "player_id": 670242,
+      "english_name": "Matt Wallner",
+      "japanese_name": "マット・ウォールナー"
+    },
+    {
+      "player_id": 663616,
+      "english_name": "Trevor Larnach",
+      "japanese_name": "トレバー・ラーナック"
+    },
+    {
+      "player_id": 687597,
+      "english_name": "Jordan Beck",
+      "japanese_name": "ジョーダン・ベック"
+    },
+    {
+      "player_id": 592178,
+      "english_name": "Kris Bryant",
+      "japanese_name": "クリス・ブライアント"
+    },
+    {
+      "player_id": 692585,
+      "english_name": "Yanquiel Fernandez",
+      "japanese_name": "ヤンキエル・フェルナンデス"
+    },
+    {
+      "player_id": 656541,
+      "english_name": "Sam Hilliard",
+      "japanese_name": "サム・ヒリアード"
+    },
+    {
+      "player_id": 686668,
+      "english_name": "Brenton Doyle",
+      "japanese_name": "ブレントン・ドイル"
+    },
+    {
+      "player_id": 656248,
+      "english_name": "Sean Bouchard",
+      "japanese_name": "ショーン・ブシャール"
+    },
+    {
+      "player_id": 675659,
+      "english_name": "Greg Jones",
+      "japanese_name": "グレッグ・ジョーンズ"
+    },
+    {
+      "player_id": 691728,
+      "english_name": "Zac Veen",
+      "japanese_name": "ザック・ヴィーン"
+    },
+    {
+      "player_id": 666134,
+      "english_name": "Nolan Jones",
+      "japanese_name": "ノーラン・ジョーンズ"
+    },
+    {
+      "player_id": 691176,
+      "english_name": "Jasson Domínguez",
+      "japanese_name": "ヤソン・ドミンゲス"
+    },
+    {
+      "player_id": 592450,
+      "english_name": "Aaron Judge",
+      "japanese_name": "アーロン・ジャッジ"
+    },
+    {
+      "player_id": 641355,
+      "english_name": "Cody Bellinger",
+      "japanese_name": "コディ・ベリンジャー"
+    },
+    {
+      "player_id": 677592,
+      "english_name": "Everson Pereira",
+      "japanese_name": "エバーソン・ペレイラ"
+    },
+    {
+      "player_id": 663757,
+      "english_name": "Trent Grisham",
+      "japanese_name": "トレント・グリシャム"
+    },
+    {
+      "player_id": 665487,
+      "english_name": "Fernando Tatis Jr.",
+      "japanese_name": "フェルナンド・タティス・ジュニア"
+    },
+    {
+      "player_id": 672359,
+      "english_name": "Tirso Ornelas",
+      "japanese_name": "ティルソ・オルネラス"
+    },
+    {
+      "player_id": 663604,
+      "english_name": "Brandon Lockridge",
+      "japanese_name": "ブランドン・ロックリッジ"
+    },
+    {
+      "player_id": 701538,
+      "english_name": "Jackson Merrill",
+      "japanese_name": "ジャクソン・メリル"
+    },
+    {
+      "player_id": 645302,
+      "english_name": "Victor Robles",
+      "japanese_name": "ビクター・ロブレス"
+    },
+    {
+      "player_id": 687799,
+      "english_name": "Cade Marlowe",
+      "japanese_name": "ケイド・マーロウ"
+    },
+    {
+      "player_id": 677594,
+      "english_name": "Julio Rodríguez",
+      "japanese_name": "フリオ・ロドリゲス"
+    },
+    {
+      "player_id": 668227,
+      "english_name": "Randy Arozarena",
+      "japanese_name": "ランディ・アロザレナ"
+    },
+    {
+      "player_id": 670042,
+      "english_name": "Luke Raley",
+      "japanese_name": "ルーク・ラリー"
+    },
+    {
+      "player_id": 571745,
+      "english_name": "Mitch Haniger",
+      "japanese_name": "ミッチ・ハニガー"
+    },
+    {
+      "player_id": 686527,
+      "english_name": "Dominic Canzone",
+      "japanese_name": "ドミニク・カンツォーネ"
+    },
+    {
+      "player_id": 656775,
+      "english_name": "Cedric Mullins",
+      "japanese_name": "セドリック・マリンズ"
+    },
+    {
+      "player_id": 641933,
+      "english_name": "Tyler O'Neill",
+      "japanese_name": "タイラー・オニール"
+    },
+    {
+      "player_id": 677008,
+      "english_name": "Heston Kjerstad",
+      "japanese_name": "ヘストン・シェルスタッド"
+    },
+    {
+      "player_id": 681297,
+      "english_name": "Colton Cowser",
+      "japanese_name": "コルトン・カウザー"
+    },
+    {
+      "player_id": 663662,
+      "english_name": "Daz Cameron",
+      "japanese_name": "ダズ・キャメロン"
+    },
+    {
+      "player_id": 676113,
+      "english_name": "Zach DeLoach",
+      "japanese_name": "ザック・デローチ"
+    },
+    {
+      "player_id": 643565,
+      "english_name": "Mike Tauchman",
+      "japanese_name": "マイク・タッチマン"
+    },
+    {
+      "player_id": 693049,
+      "english_name": "Oscar Colás",
+      "japanese_name": "オスカル・コラス"
+    },
+    {
+      "player_id": 666150,
+      "english_name": "Dominic Fletcher",
+      "japanese_name": "ドミニク・フレッチャー"
+    },
+    {
+      "player_id": 673357,
+      "english_name": "Luis Robert Jr.",
+      "japanese_name": "ルイス・ロバート・ジュニア"
+    },
+    {
+      "player_id": 596103,
+      "english_name": "Austin Slater",
+      "japanese_name": "オースティン・スレーター"
+    },
+    {
+      "player_id": 643217,
+      "english_name": "Andrew Benintendi",
+      "japanese_name": "アンドリュー・ベニンテンディ"
+    },
+    {
+      "player_id": 663368,
+      "english_name": "Blake Perkins",
+      "japanese_name": "ブレイク・パーキンス"
+    },
+    {
+      "player_id": 592885,
+      "english_name": "Christian Yelich",
+      "japanese_name": "クリスチャン・イエリッチ"
+    },
+    {
+      "player_id": 694192,
+      "english_name": "Jackson Chourio",
+      "japanese_name": "ジャクソン・チョリオ"
+    },
+    {
+      "player_id": 686555,
+      "english_name": "Isaac Collins",
+      "japanese_name": "アイザック・コリンズ"
+    },
+    {
+      "player_id": 676551,
+      "english_name": "Brewer Hicklen",
+      "japanese_name": "醸造家ヒクレン"
+    },
+    {
+      "player_id": 686217,
+      "english_name": "Sal Frelick",
+      "japanese_name": "サル・フレリック"
+    },
+    {
+      "player_id": 669003,
+      "english_name": "Garrett Mitchell",
+      "japanese_name": "ギャレット・ミッチェル"
+    },
+    {
+      "player_id": 671732,
+      "english_name": "Lawrence Butler",
+      "japanese_name": "ローレンス・バトラー"
+    },
+    {
+      "player_id": 609280,
+      "english_name": "Miguel Andujar",
+      "japanese_name": "ミゲル・アンドゥハル"
+    },
+    {
+      "player_id": 667670,
+      "english_name": "Brent Rooker",
+      "japanese_name": "ブレント・ルーカー"
+    },
+    {
+      "player_id": 664913,
+      "english_name": "Seth Brown",
+      "japanese_name": "セス・ブラウン"
+    },
+    {
+      "player_id": 672016,
+      "english_name": "Denzel Clarke",
+      "japanese_name": "デンゼル・クラーク"
+    },
+    {
+      "player_id": 668709,
+      "english_name": "JJ Bleday",
+      "japanese_name": "ジェイジェイ・ ブレーデイ"
+    },
+    {
+      "player_id": 665923,
+      "english_name": "Esteury Ruiz",
+      "japanese_name": "エストゥリー・ルイス"
+    },
+    {
+      "player_id": 676914,
+      "english_name": "Davis Schneider",
+      "japanese_name": "デイビス・シュナイダー"
+    },
+    {
+      "player_id": 672642,
+      "english_name": "Steward Berroa",
+      "japanese_name": "スチュワード・ベロア"
+    },
+    {
+      "player_id": 694388,
+      "english_name": "Joey Loperfido",
+      "japanese_name": "ジョーイ・ロパーフィド"
+    },
+    {
+      "player_id": 682729,
+      "english_name": "Jonatan Clase",
+      "japanese_name": "ジョナタン・クラーゼ"
+    },
+    {
+      "player_id": 662139,
+      "english_name": "Daulton Varsho",
+      "japanese_name": "ダルトン・ヴァーショ"
+    },
+    {
+      "player_id": 543807,
+      "english_name": "George Springer",
+      "japanese_name": "ジョージ・スプリンガー"
+    },
+    {
+      "player_id": 664770,
+      "english_name": "Nathan Lukes",
+      "japanese_name": "ネイサン・ルークス"
+    },
+    {
+      "player_id": 680118,
+      "english_name": "Dairon Blanco",
+      "japanese_name": "ダイロン・ブランコ"
+    },
+    {
+      "player_id": 669004,
+      "english_name": "MJ Melendez",
+      "japanese_name": "エムジェイ・ メレンデス"
+    },
+    {
+      "player_id": 592669,
+      "english_name": "Hunter Renfroe",
+      "japanese_name": "ハンター・レンフロー"
+    },
+    {
+      "player_id": 676369,
+      "english_name": "Nelson Velázquez",
+      "japanese_name": "ネルソン・ベラスケス"
+    },
+    {
+      "player_id": 686894,
+      "english_name": "Joey Wiemer",
+      "japanese_name": "ジョーイ・ウィーマー"
+    },
+    {
+      "player_id": 694355,
+      "english_name": "Tyler Gentry",
+      "japanese_name": "タイラー・ジェントリー"
+    },
+    {
+      "player_id": 664728,
+      "english_name": "Kyle Isbel",
+      "japanese_name": "カイル・イズベル"
+    },
+    {
+      "player_id": 671221,
+      "english_name": "Drew Waters",
+      "japanese_name": "ドリュー・ウォーターズ"
+    },
+    {
+      "player_id": 666160,
+      "english_name": "Mickey Moniak",
+      "japanese_name": "ミッキー・モニアック"
+    },
+    {
+      "player_id": 672569,
+      "english_name": "Gustavo Campero",
+      "japanese_name": "グスタボ・カンペロ"
+    },
+    {
+      "player_id": 621493,
+      "english_name": "Taylor Ward",
+      "japanese_name": "テイラー・ウォード"
+    },
+    {
+      "player_id": 683090,
+      "english_name": "Matthew Lugo",
+      "japanese_name": "マシュー・ルーゴ"
+    },
+    {
+      "player_id": 666176,
+      "english_name": "Jo Adell",
+      "japanese_name": "ジョー・アデル"
+    },
+    {
+      "player_id": 545361,
+      "english_name": "Mike Trout",
+      "japanese_name": "マイク・トラウト"
+    },
+    {
+      "player_id": 624585,
+      "english_name": "Jorge Soler",
+      "japanese_name": "ホルヘ・ソレル"
+    },
+    {
+      "player_id": 641943,
+      "english_name": "Joshua Palacios",
+      "japanese_name": "ジョシュア・パラシオス"
+    },
+    {
+      "player_id": 457705,
+      "english_name": "Andrew McCutchen",
+      "japanese_name": "アンドリュー・マカッチェン"
+    },
+    {
+      "player_id": 668804,
+      "english_name": "Bryan Reynolds",
+      "japanese_name": "ブライアン・レイノルズ"
+    },
+    {
+      "player_id": 678225,
+      "english_name": "Ji Hwan Bae",
+      "japanese_name": "ペ・ジファン"
+    },
+    {
+      "player_id": 669261,
+      "english_name": "Jack Suwinski",
+      "japanese_name": "ジャック・スウィンスキー"
+    },
+    {
+      "player_id": 678877,
+      "english_name": "Jhonkensy Noel",
+      "japanese_name": "ジョンケンシー・ノエル"
+    },
+    {
+      "player_id": 657041,
+      "english_name": "Lane Thomas",
+      "japanese_name": "レーン・トーマス"
+    },
+    {
+      "player_id": 680757,
+      "english_name": "Steven Kwan",
+      "japanese_name": "スティーブン・クワン"
+    },
+    {
+      "player_id": 690984,
+      "english_name": "Petey Halpin",
+      "japanese_name": "ピーティ・ハルピン"
+    },
+    {
+      "player_id": 682657,
+      "english_name": "Angel Martínez",
+      "japanese_name": "アンヘル・マルティネス"
+    },
+    {
+      "player_id": 671286,
+      "english_name": "Johnathan Rodriguez",
+      "japanese_name": "ジョナサン・ロドリゲス"
+    },
+    {
+      "player_id": 671289,
+      "english_name": "Tyler Freeman",
+      "japanese_name": "タイラー・フリーマン"
+    },
+    {
+      "player_id": 686823,
+      "english_name": "Will Brennan",
+      "japanese_name": "ウィル・ブレナン"
+    },
+    {
+      "player_id": 624424,
+      "english_name": "Michael Conforto",
+      "japanese_name": "マイケル・コンフォルト"
+    },
+    {
+      "player_id": 681624,
+      "english_name": "Andy Pages",
+      "japanese_name": "アンディ・ペイジス"
+    },
+    {
+      "player_id": 669242,
+      "english_name": "Tommy Edman",
+      "japanese_name": "トミー・エドマン"
+    },
+    {
+      "player_id": 621035,
+      "english_name": "Chris Taylor",
+      "japanese_name": "クリス・テイラー"
+    },
+    {
+      "player_id": 681546,
+      "english_name": "James Outman",
+      "japanese_name": "ジェームズ・アウトマン"
+    },
+    {
+      "player_id": 606192,
+      "english_name": "Teoscar Hernández",
+      "japanese_name": "テオスカー・エルナンデス"
+    },
+    {
+      "player_id": 691023,
+      "english_name": "Jordan Walker",
+      "japanese_name": "ジョーダン・ウォーカー"
+    },
+    {
+      "player_id": 676475,
+      "english_name": "Alec Burleson",
+      "japanese_name": "アレック・バーレソン"
+    },
+    {
+      "player_id": 672279,
+      "english_name": "Michael Siani",
+      "japanese_name": "マイケル・シアニ"
+    },
+    {
+      "player_id": 680977,
+      "english_name": "Brendan Donovan",
+      "japanese_name": "ブレンダン・ドノバン"
+    },
+    {
+      "player_id": 689288,
+      "english_name": "Matt Koperniak",
+      "japanese_name": "マット・コペルニアック"
+    },
+    {
+      "player_id": 663457,
+      "english_name": "Lars Nootbaar",
+      "japanese_name": "ラース・ノートバール"
+    },
+    {
+      "player_id": 687363,
+      "english_name": "Victor Scott II",
+      "japanese_name": "ビクター・スコット2世"
+    },
+    {
+      "player_id": 677950,
+      "english_name": "Alek Thomas",
+      "japanese_name": "アレック・トーマス"
+    },
+    {
+      "player_id": 682998,
+      "english_name": "Corbin Carroll",
+      "japanese_name": "コービン・キャロル"
+    },
+    {
+      "player_id": 664983,
+      "english_name": "Jake McCarthy",
+      "japanese_name": "ジェイク・マッカーシー"
+    },
+    {
+      "player_id": 678489,
+      "english_name": "Jorge Barrosa",
+      "japanese_name": "ホルヘ・バロサ"
+    },
+    {
+      "player_id": 666971,
+      "english_name": "Lourdes Gurriel Jr.",
+      "japanese_name": "ルルド・グリエルJr."
+    },
+    {
+      "player_id": 656976,
+      "english_name": "Pavin Smith",
+      "japanese_name": "ペイビン・スミス"
+    },
+    {
+      "player_id": 573262,
+      "english_name": "Mike Yastrzemski",
+      "japanese_name": "マイク・ヤストレムスキー"
+    },
+    {
+      "player_id": 682641,
+      "english_name": "Luis Matos",
+      "japanese_name": "ルイス・マトス"
+    },
+    {
+      "player_id": 666464,
+      "english_name": "Jerar Encarnacion",
+      "japanese_name": "ジェラール・エンカルナシオン"
+    },
+    {
+      "player_id": 671218,
+      "english_name": "Heliot Ramos",
+      "japanese_name": "ヘリオット・ラモス"
+    },
+    {
+      "player_id": 687529,
+      "english_name": "Grant McCray",
+      "japanese_name": "グラント・マックレー"
+    },
+    {
+      "player_id": 808982,
+      "english_name": "Jung Hoo Lee",
+      "japanese_name": "イ・ジョンフ"
+    },
+    {
+      "player_id": 695578,
+      "english_name": "James Wood",
+      "japanese_name": "ジェームス・ウッド"
+    },
+    {
+      "player_id": 686611,
+      "english_name": "Dylan Crews",
+      "japanese_name": "ディラン・クルーズ"
+    },
+    {
+      "player_id": 669743,
+      "english_name": "Alex Call",
+      "japanese_name": "アレックス・コール"
+    },
+    {
+      "player_id": 656448,
+      "english_name": "Stone Garrett",
+      "japanese_name": "ストーン・ギャレット"
+    },
+    {
+      "player_id": 690987,
+      "english_name": "Robert Hassell III",
+      "japanese_name": "ロバート・ハッセル三世"
+    },
+    {
+      "player_id": 696285,
+      "english_name": "Jacob Young",
+      "japanese_name": "ジェイコブ・ヤング"
+    },
+    {
+      "player_id": 592206,
+      "english_name": "Nick Castellanos",
+      "japanese_name": "ニック・カステヤノス"
+    },
+    {
+      "player_id": 596146,
+      "english_name": "Max Kepler",
+      "japanese_name": "マックス・ケプラー"
+    },
+    {
+      "player_id": 642215,
+      "english_name": "Weston Wilson",
+      "japanese_name": "ウェストン・ウィルソン"
+    },
+    {
+      "player_id": 669016,
+      "english_name": "Brandon Marsh",
+      "japanese_name": "ブランドン・マーシュ"
+    },
+    {
+      "player_id": 679032,
+      "english_name": "Johan Rojas",
+      "japanese_name": "ヨハン・ロハス"
+    },
+    {
+      "player_id": 670276,
+      "english_name": "Cal Stevenson",
+      "japanese_name": "カル・スティーブンソン"
+    },
+    {
+      "player_id": 669398,
+      "english_name": "Gage Workman",
+      "japanese_name": "ゲージ・ワークマン"
+    },
+    {
+      "player_id": 701496,
+      "english_name": "Benjamin Cowles",
+      "japanese_name": "ベンジャミン・カウルズ"
+    },
+    {
+      "player_id": 691277,
+      "english_name": "Deyvison De Los Santos",
+      "japanese_name": "デイヴィソン・デ・ロスサントス"
+    },
+    {
+      "player_id": 681393,
+      "english_name": "Connor Norby",
+      "japanese_name": "コナー・ノービー"
+    },
+    {
+      "player_id": 676572,
+      "english_name": "Eric Wagaman",
+      "japanese_name": "エリック・ワガマン"
+    },
+    {
+      "player_id": 688363,
+      "english_name": "Graham Pauley",
+      "japanese_name": "グラハム・ポーリー"
+    },
+    {
+      "player_id": 683146,
+      "english_name": "Brett Baty",
+      "japanese_name": "ブレット・バティ"
+    },
+    {
+      "player_id": 668901,
+      "english_name": "Mark Vientos",
+      "japanese_name": "マーク・ビエントス"
+    },
+    {
+      "player_id": 665782,
+      "english_name": "Luis De Los Santos",
+      "japanese_name": "ルイス・デ・ロス・サントス"
+    },
+    {
+      "player_id": 677649,
+      "english_name": "Ezequiel Duran",
+      "japanese_name": "エセキエル・デュラン"
+    },
+    {
+      "player_id": 680716,
+      "english_name": "Jonathan Ornelas",
+      "japanese_name": "ジョナサン・オルネラス"
+    },
+    {
+      "player_id": 669701,
+      "english_name": "Josh Smith",
+      "japanese_name": "ジョシュ・スミス"
+    },
+    {
+      "player_id": 669394,
+      "english_name": "Jake Burger",
+      "japanese_name": "ジェイク・バーガー"
+    },
+    {
+      "player_id": 673962,
+      "english_name": "Josh Jung",
+      "japanese_name": "ジョシュ・ジョン"
+    },
+    {
+      "player_id": 663586,
+      "english_name": "Austin Riley",
+      "japanese_name": "オースティン・ライリー"
+    },
+    {
+      "player_id": 646240,
+      "english_name": "Rafael Devers",
+      "japanese_name": "ラファエル・デバース"
+    },
+    {
+      "player_id": 690291,
+      "english_name": "Jace Jung",
+      "japanese_name": "ジェイス・ユング"
+    },
+    {
+      "player_id": 670623,
+      "english_name": "Isaac Paredes",
+      "japanese_name": "アイザック・パレデス"
+    },
+    {
+      "player_id": 691406,
+      "english_name": "Junior Caminero",
+      "japanese_name": "ジュニオール・カミネロ"
+    },
+    {
+      "player_id": 666624,
+      "english_name": "Christopher Morel",
+      "japanese_name": "クリストファー・モレル"
+    },
+    {
+      "player_id": 682622,
+      "english_name": "Noelvi Marte",
+      "japanese_name": "ノエルヴィ・マルテ"
+    },
+    {
+      "player_id": 669289,
+      "english_name": "Santiago Espinal",
+      "japanese_name": "サンティアゴ・エスピナル"
+    },
+    {
+      "player_id": 600869,
+      "english_name": "Jeimer Candelario",
+      "japanese_name": "ジェイマー・カンデラリオ"
+    },
+    {
+      "player_id": 668904,
+      "english_name": "Royce Lewis",
+      "japanese_name": "ロイス・ルイス"
+    },
+    {
+      "player_id": 669304,
+      "english_name": "Jose Miranda",
+      "japanese_name": "ホセ・ミランダ"
+    },
+    {
+      "player_id": 641857,
+      "english_name": "Ryan McMahon",
+      "japanese_name": "ライアン・マクマホン"
+    },
+    {
+      "player_id": 665862,
+      "english_name": "Jazz Chisholm Jr.",
+      "japanese_name": "ジャズ・チザム・ジュニア"
+    },
+    {
+      "player_id": 518934,
+      "english_name": "DJ LeMahieu",
+      "japanese_name": "ディジェイ・ ルマヒュー"
+    },
+    {
+      "player_id": 665828,
+      "english_name": "Oswaldo Cabrera",
+      "japanese_name": "オズワルド・カブレラ"
+    },
+    {
+      "player_id": 672724,
+      "english_name": "Oswald Peraza",
+      "japanese_name": "オズワルド・ペラザ"
+    },
+    {
+      "player_id": 592518,
+      "english_name": "Manny Machado",
+      "japanese_name": "マニー・マチャド"
+    },
+    {
+      "player_id": 642180,
+      "english_name": "Tyler Wade",
+      "japanese_name": "タイラー・ウェイド"
+    },
+    {
+      "player_id": 666703,
+      "english_name": "Eguy Rosario",
+      "japanese_name": "エギ・ロザリオ"
+    },
+    {
+      "player_id": 602104,
+      "english_name": "Ramón Urías",
+      "japanese_name": "ラモン・ウリアス"
+    },
+    {
+      "player_id": 676059,
+      "english_name": "Jordan Westburg",
+      "japanese_name": "ジョーダン・ウェストバーグ"
+    },
+    {
+      "player_id": 656896,
+      "english_name": "Emmanuel Rivera",
+      "japanese_name": "エマニュエル・リベラ"
+    },
+    {
+      "player_id": 691723,
+      "english_name": "Coby Mayo",
+      "japanese_name": "コビー・メイヨ"
+    },
+    {
+      "player_id": 678246,
+      "english_name": "Miguel Vargas",
+      "japanese_name": "ミゲル・バルガス"
+    },
+    {
+      "player_id": 672820,
+      "english_name": "Lenyn Sosa",
+      "japanese_name": "レーニン・ソーサ"
+    },
+    {
+      "player_id": 682868,
+      "english_name": "Bryan Ramos",
+      "japanese_name": "ブライアン・ラモス"
+    },
+    {
+      "player_id": 687401,
+      "english_name": "Joey Ortiz",
+      "japanese_name": "ジョーイ・オルティス"
+    },
+    {
+      "player_id": 681962,
+      "english_name": "Vinny Capra",
+      "japanese_name": "ヴィニー・キャプラ"
+    },
+    {
+      "player_id": 672012,
+      "english_name": "Tyler Black",
+      "japanese_name": "タイラー・ブラック"
+    },
+    {
+      "player_id": 655316,
+      "english_name": "Andruw Monasterio",
+      "japanese_name": "アンドルー修道院"
+    },
+    {
+      "player_id": 686554,
+      "english_name": "Oliver Dunn",
+      "japanese_name": "オリバー・ダン"
+    },
+    {
+      "player_id": 695391,
+      "english_name": "Brett Harris",
+      "japanese_name": "ブレット・ハリス"
+    },
+    {
+      "player_id": 570482,
+      "english_name": "Gio Urshela",
+      "japanese_name": "ジオ・アーシェラ"
+    },
+    {
+      "player_id": 687231,
+      "english_name": "Darell Hernaiz",
+      "japanese_name": "ダレル・ヘルナイズ"
+    },
+    {
+      "player_id": 680769,
+      "english_name": "CJ Alexander",
+      "japanese_name": "シージェー・アレクサンダー"
+    },
+    {
+      "player_id": 680718,
+      "english_name": "Addison Barger",
+      "japanese_name": "アディソン・バーガー"
+    },
+    {
+      "player_id": 676391,
+      "english_name": "Ernie Clement",
+      "japanese_name": "アーニー・クレメント"
+    },
+    {
+      "player_id": 672580,
+      "english_name": "Maikel Garcia",
+      "japanese_name": "マイケル・ガルシア"
+    },
+    {
+      "player_id": 650859,
+      "english_name": "Luis Rengifo",
+      "japanese_name": "ルイス・レンギフォ"
+    },
+    {
+      "player_id": 543685,
+      "english_name": "Anthony Rendon",
+      "japanese_name": "アンソニー・レンドン"
+    },
+    {
+      "player_id": 669707,
+      "english_name": "Jared Triolo",
+      "japanese_name": "ジャレッド・トリオーロ"
+    },
+    {
+      "player_id": 656484,
+      "english_name": "Tristan Gray",
+      "japanese_name": "トリスタン・グレイ"
+    },
+    {
+      "player_id": 663647,
+      "english_name": "Ke'Bryan Hayes",
+      "japanese_name": "ケブライアン・ヘイズ"
+    },
+    {
+      "player_id": 608070,
+      "english_name": "José Ramírez",
+      "japanese_name": "ホセ・ラミレス"
+    },
+    {
+      "player_id": 672356,
+      "english_name": "Gabriel Arias",
+      "japanese_name": "ガブリエル・アリアス"
+    },
+    {
+      "player_id": 571970,
+      "english_name": "Max Muncy",
+      "japanese_name": "マックス・マンシー"
+    },
+    {
+      "player_id": 571448,
+      "english_name": "Nolan Arenado",
+      "japanese_name": "ノーラン・アレナド"
+    },
+    {
+      "player_id": 553993,
+      "english_name": "Eugenio Suárez",
+      "japanese_name": "エウヘニオ・スアレス"
+    },
+    {
+      "player_id": 656305,
+      "english_name": "Matt Chapman",
+      "japanese_name": "マット・チャップマン"
+    },
+    {
+      "player_id": 677588,
+      "english_name": "José Tena",
+      "japanese_name": "ホセ・テナ"
+    },
+    {
+      "player_id": 702358,
+      "english_name": "Trey Lipscomb",
+      "japanese_name": "トレイ・リップスコム"
+    },
+    {
+      "player_id": 664761,
+      "english_name": "Alec Bohm",
+      "japanese_name": "アレック・ボーム"
+    },
+    {
+      "player_id": 663538,
+      "english_name": "Nico Hoerner",
+      "japanese_name": "ニコ・ヘルナー"
+    },
+    {
+      "player_id": 672640,
+      "english_name": "Otto Lopez",
+      "japanese_name": "オットー・ロペス"
+    },
+    {
+      "player_id": 691594,
+      "english_name": "Javier Sanoja",
+      "japanese_name": "ハビエル・サノハ"
+    },
+    {
+      "player_id": 643446,
+      "english_name": "Jeff McNeil",
+      "japanese_name": "ジェフ・マクニール"
+    },
+    {
+      "player_id": 543760,
+      "english_name": "Marcus Semien",
+      "japanese_name": "マーカス・セミエン"
+    },
+    {
+      "player_id": 645277,
+      "english_name": "Ozzie Albies",
+      "japanese_name": "オジー・アビーズ"
+    },
+    {
+      "player_id": 686765,
+      "english_name": "Nick Sogard",
+      "japanese_name": "ニック・ソガード"
+    },
+    {
+      "player_id": 663853,
+      "english_name": "Romy Gonzalez",
+      "japanese_name": "ロミー・ゴンザレス"
+    },
+    {
+      "player_id": 687093,
+      "english_name": "Vaughn Grissom",
+      "japanese_name": "ボーン・グリッソム"
+    },
+    {
+      "player_id": 628451,
+      "english_name": "Andy Ibáñez",
+      "japanese_name": "アンディ・イバニェス"
+    },
+    {
+      "player_id": 690993,
+      "english_name": "Colt Keith",
+      "japanese_name": "コルト・キース"
+    },
+    {
+      "player_id": 650402,
+      "english_name": "Gleyber Torres",
+      "japanese_name": "グレイバー・トーレス"
+    },
+    {
+      "player_id": 514888,
+      "english_name": "Jose Altuve",
+      "japanese_name": "ホセ・アルトゥーベ"
+    },
+    {
+      "player_id": 664040,
+      "english_name": "Brandon Lowe",
+      "japanese_name": "ブランドン・ロウ"
+    },
+    {
+      "player_id": 678554,
+      "english_name": "Curtis Mead",
+      "japanese_name": "カーティス・ミード"
+    },
+    {
+      "player_id": 680700,
+      "english_name": "Richie Palacios",
+      "japanese_name": "リッチー・パラシオス"
+    },
+    {
+      "player_id": 688682,
+      "english_name": "Cooper Bowman",
+      "japanese_name": "クーパー・ボウマン"
+    },
+    {
+      "player_id": 682997,
+      "english_name": "Tyler Callihan",
+      "japanese_name": "タイラー・カリハン"
+    },
+    {
+      "player_id": 666397,
+      "english_name": "Edouard Julien",
+      "japanese_name": "エドゥアール・ジュリアン"
+    },
+    {
+      "player_id": 681508,
+      "english_name": "Mickey Gasper",
+      "japanese_name": "ミッキー・ギャスパー"
+    },
+    {
+      "player_id": 571657,
+      "english_name": "Kyle Farmer",
+      "japanese_name": "カイル・ファーマー"
+    },
+    {
+      "player_id": 691182,
+      "english_name": "Adael Amador",
+      "japanese_name": "アダエル・アマドール"
+    },
+    {
+      "player_id": 668845,
+      "english_name": "Aaron Schunk",
+      "japanese_name": "アーロン・シュンク"
+    },
+    {
+      "player_id": 678391,
+      "english_name": "Jorbit Vivas",
+      "japanese_name": "ジョビット ビバス"
+    },
+    {
+      "player_id": 593428,
+      "english_name": "Xander Bogaerts",
+      "japanese_name": "松井 裕樹"
+    },
+    {
+      "player_id": 669208,
+      "english_name": "Ryan Bliss",
+      "japanese_name": "ライアン・ブリス"
+    },
+    {
+      "player_id": 669392,
+      "english_name": "Samad Taylor",
+      "japanese_name": "サマド・テイラー"
+    },
+    {
+      "player_id": 702616,
+      "english_name": "Jackson Holliday",
+      "japanese_name": "ジャクソン・ホリデイ"
+    },
+    {
+      "player_id": 622761,
+      "english_name": "Jorge Mateo",
+      "japanese_name": "ホルヘ・マテオ"
+    },
+    {
+      "player_id": 681460,
+      "english_name": "Brooks Baldwin",
+      "japanese_name": "ブルックス・ボールドウィン"
+    },
+    {
+      "player_id": 702332,
+      "english_name": "Caleb Durbin",
+      "japanese_name": "ケイレブ・ダービン"
+    },
+    {
+      "player_id": 668930,
+      "english_name": "Brice Turang",
+      "japanese_name": "ブライス・トゥラン"
+    },
+    {
+      "player_id": 680869,
+      "english_name": "Zack Gelof",
+      "japanese_name": "ザック・ゲロフ"
+    },
+    {
+      "player_id": 695238,
+      "english_name": "Will Wagner",
+      "japanese_name": "ウィル・ワグナー"
+    },
+    {
+      "player_id": 682619,
+      "english_name": "Orelvis Martinez",
+      "japanese_name": "オレルビス・マルティネス"
+    },
+    {
+      "player_id": 665926,
+      "english_name": "Andrés Giménez",
+      "japanese_name": "アンドレス・ヒメネス"
+    },
+    {
+      "player_id": 686681,
+      "english_name": "Michael Massey",
+      "japanese_name": "マイケル・マッシー"
+    },
+    {
+      "player_id": 663697,
+      "english_name": "Jonathan India",
+      "japanese_name": "インド"
+    },
+    {
+      "player_id": 679845,
+      "english_name": "Nick Loftin",
+      "japanese_name": "ニック・ロフティン"
+    },
+    {
+      "player_id": 677347,
+      "english_name": "Kyren Paris",
+      "japanese_name": "カイレン・パリ"
+    },
+    {
+      "player_id": 665839,
+      "english_name": "Enmanuel Valdez",
+      "japanese_name": "エマヌエル・バルデス"
+    },
+    {
+      "player_id": 693304,
+      "english_name": "Nick Gonzales",
+      "japanese_name": "ニック・ゴンザレス"
+    },
+    {
+      "player_id": 675961,
+      "english_name": "Alika Williams",
+      "japanese_name": "アリカ・ウィリアムズ"
+    },
+    {
+      "player_id": 694377,
+      "english_name": "Nick Yorke",
+      "japanese_name": "ニック・ヨーク"
+    },
+    {
+      "player_id": 643396,
+      "english_name": "Isiah Kiner-Falefa",
+      "japanese_name": "アイザイア・キナー・ファレファ"
+    },
+    {
+      "player_id": 666158,
+      "english_name": "Gavin Lux",
+      "japanese_name": "ギャビン・ラックス"
+    },
+    {
+      "player_id": 808975,
+      "english_name": "Hyeseong Kim",
+      "japanese_name": "キム・ヘソン"
+    },
+    {
+      "player_id": 695336,
+      "english_name": "Thomas Saggese",
+      "japanese_name": "トーマス・サゲス"
+    },
+    {
+      "player_id": 665877,
+      "english_name": "José Fermín",
+      "japanese_name": "ホセ・フェルミン"
+    },
+    {
+      "player_id": 669357,
+      "english_name": "Nolan Gorman",
+      "japanese_name": "ノーラン・ゴーマン"
+    },
+    {
+      "player_id": 606466,
+      "english_name": "Ketel Marte",
+      "japanese_name": "ケテル・マルテ"
+    },
+    {
+      "player_id": 694374,
+      "english_name": "Tim Tawa",
+      "japanese_name": "ティム・タワ"
+    },
+    {
+      "player_id": 689172,
+      "english_name": "Brett Wisely",
+      "japanese_name": "ブレット・ワイズリー"
+    },
+    {
+      "player_id": 681584,
+      "english_name": "David Villar",
+      "japanese_name": "デビッド・ヴィラール"
+    },
+    {
+      "player_id": 669477,
+      "english_name": "Casey Schmitt",
+      "japanese_name": "ケイシー・シュミット"
+    },
+    {
+      "player_id": 671117,
+      "english_name": "Darren Baker",
+      "japanese_name": "ダレン・ベイカー"
+    },
+    {
+      "player_id": 671277,
+      "english_name": "Luis García Jr.",
+      "japanese_name": "ルイス・ガルシア・ジュニア"
+    },
+    {
+      "player_id": 681082,
+      "english_name": "Bryson Stott",
+      "japanese_name": "ブライソン・ストット"
+    },
+    {
+      "player_id": 671083,
+      "english_name": "Buddy Kennedy",
+      "japanese_name": "バディ・ケネディ"
+    },
+    {
+      "player_id": 660271,
+      "english_name": "Shohei Ohtani",
+      "japanese_name": "大谷翔平"
+    },
+    {
+      "player_id": 592626,
+      "english_name": "Joc Pederson",
+      "japanese_name": "ジョク・ピーダーソン"
+    },
+    {
+      "player_id": 542303,
+      "english_name": "Marcell Ozuna",
+      "japanese_name": "マーセル・オズナ"
+    },
+    {
+      "player_id": 519317,
+      "english_name": "Giancarlo Stanton",
+      "japanese_name": "ジャンカルロ・スタントン"
+    },
+    {
+      "player_id": 641598,
+      "english_name": "Mitch Garver",
+      "japanese_name": "ミッチ・ガーバー"
+    },
+    {
+      "player_id": 656941,
+      "english_name": "Kyle Schwarber",
+      "japanese_name": "カイル・シュワーバー"
+    }
+  ]
+}

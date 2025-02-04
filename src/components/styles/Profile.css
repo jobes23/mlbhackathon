@@ -1,0 +1,171 @@
+/* Profile container styling */
+.profile-container {
+  max-width: 1200px; /* Increase max width for wider layouts */
+  margin: 0 auto;
+  padding: 20px;
+  color: #EAEAEA; /* Adjust text color */
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.profile-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Points display styling */
+.points-display {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Tabs container */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Tab button styling */
+.tabs button {
+  background-color: #444444;
+  color: #EAEAEA;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.tabs button.active-tab {
+  background-color: #ff5722; /* Highlight active tab */
+}
+
+.tabs button:hover {
+  background-color: #666666;
+}
+
+/* Opt-in checkbox styling */
+.opt-in-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.opt-in-container label {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+/* Challenge container */
+.challenges-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Auto-adjust to screen width */
+  gap: 20px;
+  padding: 16px;
+  width: 100%; /* Stretch challenges to fit the parent container */
+  box-sizing: border-box; /* Ensure padding and borders don't affect the grid */
+}
+
+
+/* Challenge card */
+.challenge-card {
+  background: #2d3e50;
+  border-radius: 12px;
+  padding: 16px;
+  color: #EAEAEA;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.challenge-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Challenge card header (color-specific) */
+.challenge-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.challenge-header.favorites {
+  background-color: #2196f3;
+}
+
+.challenge-header.milestone {
+  background-color: #4caf50;
+}
+
+.challenge-header.news {
+  background-color: #ff9800;
+}
+
+.challenge-header.media {
+  background-color: #9c27b0;
+}
+
+.challenge-header.engagement {
+  background-color: #f44336;
+}
+
+.challenge-header.profile {
+  background-color: #009688;
+}
+
+.challenge-header.social {
+  background-color: #3f51b5;
+}
+
+/* Challenge title */
+.challenge-card h4 {
+  font-size: 1.4em; /* Larger challenge title */
+  margin-bottom: 8px;
+}
+
+/* Challenge points */
+.challenge-card p {
+  font-size: 1em; /* Increase font size for points */
+  margin-bottom: 16px;
+}
+
+/* Challenge button */
+.challenge-btn {
+  background: linear-gradient(45deg, #ff5722, #ff9800);
+  color: #EAEAEA;
+  padding: 10px 16px; /* Slightly larger button */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em; /* Bigger button text */
+  transition: background 0.3s;
+}
+
+.challenge-btn:hover {
+  background: linear-gradient(45deg, #ff9800, #ff5722);
+}
+
+/* Completed badge */
+.completed-badge {
+  background: #4caf50;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* Challenge icon */
+.challenge-icon {
+  font-size: 2.5em; /* Slightly larger icon */
+  margin-bottom: 12px;
+}

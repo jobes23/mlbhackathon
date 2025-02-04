@@ -1,0 +1,174 @@
+img.logo {
+  max-width: 80%; /* Ensures the logo resizes on smaller screens */
+  height: auto; /* Maintains aspect ratio */
+  margin: 10px 0;
+}
+
+/* Menu item links */
+.menu a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits the color from the parent element */
+}
+
+.menu a:visited {
+  color: inherit; /* Prevents purple visited link color */
+}
+
+/* Existing menu-item styling */
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+  width: fit-content;
+}
+
+.menu-item:hover {
+  background-color: var(--mlb-dark-blue-lighter);
+  color: #fafafa;
+  border-radius: 8px;
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.menu-text {
+  font-size: 14px;
+}
+
+.language-selector {
+  margin-top: auto; /* Pushes it to the bottom */
+  padding: 10px 0;
+}
+
+.language-selector select {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #cdd2d9;
+  background-color: #fafafa;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.auth-buttons button {
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  background-color: var(--mlb-dark-blue-lighter);
+  border: none;
+  border-radius: 5px;
+  color: #EAEAEA;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-buttons button:hover {
+  background-color: #324f7b; /* Darker blue */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  background-color: var(--mlb-dark-blue);
+  color: #cdd2d9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 998;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidebar.open {
+  transform: translateX(0); /* Slide in when open */
+}
+
+.menu-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #cdd2d9; /* Default color */
+  cursor: pointer;
+  z-index: 999; /* Above the sidebar */
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.menu-bars-active {
+  color: #fafafa;
+}
+
+/* Hidden state */
+.menu.hidden {
+  display: none;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-points {
+  font-size: 24px;
+  color: #cdd2d9;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 30%; /* Shrink sidebar for smaller screens */
+    transform: translateX(-100%);
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menu-toggle {
+    font-size: 20px; /* Adjust size for mobile */
+    top: 5px;
+    left: 5px;
+  }
+
+  .menu-item {
+    width: 100%; /* Ensure items fill the width */
+  }
+
+  img.logo {
+    max-width: 70%; /* Resize logo further for smaller screens */
+  }
+}

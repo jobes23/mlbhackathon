@@ -1,0 +1,38 @@
+{
+  "functions": [
+    {
+      "source": "functions/cloud_functions",
+      "codebase": "default",
+      "runtime": "nodejs20",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ],
+  "emulators": {
+    "auth": {
+      "port": 5001
+    },
+    "functions": {
+      "port": 5002
+    },
+    "firestore": {
+      "port": 5003
+    },
+    "database": {
+      "port": 5004
+    },
+    "ui": {
+      "enabled": true,
+      "port": 5005
+    },
+    "singleProjectMode": true
+  }
+}

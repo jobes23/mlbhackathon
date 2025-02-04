@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "target": "ESNext", // Or a specific Node.js version if needed
+    "lib": ["ESNext"],  // Or a specific Node.js version if needed
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "composite": true, // Important for project references
+
+    /* Bundler mode */
+    "moduleResolution": "bundler", // Keep as "bundler" if using a bundler like Vite
+    "allowImportingTsExtensions": true, // Keep as true if using "bundler"
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "incremental": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true, // Add this for stricter checking
+    "noUncheckedSideEffectImports": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["vite.config.ts", "scripts/**/*.ts"]
+}

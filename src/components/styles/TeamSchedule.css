@@ -1,0 +1,103 @@
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two games per row */
+  gap: 10px;
+  min-height: 335px;
+  max-height: 70vh; /* Maintain max height for infinite scrolling */
+  overflow-y: auto; /* Enable vertical scrolling when needed */
+  padding: 10px;
+  background-color: #181a1b; /* Background for the grid */
+  border-radius: 8px;
+  margin-top: 10px;
+  color: #bbb;
+}
+
+.schedule-grid::-webkit-scrollbar {
+  width: 12px; /* Increase width for better visibility */
+}
+
+.schedule-grid::-webkit-scrollbar-thumb {
+  background-color: #666; /* Make thumb more prominent */
+  border-radius: 6px;
+}
+
+.schedule-grid::-webkit-scrollbar-track {
+  background-color: #202124; /* Match the theme */
+}
+
+/* Game Row */
+.game-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #202124; /* Background for game rows */
+  border-radius: 8px;
+  border: 1px solid #313335;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  height: 102px;
+}
+
+.gameCompleted{
+  cursor: pointer;
+}
+
+/* Teams Section */
+.teams-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+}
+
+/* Team Row */
+.team-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-logos {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.schedule-team-name {
+  font-size: x-small;
+  color: #ddd;
+}
+
+.team-score {
+  font-size: 14px;
+  font-weight: bold;
+  color: #bbb;
+  margin-left: auto; /* Align score to the right */
+}
+
+/* Game Metadata */
+.game-metadata {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.game-status,
+.game-date {
+  font-size: x-small;
+  color: #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select.season {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}

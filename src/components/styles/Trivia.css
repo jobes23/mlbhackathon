@@ -1,0 +1,122 @@
+.quiz-container {
+  max-width: 90%; /* Use max-width for better scaling */
+  margin: 20px auto;
+  padding: 15px; /* Reduced padding for smaller screens */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visibility */
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem; /* Scaled font size for better readability */
+}
+
+.question {
+  font-size: 1rem; /* Slightly smaller for mobile */
+  margin-bottom: 15px; /* Adjusted spacing */
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #EAEAEA;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  color: black;
+  font-size: 0.9rem; /* Slightly smaller font for compact layout */
+  text-align: center; /* Centers text for better alignment */
+}
+
+.option:hover {
+  background-color: #007bff;
+  color: #fafafa;
+}
+
+.option.selected {
+  background-color: #007bff;
+  color: #fafafa;
+}
+
+.next-btn {
+  display: block;
+  width: 100%; /* Full width for better tapping */
+  margin: 20px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #EAEAEA;
+  cursor: pointer;
+  font-size: 1rem; /* Adjusted size */
+  text-align: center;
+}
+
+.next-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.explanation {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem; /* Smaller font size for compact spacing */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.score {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.category-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+  .quiz-container {
+    padding: 10px; /* Less padding for smaller devices */
+    border-radius: 8px; /* Slightly reduced border radius */
+  }
+
+  h2 {
+    font-size: 1.2rem; /* Reduce heading size for smaller screens */
+  }
+
+  .question {
+    font-size: 0.9rem; /* Reduced question font size */
+  }
+
+  .option {
+    font-size: 0.8rem; /* Smaller font for options */
+    padding: 8px; /* Reduced padding for better layout */
+  }
+
+  .next-btn {
+    font-size: 0.9rem; /* Adjust button font for better fit */
+  }
+
+  .explanation {
+    font-size: 0.8rem; /* Compact explanation text */
+  }
+
+  .score {
+    font-size: 0.9rem; /* Slightly smaller score text */
+  }
+}

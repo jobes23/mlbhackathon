@@ -1,0 +1,425 @@
+/* Backdrop and Modal */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+}
+
+.modal {
+  background: linear-gradient(135deg, #041E42, #1f1f1f);
+  color: var(--text-white);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 616px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  max-height: 83vh;
+  overflow-y: auto;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #c8102e #EAEAEA; /* Firefox colors */
+}
+
+.modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #c8102e, var(--mlb-dark-blue));
+  border-radius: 10px;
+}
+
+.modal::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #c8102e, var(--mlb-dark-blue));
+}
+
+.modal::-webkit-scrollbar-track {
+  background: #1f1f1f;
+  border-radius: 10px;
+}
+
+/* Team Grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Responsive columns */
+  gap: 15px;
+  margin: 20px 0;
+  justify-items: center; /* Center items */
+}
+
+/* Team Logo Container */
+.team-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 10px;
+  border: 3px solid transparent;
+}
+
+.team-logo-container:hover {
+  transform: scale(1.05);
+}
+
+.team-logo {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+
+.team-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Shared Hover and Selected State */
+.team-logo-container.selected,
+.team-logo-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Close Button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: indianred;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #e60023;
+}
+
+/* Team Colors */
+  /* Yankees */
+  .yankees.team-logo-container:hover,
+  .yankees.team-logo-container.selected {
+    background-color: #0C2340;
+    border: 3px solid #0C2340;
+  }
+  
+  /* Red Sox */
+  .redsox.team-logo-container:hover,
+  .redsox.team-logo-container.selected {
+    background-color: #BD3039;
+    border: 3px solid #BD3039;
+  }
+  
+  /* Rays */
+  .rays.team-logo-container:hover,
+  .rays.team-logo-container.selected {
+    background-color: #092C5C;
+    border: 3px solid #092C5C;
+  }
+  
+  /* Blue Jays */
+  .bluejays.team-logo-container:hover,
+  .bluejays.team-logo-container.selected {
+    background-color: #134A8E;
+    border: 3px solid #134A8E;
+  }
+  
+  /* Orioles */
+  .orioles.team-logo-container:hover,
+  .orioles.team-logo-container.selected {
+    background-color: #27251F;
+    border: 3px solid #27251F;
+  }
+  
+  /* White Sox */
+  .whitesox.team-logo-container:hover,
+  .whitesox.team-logo-container.selected {
+    background-color: #27251F;
+    border: 3px solid #27251F;
+  }
+  
+  /* Guardians */
+  .guardians.team-logo-container:hover,
+  .guardians.team-logo-container.selected {
+    background-color: #E31937;
+    border: 3px solid #E31937;
+  }
+  
+  /* Tigers */
+  .tigers.team-logo-container:hover,
+  .tigers.team-logo-container.selected {
+    background-color: #0C2C56;
+    border: 3px solid #0C2C56;
+  }
+  
+  /* Royals */
+  .royals.team-logo-container:hover,
+  .royals.team-logo-container.selected {
+    background-color: #004687;
+    border: 3px solid #004687;
+  }
+  
+  /* Twins */
+  .twins.team-logo-container:hover,
+  .twins.team-logo-container.selected {
+    background-color: #002B5C;
+    border: 3px solid #002B5C;
+  }
+  
+  /* Astros */
+  .astros.team-logo-container:hover,
+  .astros.team-logo-container.selected {
+    background-color: #002D62;
+    border: 3px solid #002D62;
+  }
+  
+  /* Angels */
+  .angels.team-logo-container:hover,
+  .angels.team-logo-container.selected {
+    background-color: #BA0021;
+    border: 3px solid #BA0021;
+  }
+  
+  /* Athletics */
+  .athletics.team-logo-container:hover,
+  .athletics.team-logo-container.selected {
+    background-color: #003831;
+    border: 3px solid #003831;
+  }
+  
+  /* Mariners */
+  .mariners.team-logo-container:hover,
+  .mariners.team-logo-container.selected {
+    background-color: #005C5C;
+    border: 3px solid #005C5C;
+  }
+  
+  /* Rangers */
+  .rangers.team-logo-container:hover,
+  .rangers.team-logo-container.selected {
+    background-color: #003278;
+    border: 3px solid #003278;
+  }
+  
+  /* Braves */
+  .braves.team-logo-container:hover,
+  .braves.team-logo-container.selected {
+    background-color: #CE1141;
+    border: 3px solid #CE1141;
+  }
+  
+  /* Marlins */
+  .marlins.team-logo-container:hover,
+  .marlins.team-logo-container.selected {
+    background-color: #00A3E0;
+    border: 3px solid #00A3E0;
+  }
+  
+  /* Mets */
+  .mets.team-logo-container:hover,
+  .mets.team-logo-container.selected {
+    background-color: #002D72;
+    border: 3px solid #002D72;
+  }
+  
+  /* Phillies */
+  .phillies.team-logo-container:hover,
+  .phillies.team-logo-container.selected {
+    background-color: #E81828;
+    border: 3px solid #E81828;
+  }
+  
+  /* Nationals */
+  .nationals.team-logo-container:hover,
+  .nationals.team-logo-container.selected {
+    background-color: #AB0003;
+    border: 3px solid #AB0003;
+  }
+  
+  /* Cubs */
+  .cubs.team-logo-container:hover,
+  .cubs.team-logo-container.selected {
+    background-color: #0E3386;
+    border: 3px solid #0E3386;
+  }
+  
+  /* Reds */
+  .reds.team-logo-container:hover,
+  .reds.team-logo-container.selected {
+    background-color: #C6011F;
+    border: 3px solid #C6011F;
+  }
+  
+  /* Brewers */
+  .brewers.team-logo-container:hover,
+  .brewers.team-logo-container.selected {
+    background-color: #0A2351;
+    border: 3px solid #0A2351;
+  }
+  
+  /* Pirates */
+  .pirates.team-logo-container:hover,
+  .pirates.team-logo-container.selected {
+    background-color: #27251F;
+    border: 3px solid #27251F;
+  }
+  
+  /* Cardinals */
+  .cardinals.team-logo-container:hover,
+  .cardinals.team-logo-container.selected {
+    background-color: #C41E3A;
+    border: 3px solid #C41E3A;
+  }
+  
+  /* Diamondbacks */
+  .diamondbacks.team-logo-container:hover,
+  .diamondbacks.team-logo-container.selected {
+    background-color: #A71930;
+    border: 3px solid #A71930;
+  }
+  
+  /* Rockies */
+  .rockies.team-logo-container:hover,
+  .rockies.team-logo-container.selected {
+    background-color: #33006F;
+    border: 3px solid #33006F;
+  }
+  
+  /* Dodgers */
+  .dodgers.team-logo-container:hover,
+  .dodgers.team-logo-container.selected {
+    background-color: #005A9C;
+    border: 3px solid #005A9C;
+  }
+  
+  /* Padres */
+  .padres.team-logo-container:hover,
+  .padres.team-logo-container.selected {
+    background-color: #2F241D;
+    border: 3px solid #2F241D;
+  }
+  
+  /* Giants */
+  .giants.team-logo-container:hover,
+  .giants.team-logo-container.selected {
+    background-color: #27251F;
+    border: 3px solid #27251F;
+  }
+
+/* Player Search */
+.player-search {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.player-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.player-item {
+  padding: 10px;
+  border: 2px solid #EAEAEA;
+  border-radius: 5px;
+  background: #EAEAEA;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.player-item:hover {
+  background: linear-gradient(135deg, #c8102e, var(--mlb-dark-blue));
+  font-weight: bold;
+  color: var(--text-white);
+}
+
+.player-item.selected {
+  background: linear-gradient(135deg, #c8102e, var(--mlb-dark-blue));
+  font-weight: bold;
+  color: var(--text-white);
+}
+
+.player-headshot {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.selection-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid transparent; /* Transparent border for alignment */
+  border-radius: 8px; /* Smooth rounded edges */
+  background: #EAEAEA; /* Default white background */
+  color: #1f1f1f; /* Dark text for contrast */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-top: 10px; /* Space between buttons */
+}
+
+.selection-button:hover, .selection-button.active {
+  background: linear-gradient(135deg, #c8102e, var(--mlb-dark-blue));
+  color: #FAFAFA; /* White text for contrast */
+  border: 2px solid #FAFAFA; /* Blue border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Highlighted shadow */
+}
+
+.selection-button + .selection-button {
+  margin-left: 10px; /* Space between buttons */
+}
+
+.tab-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: repeat(3, minmax(60px, 1fr)); /* Smaller grid for tablets */
+  }
+
+  .modal {
+    max-width: 90%; /* Reduce modal width */
+  }
+}
+
+@media (max-width: 480px) {
+
+  .player-headshot {
+    width: 40px;
+    height: 40px;
+  }
+}

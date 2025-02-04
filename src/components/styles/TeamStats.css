@@ -1,0 +1,55 @@
+.team-stats-container {
+    width: 100%;
+}
+
+.stats-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: xx-small;
+}
+
+.stat-category-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.stat-button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-bottom: 3px solid transparent;
+}
+
+.stat-button.active {
+    border-bottom: 3px solid #007bff;
+}
+
+.season-filter label {
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.team-stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: xx-small;
+}
+
+.team-stats-table th {
+    background-color: #f2f2f2;
+    padding: 7px;
+}
+
+.team-stats-value {
+    padding: 8px;
+    text-align: center;
+}
+
+select#season {
+    padding: 10px;
+    border-radius: 10px;
+}

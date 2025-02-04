@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "ESNext"],
+    "outDir": "./dist/app",
+    "rootDir": "./src",
+    "composite": true, // Important for project references
+    "declaration": true, // Generate declaration files
+    "declarationMap": true, // Generate sourcemaps for declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names
+    "allowJs": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

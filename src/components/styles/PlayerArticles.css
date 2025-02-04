@@ -1,0 +1,70 @@
+.player-articles {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .player-articles-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .article-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .article-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-card.expanded {
+    background-color: #EAEAEA;
+  }
+  
+  .article-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .article-details {
+    margin-top: 10px;
+  }
+  
+  .article-summary p {
+    margin: 5px 0;
+  }
+  
+  .read-more-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .read-more-link:hover {
+    text-decoration: underline;
+  }
+  
+  .loading-spinner {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .error-message {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+  }
+  
