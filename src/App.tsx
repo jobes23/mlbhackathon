@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { initializeFirebase } from "./firebase/firebase";
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
 import SideBar from "./components/SideBar";
@@ -12,7 +13,6 @@ import Login from "./components/auth/Login";
 import Signup from "./components/auth/SignUp";
 import { useAuth } from "./contexts/AuthContext";
 import { doc, getDoc, setDoc } from "firebase/firestore";
-import { initializeFirebase } from "./firebase/firebase";
 import useSyncUserChallenges from "./components/hooks/useSyncUserChallenges";
 import { useNotification } from "./components/NotificationProvider";
 import { Translations } from "./components/constants/Translations";
