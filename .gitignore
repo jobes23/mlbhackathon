@@ -13,7 +13,7 @@ dist-ssr
 *.local
 functions/cloud_functions/.env
 .env
-.env.*
+.env.development
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
