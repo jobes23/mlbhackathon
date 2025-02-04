@@ -49,7 +49,7 @@ const RewardsChallengesModal: React.FC<RewardsChallengesModalProps> = ({
 
   const apiCall = async (endpoint: string, body: object) => {
     try {
-      const response = await fetch(`${API_BASE_URL}/${endpoint}`, {
+      const response = await fetch(`${API_BASE_URL}${endpoint}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -119,8 +119,8 @@ const RewardsChallengesModal: React.FC<RewardsChallengesModalProps> = ({
   const handleChallengeClick = async (challengeId: string, points: number) => {
     try {
       const data = await apiCall("setchallengestatus", {
-        userId,
-        challengeId,
+        userId: userId,
+        challengeId: challengeId,
         action: "redeemed",
       });
   
