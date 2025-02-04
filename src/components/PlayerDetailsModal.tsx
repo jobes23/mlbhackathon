@@ -18,9 +18,9 @@ const PlayerDetailsModal: React.FC<PlayerDetailsModalProps> = ({
   setIsVideoModalOpen,
   setModalVideo,
 }) => {
-  const [activeTab, setActiveTab] = useState<string>("");
+  const [activeTab, setActiveTab] = useState<string>("articles");
   const [tabsLoaded, setTabsLoaded] = useState<Record<string, boolean>>({
-    articles: false,
+    articles: true,
     stats: false,
     videos: false,
     bets: false,

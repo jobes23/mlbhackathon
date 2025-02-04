@@ -152,7 +152,7 @@ const Favorites: React.FC<FavoritesProps> = ({
       {/* Favorites List */}
       <div className="favorites-list">
         {loading ? (
-          <div>{t.actions.loading}</div>
+          <div className='loading-favorites'>{t.actions.loading}</div>
         ) : (
           <>
             <div className="card-section">

@@ -51,20 +51,23 @@ const RewardsChallengesModal: React.FC<RewardsChallengesModalProps> = ({
     try {
       const response = await fetch(`${API_BASE_URL}/${endpoint}`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+        },
+        credentials: "include", 
         body: JSON.stringify(body),
       });
-
+  
       if (!response.ok) {
-        throw new Error(`Failed to fetch: ${endpoint}`);
+        throw new Error(`Failed to fetch: ${endpoint} - ${response.status}`);
       }
-
+  
       return await response.json();
     } catch (error) {
       console.error(`Error calling API ${endpoint}:`, error);
       throw error;
     }
-  };
+  };  
 
   useEffect(() => {
     if (!userId) return;

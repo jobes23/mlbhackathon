@@ -72,7 +72,9 @@ const SideBar: React.FC<SideBarProps> = ({ userPoints, selectedLanguage, setSele
   const [isRewardsModalOpen, setIsRewardsModalOpen] = useState(false);
   const [userPointBalance, setUserPoints] = useState(userPoints);
   const { currentUser } = useAuth();
+  const [forceRender, setForceRender] = useState(false); // Force re-render workaround
   const navigate = useNavigate();
+  console.log("Current User:", currentUser);
 
   useEffect(() => {
     setUserPoints(userPoints);
@@ -88,21 +90,23 @@ const SideBar: React.FC<SideBarProps> = ({ userPoints, selectedLanguage, setSele
     );
   }, [selectedLanguage]);
 
+  
   const handleLogout = async () => {
     try {
-      const { auth } = await getFirebase(); // Get Firebase auth dynamically
+      const { auth } = getFirebase();
       if (!auth) {
         console.error("Firebase Auth is not initialized.");
         return;
       }
-      await auth.signOut();
-      onLogout();
+  
+      await auth.signOut();      
+      setForceRender((prev) => !prev);
+      
       navigate("/");
     } catch (error) {
       console.error("Error signing out:", error);
     }
   };
-  
 
   return (
     <>
@@ -159,7 +163,7 @@ const SideBar: React.FC<SideBarProps> = ({ userPoints, selectedLanguage, setSele
 
           {/* Auth Buttons */}
           <div className="auth-buttons">
-            {!currentUser ? (
+            {!currentUser || currentUser.isAnonymous ? (
               <>
                 <Link to="/login" className="no-link-style">
                   <button className="auth-button">{authTranslations.login}</button>

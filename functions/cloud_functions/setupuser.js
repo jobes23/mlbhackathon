@@ -7,21 +7,22 @@ if (!admin.apps.length) {
   admin.initializeApp();
 }
 
-// **1. Load Allowed Origins for CORS**
-const allowedOriginsString = functions.config().app?.allowed_origins || "";
+const allowedOriginsString = process.env.VITE_APP_ALLOWED_ORIGINS || functions.config().app?.allowed_origins;
 const allowedOrigins = allowedOriginsString ? allowedOriginsString.split(",") : [];
 
-// **2. CORS Configuration**
+// **CORS Configuration**
 const corsOptions = cors({
   origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
+    if (process.env.FUNCTIONS_EMULATOR === "true") {
+      callback(null, true);
+    } else if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
-      console.error(`Blocked request from origin: ${origin}`);
       callback(new Error("CORS Not Allowed"));
     }
   },
 });
+
 
 // **3. Secure Setup User API**
 exports.setupuser = functions.https.onRequest((req, res) => {

@@ -2,22 +2,22 @@ const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 const cors = require("cors");
 
-// Initialize Firebase Admin once outside the handler
+// Initialize Firebase Admin if not already initialized
 if (!admin.apps.length) {
   admin.initializeApp();
 }
 
 // **Fixed Environment Variables Handling**
 const allowedOriginsString = process.env.VITE_APP_ALLOWED_ORIGINS || functions.config().app?.allowed_origins;
-const allowedOrigins = allowedOriginsString ? allowedOriginsString.split(',') : [];
+const allowedOrigins = allowedOriginsString ? allowedOriginsString.split(",") : [];
 
 // **CORS Configuration**
 const corsOptions = cors({
   origin: function (origin, callback) {
     if (process.env.FUNCTIONS_EMULATOR === "true") {
-      callback(null, true); // Allow all origins in local development
+      callback(null, true);
     } else if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true); // Allow specified origins in production
+      callback(null, true);
     } else {
       callback(new Error("CORS Not Allowed"));
     }
@@ -27,6 +27,7 @@ const corsOptions = cors({
 exports.getarticles = functions.https.onRequest((req, res) => {
   corsOptions(req, res, async () => {
     const db = admin.firestore();
+
     try {
       const { playerName, teamName, language } = req.body;
 
@@ -36,69 +37,46 @@ exports.getarticles = functions.https.onRequest((req, res) => {
         });
       }
 
-      const articlesRef = db.collection("articles");
-      let query;
+      const articles = [];
+      let subcollectionPath;
 
+      // Determine which subcollection to query
       if (playerName) {
-        query = articlesRef.where(`entities.${playerName}`, "==", "player");
+        subcollectionPath = `playerArticles/${playerName}/articles`;
       } else if (teamName) {
-        query = articlesRef.where("team", "==", teamName);
+        subcollectionPath = `teamArticles/${teamName}/articles`;
       }
 
-      const querySnapshot = await query.get();
+      const articlesCollectionRef = db.collection(subcollectionPath);
+
+      // Query the subcollection
+      const querySnapshot = await articlesCollectionRef.get();
 
       if (querySnapshot.empty) {
-        console.log(
-          `No articles found for ${playerName ? `player: ${playerName}` : `team: ${teamName}`}`
-        );
-        return res.status(200).json([]); // Return empty array
+        console.log(`No articles found in ${subcollectionPath}`);
+        return res.status(404).json([]);
       }
 
-      const articles = {};
-      const searchKey = (playerName || teamName).toLowerCase();
-
+      // Parse and format the article data
       querySnapshot.forEach((doc) => {
         const data = doc.data();
-        console.log(data.title); // Log the raw title structure
-        const summaryEn = data.summary?.["en"];
-        
-        if (summaryEn) {
-          const paragraphs = summaryEn.split("\n").filter((p) => p.trim() !== "");
-          const searchKeyInSummary = summaryEn.toLowerCase().includes(searchKey);
-          const searchKeyInLastParagraph =
-            paragraphs.length > 0 ? paragraphs[paragraphs.length - 1].toLowerCase().includes(searchKey) : false;
-
-          if (searchKeyInSummary && !searchKeyInLastParagraph) {
-            let translatedKey = playerName || teamName;
-            for (const entityName in data.entities) {
-              if (entityName.toLowerCase() === searchKey) {
-                translatedKey = entityName;
-                break;
-              }
-            }
-
-            let mlbLink = data.link && data.link.includes("mlb.com/news/") ? data.link : "";
-            const articleTitle = data.titles?.[language] || data.titles?.en || "No Title";
-
-            if (!articles[articleTitle] || (mlbLink && !articles[articleTitle].link)) {
-              articles[articleTitle] = {
-                id: doc.id,
-                title: articleTitle,
-                summary: data.summary?.[language]
-                  ? data.summary[language].split("\n").filter((p) => p.trim() !== "")
-                  : [],
-                link: mlbLink,
-                translatedKey,
-              };
-            }
-          }
-        }
+        articles.push({
+          id: doc.id,
+          title: data.titles?.[language] || data.titles?.en || "No Title",
+          summary: data.summary?.[language]
+            ? data.summary[language].split("\n").filter((p) => p.trim() !== "")
+            : [],
+          link: data.link || null,
+          team: data.team || null,
+          published: data.published || null,
+        });
       });
 
-      return res.status(200).json(Object.values(articles));
+      return res.status(200).json(articles);
     } catch (error) {
       console.error("Error fetching articles:", error);
-      return res.status(500).json({ noArticles: "Failed to fetch articles." });
+      return res.status(500).json({ error: "Failed to fetch articles." });
     }
   });
 });
+

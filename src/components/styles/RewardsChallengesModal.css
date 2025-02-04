@@ -15,7 +15,7 @@
   
   /* Modal Content */
   .rcModal-content {
-    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    background: linear-gradient(135deg, #041E42, #1f1f1f);
     border-radius: 16px;
     padding: 20px;
     width: 800px;
@@ -56,7 +56,7 @@
   
   .rcTabs button {
     background: linear-gradient(135deg, var(--mlb-dark-blue), #c8102e);
-    border: none;
+    border: 2px solid #FAFAFA;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -86,25 +86,30 @@
   /* Grid for Challenges */
   .challenge-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
     gap: 20px;
     padding: 10px;
+    overflow: auto;
   }
-  
-  /* Challenge Card */
-  .challenge-card {
-    background: linear-gradient(145deg, #f0f0f0, #d6d6d6);
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    max-height: 286px;
+
+  /* Webkit (Chrome, Edge, Safari) */
+  .challenge-grid::-webkit-scrollbar {
+    width: 8px; /* Adjust scrollbar width */
+  }
+
+  .challenge-grid::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Light background for the track */
+    border-radius: 10px; /* Smooth edges */
+  }
+
+  .challenge-grid::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #888, #555); /* Gradient effect */
+    border-radius: 10px; /* Rounded corners */
+    transition: background 0.3s ease-in-out;
+  }
+
+  .challenge-grid::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #777, #444); /* Darker on hover */
   }
   
   .challenge-card:hover {
@@ -172,7 +177,7 @@
   }
   
   /* Reward Card */
-  .reward-card {
+  .challenge-card, .reward-card {
   background: linear-gradient(145deg, #f0f0f0, #d6d6d6);
     border: 1px solid #ccc;
     padding: 10px;
@@ -184,6 +189,7 @@
     flex-direction: column;
     align-items: center;
     max-height: 200px;
+    justify-content: space-between;
   }
 
   .reward-card:hover {
@@ -192,7 +198,7 @@
   }
 
   .reward-description {
-    height: 80%;
+    height: 74%;
     overflow: auto;
     
     /* Smooth scrolling */

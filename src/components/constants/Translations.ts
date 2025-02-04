@@ -139,6 +139,10 @@ export const Translations: Translations = {
       submitAnswer: "Submit Answer",
       score: "Score",
       noQuestions: "No questions available for the selected category.",
+      greatJob: "Great job! You did really well! 🎉",
+      keepPracticing: "Keep practicing! You'll improve in no time. 💪",
+      close: "Close",
+      selectCategory: "Select a Category",
     },
     menu: {
       articles: "Articles",
@@ -456,10 +460,14 @@ export const Translations: Translations = {
       wrongAnswer: "Incorrecto.",
       quizCompleted: "¡Cuestionario completado! Tu puntaje:",
       nextQuestion: "Siguiente pregunta",
-      finishQuiz: "Terminar cuestionario",
+      finishQuiz: "Terminar",
       submitAnswer: "Enviar respuesta",
       score: "Puntaje",
-      noQuestions: "No hay preguntas disponibles para la categoría seleccionada."
+      noQuestions: "No hay preguntas disponibles para la categoría seleccionada.",
+      greatJob: "¡Buen trabajo! ¡Lo hiciste muy bien! 🎉",
+      keepPracticing: "¡Sigue practicando! Mejorarás en poco tiempo. 💪",
+      close: "Cerrar",
+      selectCategory: "Selecciona una categoría",
     },
     menu: {
       articles: "Artículos",
@@ -727,7 +735,11 @@ export const Translations: Translations = {
       finishQuiz: "クイズを終了",
       submitAnswer: "解答を送信",
       score: "スコア",
-      noQuestions: "選択したカテゴリに質問がありません。"
+      noQuestions: "選択したカテゴリに質問がありません。",
+      greatJob: "素晴らしい！とてもよくできました！🎉",
+      keepPracticing: "練習を続けてください！すぐに上達しますよ！💪",
+      close: "閉じる",
+      selectCategory: "カテゴリを選択",
     },
     menu: {
       articles: "記事",

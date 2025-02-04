@@ -4,6 +4,7 @@ import { categorizedQuestions } from "./constants/QuizQuestions";
 import { Categories } from "./constants/QuizCategories";
 import { Question } from "./constants/QuizQuestions";
 import { Translations } from "./constants/Translations";
+import QuizResultsModal from "./QuizResultsModal";
 
 interface QuizProps {
   selectedLanguage: string;
@@ -15,6 +16,7 @@ const Quiz: React.FC<QuizProps> = ({ selectedLanguage }) => {
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [score, setScore] = useState<number>(0);
   const [showExplanation, setShowExplanation] = useState<boolean>(false);
+  const [showResults, setShowResults] = useState<boolean>(false);
 
   const categoryTranslations = Categories[selectedLanguage] || Categories.en;
   const categoryKeys = Object.keys(categorizedQuestions.en);
@@ -38,6 +40,7 @@ const Quiz: React.FC<QuizProps> = ({ selectedLanguage }) => {
     setSelectedCategory(categoryKey);
     setCurrentQuestionIndex(0);
     setScore(0);
+    setShowResults(false);
   };
 
   const handleOptionClick = (index: number) => {
@@ -57,18 +60,29 @@ const Quiz: React.FC<QuizProps> = ({ selectedLanguage }) => {
     if (currentQuestionIndex + 1 < shuffledQuestions.length) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
-      alert(`${t.quizCompleted} ${score}/${shuffledQuestions.length}`);
-      setSelectedCategory(null);
+      setShowResults(true);
     }
   };
 
   return (
     <div className="quiz-container">
+      {showResults && (
+        <QuizResultsModal
+          score={score}
+          totalQuestions={shuffledQuestions.length}
+          onClose={() => {
+            setShowResults(false);
+            setSelectedCategory(null);
+          }}
+          t={t}
+        />
+      )}
+
       {!selectedCategory ? (
         <div className="category-selection">
           <h2>{t.selectCategory}</h2>
           {categoryKeys.map((key) => (
-            <button key={key} onClick={() => startQuiz(key)}>
+            <button className="triviaCategories" key={key} onClick={() => startQuiz(key)}>
               {categoryTranslations[key] || key}
             </button>
           ))}
@@ -89,35 +103,37 @@ const Quiz: React.FC<QuizProps> = ({ selectedLanguage }) => {
               </button>
             ))}
           </div>
-          {showExplanation ? (
-            <div className="explanation">
-              <p>
-                {selectedOption === currentQuestion.correctAnswer
-                  ? t.correctAnswer
-                  : t.wrongAnswer}
-              </p>
-              <p>{currentQuestion.explanation}</p>
-              <button onClick={goToNextQuestion}>
-                {currentQuestionIndex + 1 < shuffledQuestions.length
-                  ? t.nextQuestion
-                  : t.finishQuiz}
-              </button>
-            </div>
-          ) : (
+          
+          {!showExplanation ? (
             <button
               className="next-btn"
               onClick={handleNext}
               disabled={selectedOption === null}
             >
-              {t.submitAnswer}
+              {t.quizTerms.submitAnswer}
             </button>
+          ) : (
+            <div className="explanation">
+              <p>
+                {selectedOption === currentQuestion.correctAnswer
+                  ? t.quizTerms.correctAnswer
+                  : t.quizTerms.wrongAnswer}
+              </p>
+              <p>{currentQuestion.explanation}</p>
+              <button className="next-btn" onClick={goToNextQuestion}>
+                {currentQuestionIndex + 1 < shuffledQuestions.length
+                  ? t.quizTerms.nextQuestion
+                  : t.quizTerms.finishQuiz}
+              </button>
+            </div>
           )}
+
           <div className="score">
-            {t.score}: {score}/{shuffledQuestions.length}
+            {t.quizTerms.score}: {score}/{shuffledQuestions.length}
           </div>
         </div>
       ) : (
-        <div>{t.noQuestions}</div>
+        <div>{t.quizTerms.noQuestions}</div>
       )}
     </div>
   );

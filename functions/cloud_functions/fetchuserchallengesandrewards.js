@@ -2,37 +2,50 @@ const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 const cors = require("cors");
 
+// Initialize Firebase Admin if not already initialized
 if (!admin.apps.length) {
   admin.initializeApp();
 }
 
-// **1. Environment Variables**
-const allowedOriginsString = process.env.VITE_APP_ALLOWED_ORIGINS || functions.config()?.app?.allowed_origins || "";
-const allowedOrigins = allowedOriginsString ? allowedOriginsString.split(',') : [];
+// **Environment Variables Handling for Allowed Origins**
+const allowedOriginsString = process.env.VITE_APP_ALLOWED_ORIGINS || functions.config().app?.allowed_origins;
+const allowedOrigins = allowedOriginsString ? allowedOriginsString.split(",") : [];
 
-// **2. CORS Configuration**
+// **CORS Configuration**
 const corsOptions = cors({
   origin: function (origin, callback) {
     if (process.env.FUNCTIONS_EMULATOR === "true") {
-      callback(null, true);
+      callback(null, true); // Allow all origins in local development
     } else if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
+      callback(null, true); // Allow specified origins in production
     } else {
       callback(new Error("CORS Not Allowed"));
     }
   },
+  methods: ["GET", "POST", "OPTIONS"], // Ensure OPTIONS is allowed
+  allowedHeaders: ["Content-Type", "Authorization"], // Explicitly allow headers
+  credentials: true, // Allow cookies and credentials
 });
 
 exports.fetchuserchallengesandrewards = functions.https.onRequest((req, res) => {
   corsOptions(req, res, async () => {
+    console.log("Incoming request:", req.method, req.headers, req.body); // Debugging
+
+    if (req.method === "OPTIONS") {
+      return res.status(204).send(""); // Handle CORS preflight
+    }
+
     const db = admin.firestore();
 
     try {
       const { userId, language } = req.body;
 
       if (!userId || !language) {
+        console.error("Missing userId or language in request body", req.body);
         return res.status(400).json({ error: "Missing required parameters: userId and language." });
       }
+
+      console.log(`Fetching challenges and rewards for userId: ${userId}`);
 
       // Fetch challenges
       const challengesSnapshot = await db.collection("challenges").get();
@@ -64,6 +77,7 @@ exports.fetchuserchallengesandrewards = functions.https.onRequest((req, res) => 
       const userDoc = await userRef.get();
 
       if (!userDoc.exists) {
+        console.log(`No user found for userId: ${userId}`);
         return res.status(404).json({ error: "User not found." });
       }
 

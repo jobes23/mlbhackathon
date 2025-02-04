@@ -58,21 +58,24 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     };
   }, [firebaseReady, authInstance]);
 
+  const [signedOut, setSignedOut] = useState(false);
+
   useEffect(() => {
-    if (!firebaseReady || !authInstance) return;
+    if (!firebaseReady || !authInstance || signedOut) return;
 
     if (!currentUser && !loading) {
       signInAnonymously(authInstance).catch((error) => {
         console.error("Error signing in anonymously:", error);
       });
     }
-  }, [firebaseReady, currentUser, loading, authInstance]);
+  }, [firebaseReady, currentUser, loading, authInstance, signedOut]);
 
   const handleLogout = async () => {
     if (!authInstance) return;
 
     try {
       await signOut(authInstance);
+      setSignedOut(true); // Prevent immediate anonymous login
       setCurrentUser(null);
     } catch (error) {
       console.error("Error signing out:", error);

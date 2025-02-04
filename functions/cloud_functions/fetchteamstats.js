@@ -7,7 +7,6 @@ if (!admin.apps.length) {
   admin.initializeApp();
 }
 
-// **1. Environment Variables Handling**
 const projectId = functions.config().app?.project_id || process.env.VITE_APP_PROJECT_ID
 const datasetId = functions.config()?.app?.dataset_id || process.env.VITE_APP_DATASET_ID;
 const tableTeams = functions.config()?.app?.mlb_teams_table || process.env.VITE_APP_MLB_TEAMS_TABLE;
@@ -16,9 +15,6 @@ const tableTeamGameLogs = functions.config()?.app?.mlb_game_data_table || proces
 const allowedOriginsString = functions.config()?.app?.allowed_origins || process.env.VITE_APP_ALLOWED_ORIGINS || "";
 const allowedOrigins = allowedOriginsString ? allowedOriginsString.split(",") : [];
 
-
-
-// **2. CORS Configuration**
 const corsOptions = cors({
   origin: function (origin, callback) {
     if (process.env.FUNCTIONS_EMULATOR === "true") {
@@ -31,7 +27,6 @@ const corsOptions = cors({
   },
 });
 
-// **3. BigQuery Client**
 const bigquery = new BigQuery({
   projectId: projectId,
 });

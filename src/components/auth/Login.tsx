@@ -28,23 +28,34 @@ const Login: React.FC = () => {
       setError("Authentication service is not ready.");
       return;
     }
-
+  
     try {
       const provider = new GoogleAuthProvider();
       const result = await signInWithPopup(authInstance, provider);
       const user = result.user;
-
-      await fetch(import.meta.env.VITE_SETUP_USER_API_URL, {
+  
+      console.log("User signed in:", user);
+  
+      console.log("Calling API:", import.meta.env.VITE_SETUP_USER_API_URL);
+      const response = await fetch(import.meta.env.VITE_SETUP_USER_API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId: user.uid, email: user.email }),
       });
-
+  
+      if (!response.ok) {
+        throw new Error(`API returned error: ${response.status}`);
+      }
+  
+      const data = await response.json();
+      console.log("API Response:", data);
+  
       navigate("/");
     } catch (error) {
+      console.error("Login failed:", error);
       setError("Failed to sign in with Google.");
     }
-  };
+  };  
 
   return (
     <div className="auth-container">

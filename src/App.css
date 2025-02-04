@@ -74,6 +74,10 @@ header {
   overflow: hidden; /* Prevent content from spilling outside the viewport */
 }
 
+.loading-favorites
+{
+  color: #fafafa;
+}
 .main-content {
   padding: 20px;
   width: 100%; /* Always take the full width of the viewport */

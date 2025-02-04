@@ -5,7 +5,7 @@ import { useNotification } from "../components/NotificationProvider";
 import "./styles/PlayerArticles.css";
 
 interface Article {
-  id: number;
+  id: string; // 🔹 Firestore document IDs are strings
   title: string;
   summary: string[];
   link?: string;
@@ -23,7 +23,7 @@ const PlayerArticles: React.FC<PlayerArticlesProps> = ({ playerName, language, p
   const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const [expandedArticles, setExpandedArticles] = useState<Set<number>>(new Set());
+  const [expandedArticles, setExpandedArticles] = useState<Set<string>>(new Set()); // 🔹 Use string IDs
   const [challenge, setChallenge] = useState<{ completed: boolean; description: string }>({
     completed: false,
     description: "Complete this challenge",
@@ -44,7 +44,7 @@ const PlayerArticles: React.FC<PlayerArticlesProps> = ({ playerName, language, p
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          playerName: playerNameEn.toLowerCase(),
+          playerName: playerNameEn,
           language: language,
         }),
       });
@@ -52,6 +52,7 @@ const PlayerArticles: React.FC<PlayerArticlesProps> = ({ playerName, language, p
       if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
 
       const data: Article[] = await response.json();
+      console.log(data)
       setArticles(data);
     } catch (err) {
       setError(t.actions.error);
@@ -92,14 +93,14 @@ const PlayerArticles: React.FC<PlayerArticlesProps> = ({ playerName, language, p
   }, [fetchArticles, fetchChallengeStatus, currentUser]);
 
   const handleExpandArticle = useCallback(
-    async (articleId: number) => {
+    async (articleId: string) => {
       setExpandedArticles((prev) => {
         const newSet = new Set(prev);
         newSet.has(articleId) ? newSet.delete(articleId) : newSet.add(articleId);
         return newSet;
       });
 
-      if (!currentUser || challenge.completed) return;
+      if (!currentUser || challenge.completed || expandedArticles.has(articleId)) return;
 
       try {
         const response = await fetch(SET_CHALLENGE_API, {
@@ -120,7 +121,7 @@ const PlayerArticles: React.FC<PlayerArticlesProps> = ({ playerName, language, p
         setError(t.actions.error);
       }
     },
-    [SET_CHALLENGE_API, currentUser, challenge, addNotification, t]
+    [SET_CHALLENGE_API, currentUser, challenge, expandedArticles, addNotification, t]
   );
 
   return (

@@ -21,8 +21,6 @@ const tableTeamStatsGame = functions.config()?.app?.mlb_team_stats_game_table ||
 const allowedOriginsString = functions.config()?.app?.allowed_origins || process.env.VITE_APP_ALLOWED_ORIGINS || "";
 const allowedOrigins = allowedOriginsString ? allowedOriginsString.split(",") : [];
 
-
-
 // **2. CORS Configuration**
 const corsOptions = cors({
   origin: function (origin, callback) {
@@ -115,6 +113,7 @@ exports.fetchteamschedule = functions.https.onRequest(async (req, res) => {
         ORDER BY mgd.game_date ASC
       `;
 
+      console.log(query);
       const options = {
         query: query,
         params: { teamId, year, language },

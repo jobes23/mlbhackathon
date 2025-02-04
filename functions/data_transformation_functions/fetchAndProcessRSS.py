@@ -117,7 +117,7 @@ def process_rss_and_summarize():
 
                 # Analyze entities (players) using Vertex AI
                 entities = analyze_entities_vertex(article_content)
-
+                print(entities);
                 # Generate summary using Vertex AI
                 summary = generate_summary_vertex(article_content)
                 if not summary:
@@ -181,18 +181,29 @@ def analyze_entities_vertex(text):
     """Analyzes entities in the given text using Vertex AI's Gemini model."""
     try:
         prompt = f"""
-        Identify all the baseball players and teams mentioned in the following text.
+        You are a baseball expert. Extract the full names of professional baseball players and their associated team names from the provided text.
+
+        - Only include players and teams that are explicitly mentioned.
+        - If a player's team is not mentioned, do not include that player in the output.
+        - Do not include any other information such as positions or commentary. 
+        - Return the names in the following format, each player and their team on a new line:
+
+        FirstName LastName, TeamName
 
         Text: {text}
         """
         response = model.generate_content(prompt)
-        # Extract player names (assuming the model returns a comma-separated list)
-        player_names = [name.strip().lower() for name in response.text.split(",") if name.strip()]
-        
+
         entities = {}
-        for name in player_names:
-            entities[name] = "player"
-        
+        for line in response.text.split('\n'):
+            line = line.strip()
+            if line and "," in line:
+                try:
+                    player_name, team_name = line.split(',')
+                    entities[player_name.strip()] = team_name.strip()
+                except ValueError:
+                    logging.warning(f"Could not parse line: '{line}'")
+
         return entities
 
     except Exception as e:
