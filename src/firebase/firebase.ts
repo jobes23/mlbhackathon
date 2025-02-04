@@ -1,16 +1,27 @@
-import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
-async function fetchFirebaseConfig() {
+let firebaseApp;
+let auth;
+let db;
+
+async function initializeFirebase() {
+  let firebaseConfig;
+
   if (import.meta.env.PROD) {
-    // Fetch from Firebase Cloud Function in production
-    const response = await fetch("https://us-central1-mlbhackathon-445616.cloudfunctions.net/getFirebaseConfig");
-    const data = await response.json();
-    return data;
+    try {
+      const response = await fetch(
+        "https://us-central1-mlbhackathon-445616.cloudfunctions.net/getFirebaseConfig"
+      );
+      firebaseConfig = await response.json();
+      console.log("Firebase API Key:", firebaseConfig.apiKey);
+    } catch (error) {
+      console.error("Failed to fetch Firebase config:", error);
+      return; // Stop initialization if config fails to load
+    }
   } else {
-    // Use Vite env variables in development
-    return {
+    firebaseConfig = {
       apiKey: import.meta.env.VITE_APP_FIREBASE_API_KEY,
       authDomain: import.meta.env.VITE_APP_FIREBASE_AUTH_DOMAIN,
       projectId: import.meta.env.VITE_APP_FIREBASE_PROJECT_ID,
@@ -18,14 +29,17 @@ async function fetchFirebaseConfig() {
       messagingSenderId: import.meta.env.VITE_APP_FIREBASE_MESSAGING_SENDER_ID,
       appId: import.meta.env.VITE_APP_FIREBASE_APP_ID,
     };
+
   }
+
+  console.log("Initializing Firebase with config:", firebaseConfig);
+
+  firebaseApp = initializeApp(firebaseConfig);
+  auth = getAuth(firebaseApp);
+  db = getFirestore(firebaseApp);
 }
 
-const firebaseConfig = await fetchFirebaseConfig();
-
-// Initialize Firebase
-const firebaseApp = initializeApp(firebaseConfig);
-const auth = getAuth(firebaseApp);
-const db = getFirestore(firebaseApp);
+// Ensure Firebase is initialized before export
+await initializeFirebase();
 
 export { firebaseApp, auth, db };
