@@ -24,3 +24,4 @@ functions/cloud_functions/.env
 *.njsproj
 *.sln
 *.sw?
+videos
