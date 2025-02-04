@@ -6,6 +6,8 @@ const useSyncUserTasks = (userId: string | null) => {
 
     const syncTasks = async () => {
       try {
+        console.log(import.meta.env.VITE_SYNC_USER_CHALLENGES);
+
         const response = await fetch(import.meta.env.VITE_SYNC_USER_CHALLENGES, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -19,11 +21,10 @@ const useSyncUserTasks = (userId: string | null) => {
         const data = await response.json();
         console.log("User tasks synced successfully:", data.message);
       } catch (error: unknown) {
-        if (error instanceof Error) {
-          console.error("Error syncing user tasks:", error.message);
-        } else {
-          console.error("Error syncing user tasks:", error);
-        }
+        console.error(
+          "Error syncing user tasks:",
+          error instanceof Error ? error.message : error
+        );
       }
     };
 

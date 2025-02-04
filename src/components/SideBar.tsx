@@ -4,7 +4,7 @@ import fandugoutLogo from "./assets/fandugout.png";
 import { LanguageKeys } from "./constants/LanguageKeys";
 import "./styles/SideBar.css";
 import { useAuth } from "../contexts/AuthContext";
-import { getFirebase } from "../firebase/firebase"; // Fetch auth dynamically
+import { initializeFirebase, getFirebase } from "../firebase/firebase"; // Ensure Firebase is initialized
 import { Link, useNavigate } from "react-router-dom";
 import RewardsChallengesModal from "./RewardsChallengesModal";
 
@@ -91,6 +91,10 @@ const SideBar: React.FC<SideBarProps> = ({ userPoints, selectedLanguage, setSele
   const handleLogout = async () => {
     try {
       const { auth } = await getFirebase(); // Get Firebase auth dynamically
+      if (!auth) {
+        console.error("Firebase Auth is not initialized.");
+        return;
+      }
       await auth.signOut();
       onLogout();
       navigate("/");
@@ -98,6 +102,7 @@ const SideBar: React.FC<SideBarProps> = ({ userPoints, selectedLanguage, setSele
       console.error("Error signing out:", error);
     }
   };
+  
 
   return (
     <>

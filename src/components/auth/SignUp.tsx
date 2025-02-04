@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getFirebase } from "../../firebase/firebase";
+import { initializeFirebase, getFirebase } from "../../firebase/firebase";
 import { GoogleAuthProvider, signInWithPopup, User, Auth } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import "../styles/Auth.css";
@@ -7,15 +7,19 @@ import "../styles/Auth.css";
 const Signup: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [authInstance, setAuthInstance] = useState<Auth | null>(null);
+  const [firebaseReady, setFirebaseReady] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
     const initAuth = async () => {
       try {
-        const { auth } = await getFirebase();
+        await initializeFirebase(); // Ensure Firebase is initialized first
+        const { auth } = getFirebase();
         setAuthInstance(auth);
+        setFirebaseReady(true);
       } catch (error) {
         console.error("Error initializing Firebase Auth:", error);
+        setError("Failed to initialize authentication service.");
       }
     };
     initAuth();
@@ -49,7 +53,6 @@ const Signup: React.FC = () => {
       const user = result.user;
 
       await setupUser(user);
-
       navigate("/");
     } catch (error) {
       setError("Google Sign-Up failed. Please try again.");
@@ -60,7 +63,7 @@ const Signup: React.FC = () => {
     <div className="auth-container">
       <div className="auth-card">
         <h2 className="auth-title">Sign Up</h2>
-        <button onClick={handleGoogleSignUp} className="form-button" disabled={!authInstance}>
+        <button onClick={handleGoogleSignUp} className="form-button" disabled={!firebaseReady}>
           Sign up with Google
         </button>
         {error && <p className="form-error">{error}</p>}

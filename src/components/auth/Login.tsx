@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getFirebase } from "../../firebase/firebase";
+import { initializeFirebase, getFirebase } from "../../firebase/firebase";
 import { GoogleAuthProvider, signInWithPopup, User, Auth } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import "../styles/Auth.css";
@@ -12,30 +12,16 @@ const Login: React.FC = () => {
   useEffect(() => {
     const initAuth = async () => {
       try {
-        const { auth } = await getFirebase();
+        await initializeFirebase();
+        const { auth } = getFirebase();
         setAuthInstance(auth);
       } catch (error) {
         console.error("Error initializing Firebase Auth:", error);
+        setError("Failed to initialize authentication service.");
       }
     };
     initAuth();
   }, []);
-
-  const setupUser = async (user: User) => {
-    try {
-      const response = await fetch(import.meta.env.VITE_SETUP_USER_API_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ userId: user.uid, email: user.email }),
-      });
-
-      if (!response.ok) {
-        throw new Error("Failed to set up user.");
-      }
-    } catch (error) {
-      console.error("Error setting up user:", error);
-    }
-  };
 
   const handleGoogleLogin = async () => {
     if (!authInstance) {
@@ -43,15 +29,20 @@ const Login: React.FC = () => {
       return;
     }
 
-    const provider = new GoogleAuthProvider();
     try {
+      const provider = new GoogleAuthProvider();
       const result = await signInWithPopup(authInstance, provider);
       const user = result.user;
 
-      await setupUser(user);
+      await fetch(import.meta.env.VITE_SETUP_USER_API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ userId: user.uid, email: user.email }),
+      });
+
       navigate("/");
     } catch (error) {
-      setError("Failed to sign in with Google. Please try again.");
+      setError("Failed to sign in with Google.");
     }
   };
 

@@ -9,6 +9,7 @@ import GameRules from "./components/MLBRules";
 import Trivia from "./components/Trivia";
 import "./App.css";
 import { LanguageKeys } from "./components/constants/LanguageKeys";
+
 import Login from "./components/auth/Login";
 import Signup from "./components/auth/SignUp";
 import { useAuth } from "./contexts/AuthContext";
@@ -18,7 +19,7 @@ import { Translations } from "./components/constants/Translations";
 
 const FETCH_CHALLENGE_API_URL = import.meta.env.VITE_FETCH_CHALLENGE_API_URL;
 const SET_CHALLENGE_STATUS_API_URL = import.meta.env.VITE_SET_CHALLENGE_STATUS_API_URL;
-const GET_USER_DATA_API_URL = import.meta.env.VITE_GET_USER_DATA_API_URL;
+const GET_USER_DATA_API_URL = import.meta.env.VITE_FETCH_USER_DATA_API_URL;
 const UPDATE_FAVORITES_API_URL = import.meta.env.VITE_UPDATE_FAVORITES_API_URL;
 const UPDATE_LANGUAGE_API_URL = import.meta.env.VITE_UPDATE_LANGUAGE_API_URL;
 
@@ -40,6 +41,7 @@ const App: React.FC = () => {
   const t = Translations[selectedLanguage];
 
   useSyncUserChallenges(currentUser?.uid || null);
+
 
   // **Ensure Firebase is Initialized Before Use**
   useEffect(() => {

@@ -1,11 +1,11 @@
 import React, { createContext, useState, useEffect, useContext } from "react";
-import { getFirebase } from "../firebase/firebase";
+import { initializeFirebase, getFirebase } from "../firebase/firebase";
 import {
   onAuthStateChanged,
   User,
   signInAnonymously,
   signOut,
-  Auth
+  Auth,
 } from "firebase/auth";
 
 interface AuthContextProps {
@@ -28,12 +28,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [currentUser, setCurrentUser] = useState<User | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [authInstance, setAuthInstance] = useState<Auth | null>(null);
+  const [firebaseReady, setFirebaseReady] = useState(false);
 
   useEffect(() => {
     const initializeAuth = async () => {
       try {
-        const { auth } = await getFirebase();
+        await initializeFirebase(); // Ensure Firebase is initialized
+        const { auth } = getFirebase();
         setAuthInstance(auth);
+        setFirebaseReady(true);
       } catch (error) {
         console.error("Error initializing Firebase Auth:", error);
       }
@@ -43,7 +46,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }, []);
 
   useEffect(() => {
-    if (!authInstance) return;
+    if (!firebaseReady || !authInstance) return;
 
     const unsubscribe = onAuthStateChanged(authInstance, (user) => {
       setCurrentUser(user);
@@ -53,17 +56,17 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     return () => {
       unsubscribe();
     };
-  }, [authInstance]);
+  }, [firebaseReady, authInstance]);
 
   useEffect(() => {
-    if (!authInstance) return;
+    if (!firebaseReady || !authInstance) return;
 
     if (!currentUser && !loading) {
       signInAnonymously(authInstance).catch((error) => {
         console.error("Error signing in anonymously:", error);
       });
     }
-  }, [currentUser, loading, authInstance]);
+  }, [firebaseReady, currentUser, loading, authInstance]);
 
   const handleLogout = async () => {
     if (!authInstance) return;

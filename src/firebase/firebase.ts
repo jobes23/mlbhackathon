@@ -31,7 +31,6 @@ export async function initializeFirebase() {
       messagingSenderId: import.meta.env.VITE_APP_FIREBASE_MESSAGING_SENDER_ID,
       appId: import.meta.env.VITE_APP_FIREBASE_APP_ID,
     };
-    console.log("Firebase config (Development):", firebaseConfig);
   }
 
   firebaseApp = initializeApp(firebaseConfig);
