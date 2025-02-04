@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { initializeFirebase } from "./firebase/firebase";
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
 import SideBar from "./components/SideBar";
@@ -12,13 +11,10 @@ import { LanguageKeys } from "./components/constants/LanguageKeys";
 import Login from "./components/auth/Login";
 import Signup from "./components/auth/SignUp";
 import { useAuth } from "./contexts/AuthContext";
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { initializeFirebase } from "./firebase/firebase";
 import useSyncUserChallenges from "./components/hooks/useSyncUserChallenges";
 import { useNotification } from "./components/NotificationProvider";
 import { Translations } from "./components/constants/Translations";
-
-const FETCH_CHALLENGE_API_URL = import.meta.env.VITE_FETCH_CHALLENGE_API_URL;
-const SET_CHALLENGE_STATUS_API_URL = import.meta.env.VITE_SET_CHALLENGE_STATUS_API_URL;
 
 interface FavoritesState {
   players: number[];
@@ -34,7 +30,7 @@ const App: React.FC = () => {
   const [appLoading, setAppLoading] = useState(true);
   const [userPoints, setUserPoints] = useState(0);
   const [firebaseReady, setFirebaseReady] = useState(false);
-  const [db, setDb] = useState<any>(null);
+  
   const navigate = useNavigate();
   const t = Translations[selectedLanguage];
 
@@ -43,8 +39,7 @@ const App: React.FC = () => {
   useEffect(() => {
     const setupFirebase = async () => {
       try {
-        const firebaseInstance = await initializeFirebase();
-        setDb(firebaseInstance.db);
+        await initializeFirebase();
         setFirebaseReady(true);
       } catch (error) {
         console.error("Firebase initialization failed:", error);
@@ -54,7 +49,7 @@ const App: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    if (!firebaseReady || authLoading || !db) return;
+    if (!firebaseReady || authLoading) return;
 
     const initApp = async () => {
       try {
@@ -71,20 +66,23 @@ const App: React.FC = () => {
             : "en";
 
         if (currentUser && !currentUser.isAnonymous) {
-          const userRef = doc(db, "users", currentUser.uid);
-          const docSnap = await getDoc(userRef);
+          const response = await fetch(import.meta.env.VITE_GET_USER_DATA_API_URL, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ userId: currentUser.uid }),
+          });
 
-          if (docSnap.exists()) {
-            const userData = docSnap.data();
-            setFavorites(userData.favorites || { players: [], teams: [] });
-            setUserPoints(userData.points || 0);
-            setSelectedLanguage(userData.language || validLanguage);
-
-            await fetchChallengeStatus("fav_follow_five");
-          } else {
-            await setDoc(userRef, { favorites: { players: [], teams: [] }, language: validLanguage });
-            setSelectedLanguage(validLanguage);
+          if (!response.ok) {
+            throw new Error("Failed to fetch user data.");
           }
+
+          const userData = await response.json();
+
+          setFavorites(userData.favorites || { players: [], teams: [] });
+          setUserPoints(userData.points || 0);
+          setSelectedLanguage(userData.language || validLanguage);
+
+          await fetchChallengeStatus("fav_follow_five");
         } else {
           setSelectedLanguage(validLanguage);
         }
@@ -96,13 +94,13 @@ const App: React.FC = () => {
     };
 
     initApp();
-  }, [authLoading, currentUser, firebaseReady, db]);
+  }, [authLoading, currentUser, firebaseReady]);
 
   const fetchChallengeStatus = async (challengeId: string) => {
     if (!currentUser) return;
 
     try {
-      const response = await fetch(FETCH_CHALLENGE_API_URL, {
+      const response = await fetch(import.meta.env.VITE_FETCH_CHALLENGE_API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -125,19 +123,47 @@ const App: React.FC = () => {
 
   const handleSaveFavorites = async (newFavorites: FavoritesState) => {
     setFavorites(newFavorites);
-    if (!currentUser || !db) return;
-
-    const userRef = doc(db, "users", currentUser.uid);
-    await setDoc(userRef, { favorites: newFavorites }, { merge: true });
+    if (!currentUser) return;
+  
+    try {
+      const response = await fetch(import.meta.env.VITE_UPDATE_FAVORITES_API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          userId: currentUser.uid,
+          favorites: newFavorites,
+        }),
+      });
+  
+      if (!response.ok) {
+        throw new Error("Failed to update favorites.");
+      }
+    } catch (error) {
+      console.error("Error updating favorites:", error);
+    }
   };
 
   const handleLanguageChange = async (newLanguage: LanguageKeys) => {
     setSelectedLanguage(newLanguage);
     Cookies.set("language", newLanguage, { expires: 7 });
 
-    if (currentUser && !currentUser.isAnonymous && db) {
-      const userRef = doc(db, "users", currentUser.uid);
-      await setDoc(userRef, { language: newLanguage }, { merge: true });
+    if (currentUser && !currentUser.isAnonymous) {
+      try {
+        const response = await fetch(import.meta.env.VITE_UPDATE_LANGUAGE_API_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            userId: currentUser.uid,
+            language: newLanguage,
+          }),
+        });
+
+        if (!response.ok) {
+          throw new Error("Failed to update language.");
+        }
+      } catch (error) {
+        console.error("Error updating language:", error);
+      }
     }
   };
 

@@ -28,7 +28,6 @@ const TeamArticles: React.FC<TeamArticlesProps> = ({ teamName, language, teamNam
 
   const t = Translations[language];
 
-  // ✅ API Helper Function
   const apiCall = async (url: string, body: object) => {
     try {
       const response = await fetch(url, {
@@ -48,7 +47,6 @@ const TeamArticles: React.FC<TeamArticlesProps> = ({ teamName, language, teamNam
     }
   };
 
-  // ✅ Fetch Articles
   useEffect(() => {
     const fetchArticles = async () => {
       setLoading(true);
@@ -72,7 +70,6 @@ const TeamArticles: React.FC<TeamArticlesProps> = ({ teamName, language, teamNam
     }
   }, [teamName, language, currentUser]);
 
-  // ✅ Fetch Challenge Status & Description
   const fetchChallengeStatus = async () => {
     if (!currentUser) return;
 
@@ -92,7 +89,6 @@ const TeamArticles: React.FC<TeamArticlesProps> = ({ teamName, language, teamNam
     }
   };
 
-  // ✅ Handle Expand Article & Mark Challenge as Completed
   const handleExpandArticle = async (articleId: number) => {
     setExpandedArticles((prev) => {
       const newSet = new Set(prev);
