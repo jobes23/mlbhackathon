@@ -1,6 +1,7 @@
 import { initializeApp, FirebaseApp } from "firebase/app";
 import { getAuth, Auth } from "firebase/auth";
 import { getFirestore, Firestore } from "firebase/firestore";
+import { getAnalytics } from "firebase/analytics";
 
 let firebaseApp: FirebaseApp | null = null;
 let auth: Auth | null = null;
@@ -37,7 +38,7 @@ async function initializeFirebase() {
   firebaseApp = initializeApp(firebaseConfig);
   auth = getAuth(firebaseApp);
   db = getFirestore(firebaseApp);
-
+  const analytics = getAnalytics(firebaseApp);
   return { firebaseApp, auth, db };
 }
 
