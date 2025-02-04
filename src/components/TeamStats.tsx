@@ -52,7 +52,7 @@ const TeamStats: React.FC<TeamStatsProps> = ({ teamNameEn, language }) => {
                 return `${year} ${game.game_type === "Regular Season" ? t.gameTerms.regularSeason : t.gameTerms.postSeason}`;
               })
             )
-          ).sort() as string[]; // ✅ Explicitly cast extractedSeasons
+          ).sort() as string[];
 
           setSeasonOptions(extractedSeasons);
           setSelectedSeason(extractedSeasons[0] || "");

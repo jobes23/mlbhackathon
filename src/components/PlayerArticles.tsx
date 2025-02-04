@@ -4,7 +4,6 @@ import { useAuth } from "../contexts/AuthContext";
 import { useNotification } from "../components/NotificationProvider";
 import "./styles/PlayerArticles.css";
 
-// ✅ Define Article Type
 interface Article {
   id: number;
   title: string;

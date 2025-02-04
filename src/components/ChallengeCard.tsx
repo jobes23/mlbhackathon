@@ -48,10 +48,8 @@ const iconMap: Record<string, IconDefinition> = {
 };
 
 const ChallengeCard: React.FC<ChallengeCardProps> = ({ challenge, language, onPerform }) => {
-  // ✅ Memoized Translations
   const t = useMemo(() => Translations[language] || Translations.en, [language]);
 
-  // ✅ Handle Missing Icons
   const icon = iconMap[challenge.icon] || faQuestionCircle;
 
   return (

@@ -1,14 +1,26 @@
-import React, { useState } from "react";
-import { auth } from "../../firebase/firebase";
-import { GoogleAuthProvider, signInWithPopup, User } from "firebase/auth";
+import React, { useState, useEffect } from "react";
+import { getFirebase } from "../../firebase/firebase";
+import { GoogleAuthProvider, signInWithPopup, User, Auth } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import "../styles/Auth.css";
 
 const Login: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
+  const [authInstance, setAuthInstance] = useState<Auth | null>(null);
   const navigate = useNavigate();
 
-  // ✅ Call `setupUser` Backend API to Ensure User Exists in Firestore
+  useEffect(() => {
+    const initAuth = async () => {
+      try {
+        const { auth } = await getFirebase();
+        setAuthInstance(auth);
+      } catch (error) {
+        console.error("Error initializing Firebase Auth:", error);
+      }
+    };
+    initAuth();
+  }, []);
+
   const setupUser = async (user: User) => {
     try {
       const response = await fetch(import.meta.env.VITE_SETUP_USER_API_URL, {
@@ -25,16 +37,18 @@ const Login: React.FC = () => {
     }
   };
 
-  // ✅ Handle Google Sign-In
   const handleGoogleLogin = async () => {
+    if (!authInstance) {
+      setError("Authentication service is not ready.");
+      return;
+    }
+
     const provider = new GoogleAuthProvider();
     try {
-      const result = await signInWithPopup(auth, provider);
+      const result = await signInWithPopup(authInstance, provider);
       const user = result.user;
 
-      // ✅ Ensure user is set up in Firestore
       await setupUser(user);
-
       navigate("/");
     } catch (error) {
       setError("Failed to sign in with Google. Please try again.");
@@ -45,7 +59,7 @@ const Login: React.FC = () => {
     <div className="auth-container">
       <div className="auth-card">
         <h2 className="auth-title">Login</h2>
-        <button onClick={handleGoogleLogin} className="form-button">
+        <button onClick={handleGoogleLogin} className="form-button" disabled={!authInstance}>
           Sign in with Google
         </button>
         {error && <p className="form-error">{error}</p>}

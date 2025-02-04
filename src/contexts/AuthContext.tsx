@@ -1,17 +1,17 @@
-// src/contexts/AuthContext.tsx
-import React, { createContext, useState, useEffect, useContext } from 'react';
-import { auth } from '../firebase/firebase'; // Import your Firebase configuration
+import React, { createContext, useState, useEffect, useContext } from "react";
+import { getFirebase } from "../firebase/firebase";
 import {
   onAuthStateChanged,
   User,
   signInAnonymously,
   signOut,
-} from 'firebase/auth';
+  Auth
+} from "firebase/auth";
 
 interface AuthContextProps {
   currentUser: User | null;
   loading: boolean;
-  onLogout: () => Promise<void>; // Return a Promise for logout
+  onLogout: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextProps | undefined>(undefined);
@@ -19,7 +19,7 @@ const AuthContext = createContext<AuthContextProps | undefined>(undefined);
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (!context) {
-    throw new Error('useAuth must be used within an AuthProvider');
+    throw new Error("useAuth must be used within an AuthProvider");
   }
   return context;
 };
@@ -27,9 +27,25 @@ export const useAuth = () => {
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [currentUser, setCurrentUser] = useState<User | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
+  const [authInstance, setAuthInstance] = useState<Auth | null>(null);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
+    const initializeAuth = async () => {
+      try {
+        const { auth } = await getFirebase();
+        setAuthInstance(auth);
+      } catch (error) {
+        console.error("Error initializing Firebase Auth:", error);
+      }
+    };
+
+    initializeAuth();
+  }, []);
+
+  useEffect(() => {
+    if (!authInstance) return;
+
+    const unsubscribe = onAuthStateChanged(authInstance, (user) => {
       setCurrentUser(user);
       setLoading(false);
     });
@@ -37,23 +53,26 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [authInstance]);
 
   useEffect(() => {
+    if (!authInstance) return;
+
     if (!currentUser && !loading) {
-      signInAnonymously(auth).catch((error) =>
-        console.error('Error signing in anonymously:', error)
-      );
+      signInAnonymously(authInstance).catch((error) => {
+        console.error("Error signing in anonymously:", error);
+      });
     }
-  }, [currentUser, loading]);
+  }, [currentUser, loading, authInstance]);
 
   const handleLogout = async () => {
+    if (!authInstance) return;
+
     try {
-      await signOut(auth);
+      await signOut(authInstance);
       setCurrentUser(null);
-      console.log('User logged out successfully');
     } catch (error) {
-      console.error('Error signing out:', error);
+      console.error("Error signing out:", error);
     }
   };
 

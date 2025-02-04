@@ -4,7 +4,7 @@ import fandugoutLogo from "./assets/fandugout.png";
 import { LanguageKeys } from "./constants/LanguageKeys";
 import "./styles/SideBar.css";
 import { useAuth } from "../contexts/AuthContext";
-import { auth } from "../firebase/firebase";
+import { getFirebase } from "../firebase/firebase"; // Fetch auth dynamically
 import { Link, useNavigate } from "react-router-dom";
 import RewardsChallengesModal from "./RewardsChallengesModal";
 
@@ -74,15 +74,12 @@ const SideBar: React.FC<SideBarProps> = ({ userPoints, selectedLanguage, setSele
   const { currentUser } = useAuth();
   const navigate = useNavigate();
 
-  // Sync userPoints from parent when updated
   useEffect(() => {
     setUserPoints(userPoints);
   }, [userPoints]);
 
-  // Get translations dynamically
   const { menuItems, auth: authTranslations } = translations[selectedLanguage];
 
-  // Memoized menu items to prevent unnecessary re-renders
   const menuItemsWithRewards = useMemo(() => {
     return menuItems.map((item) =>
       item.text === translations[selectedLanguage].menuItems[3].text
@@ -93,6 +90,7 @@ const SideBar: React.FC<SideBarProps> = ({ userPoints, selectedLanguage, setSele
 
   const handleLogout = async () => {
     try {
+      const { auth } = await getFirebase(); // Get Firebase auth dynamically
       await auth.signOut();
       onLogout();
       navigate("/");
@@ -180,10 +178,10 @@ const SideBar: React.FC<SideBarProps> = ({ userPoints, selectedLanguage, setSele
           userId={currentUser.uid}
           language={selectedLanguage}
           userPoints={userPointBalance}
-          setUserPoints={(points) => setUserPoints(points)} // Ensure userPoints update in sidebar
+          setUserPoints={(points) => setUserPoints(points)}
           onClose={() => {
             setIsRewardsModalOpen(false);
-            setUserPoints(userPoints); // Sync points after modal close
+            setUserPoints(userPoints);
           }}
         />
       )}
