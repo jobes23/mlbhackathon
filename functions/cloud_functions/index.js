@@ -14,6 +14,7 @@ const { fetchtts } = require("./fetchtts");
 const { setrewards } = require("./setrewards");
 const { setupuser } = require("./setupuser");
 const { syncuserchallenges } = require("./syncuserchallenges");
+const { getfirebaseconfig } = require("./getfirebaseconfig")
 
 exports.fetchmlbdata = functions.https.onRequest(fetchmlbdata);
 exports.getarticles = functions.https.onRequest(getarticles);
@@ -30,3 +31,4 @@ exports.fetchtts = functions.https.onRequest(fetchtts);
 exports.setrewards = functions.https.onRequest(setrewards);
 exports.setupuser = functions.https.onRequest(setupuser);
 exports.syncuserchallenges = functions.https.onRequest(syncuserchallenges);
+exports.getfirebaseconfig = functions.https.onRequest(getfirebaseconfig)
